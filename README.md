@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 50 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -11,6 +11,8 @@ Página de estudo com 50 exercícios de manipulação algébrica para o primeiro
 - Raízes, fatoração numérica e racionalização.
 - Produtos notáveis, fatorações e frações algébricas.
 - Exercícios mistos e aplicações em fórmulas de física.
+- 25 práticas adicionais de física: movimento, forças, energia, densidade, molas e impulso.
+- 25 práticas adicionais de geometria: perímetros, áreas, volumes, Pitágoras e proporções.
 
 As soluções ficam ocultas até clicar em “Ver solução”. A página também permite filtrar por assunto, marcar exercícios concluídos e imprimir com ou sem soluções.
 
