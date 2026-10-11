@@ -8,7 +8,10 @@ Página de estudo com 150 exercícios em dois cadernos. A aba principal tem 100 
 
 [Abrir explicações e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/poligonos.html)
 
-Adaptação didática original do capítulo XVII do documento `poligonos_regulares.pdf` enviado pelo usuário (páginas impressas 212–225). Explica os resultados a partir de poucas ideias anteriores, usando a história de uma praça dividida em triângulos, um desenho interativo e demonstrações avançadas expansíveis. O documento original não é redistribuído.
+Adaptação didática original do capítulo XVII do documento `poligonos_regulares.pdf` enviado pelo usuário (páginas impressas 212–225). Explica os resultados a partir de poucas ideias anteriores, usando a história de uma praça dividida em triângulos, nove explorações interativas e demonstrações avançadas expansíveis. O documento original não é redistribuído.
+
+- Visualizações de regularidade, ângulos, circunferências, triangulação, Pitágoras, comparação de figuras, área, duplicação de lados e divisão áurea.
+- Controles para mudar lados e medidas, caminhar pelas viradas externas e preencher a área setor por setor.
 
 - 20 exercícios de fundamentos.
 - 20 exercícios de aplicações.
