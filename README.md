@@ -28,6 +28,7 @@ Cada exercício tem solução detalhada oculta por botão e alerta de erro comum
 - 25 equações do segundo grau com soluções passo a passo e raízes marcadas nos gráficos.
 - 25 inequações: 8 quadráticas, 8 razões entre polinômios de segundo e primeiro grau e 9 razões entre dois polinômios de segundo grau.
 - Soluções ocultas com gráficos dos polinômios, quadros de sinais e intervalos na reta real, incluindo as restrições do denominador.
+- Nas 17 razões, gráfico da função racional com assíntotas verticais, horizontais ou oblíquas, furos por cancelamento e intervalos da solução destacados em verde.
 
 O progresso é salvo neste navegador. Há filtros por assunto e impressão com ou sem soluções.
 
