@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 150 exercícios em dois cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 200 exercícios em três cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -20,6 +20,17 @@ Adaptação didática original do capítulo XVII do documento `poligonos_regular
 
 Cada exercício tem solução detalhada oculta por botão e alerta de erro comum. O progresso desta aba é independente do caderno original.
 
+## Nova aba: Equações e inequações
+
+[Abrir revisão e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/equacoes-segundo-grau.html)
+
+- Revisão com gráficos interativos de parábolas, discriminante e estudo de sinais.
+- 25 equações do segundo grau com soluções passo a passo e raízes marcadas nos gráficos.
+- 25 inequações: 8 quadráticas, 8 razões entre polinômios de segundo e primeiro grau e 9 razões entre dois polinômios de segundo grau.
+- Soluções ocultas com gráficos dos polinômios, quadros de sinais e intervalos na reta real, incluindo as restrições do denominador.
+
+O progresso é salvo neste navegador. Há filtros por assunto e impressão com ou sem soluções.
+
 ## Conteúdo do caderno original
 
 - Sinais, ordem das operações e frações.
@@ -34,7 +45,7 @@ As soluções ficam ocultas até clicar em “Ver solução”. A página també
 
 ## Como usar
 
-Abra o site ou baixe `index.html` e `poligonos.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
+Abra o site ou baixe `index.html`, `poligonos.html` e `equacoes-segundo-grau.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
 
 ## Publicação
 
