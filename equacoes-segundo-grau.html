@@ -50,9 +50,10 @@
 <div class="pitfall"><strong>Uma regra com condição</strong>A regra do produto nulo exige produto igual a zero. Se $(x+1)(x-2)=4$, primeiro desenvolva o produto e reorganize a equação.</div></section>
 <section class="chapter"><div class="eyebrow">03 · Entenda o discriminante</div><h3>Duas raízes, uma raiz dupla ou nenhuma raiz real.</h3>
 <p>O discriminante é $\Delta=b^2-4ac$. Se $\Delta>0$, existem duas raízes reais distintas. Se $\Delta=0$, existe uma raiz real dupla: a parábola toca o eixo. Se $\Delta<0$, não há raízes reais e a parábola não encontra o eixo horizontal.</p>
-<div class="lab"><h4>Um movimento, três possibilidades.</h4><p>Agora mantenha $a=1$ e $b=-4$. Mude apenas c em $y=x^2-4x+c$. Antes de arrastar, tente prever o que vai acontecer quando c chegar a 4.</p>
+<div class="lab"><h4>Um movimento, três possibilidades.</h4><p>Agora mantenha $a=1$ e $b=-4$. Mude apenas c em $y=x^2-4x+c$. Escolha o caso de Δ que deseja visualizar ou ajuste c no controle abaixo. Antes de mudar o valor, tente prever o que vai acontecer quando c chegar a 4.</p>
+<label for="delta-case">Escolha o discriminante Δ<select id="delta-case"><option value="positive">Δ &gt; 0 · duas raízes reais</option><option value="zero">Δ = 0 · raiz dupla</option><option value="negative">Δ &lt; 0 · sem raízes reais</option></select></label>
 <label for="delta-c">Termo constante c: <output id="delta-c-value" for="delta-c">3</output><input id="delta-c" type="range" min="0" max="8" step="1" value="3"></label>
-<div class="preset-buttons"><button class="chip" data-delta-c="3" aria-pressed="true">Duas raízes · c = 3</button><button class="chip" data-delta-c="4" aria-pressed="false">Raiz dupla · c = 4</button><button class="chip" data-delta-c="5" aria-pressed="false">Sem raízes reais · c = 5</button></div><div id="delta-plot" class="lab-plot"></div><div id="delta-result" class="lab-result" aria-live="polite"></div></div></section>
+<div id="delta-plot" class="lab-plot"></div><div id="delta-result" class="lab-result" aria-live="polite"></div></div></section>
 <section class="chapter"><div class="eyebrow">04 · Faça a conta, depois confira</div><h3>Bhaskara, sem pular os sinais.</h3>
 <p>Com a equação organizada e $a\ne0$, calcule $\Delta$. Quando $\Delta\ge0$, use:</p><div class="derive">$$x=\frac{-b\pm\sqrt\Delta}{2a}$$</div>
 <p>Vamos resolver $2x^2-5x+2=0$. Identifique $a=2$, $b=-5$ e $c=2$. Então $\Delta=(-5)^2-4\cdot2\cdot2=9$. Substitua os valores sem perder os parênteses:</p><div class="derive">$$x=\frac{5\pm3}{4}\quad\Rightarrow\quad x_1=2,\;x_2=\frac12$$</div>
@@ -262,17 +263,17 @@ function initQuadraticLabs(){
   }
   lab.querySelectorAll('input,select').forEach(el=>el.addEventListener('input',updateCoefficients));
   document.getElementById('reset-coefficients').addEventListener('click',()=>{document.getElementById('coef-a').value=1;document.getElementById('coef-b').value=-4;document.getElementById('coef-c').value=3;updateCoefficients()});
-  const slider=document.getElementById('delta-c');
+  const slider=document.getElementById('delta-c'),deltaCase=document.getElementById('delta-case');
   function updateDelta(){
     const c=Number(slider.value),q=quadraticInfo(1,-4,c);document.getElementById('delta-c-value').textContent=c;
     document.getElementById('delta-plot').innerHTML=parabolaSVG(1,-4,c);
     const result=document.getElementById('delta-result');
     const explanation=q.delta>0?'O vértice está abaixo do eixo: a parábola cruza o eixo em dois pontos.':q.delta===0?'O vértice está no eixo: as duas raízes coincidem em x = 2.':'O vértice está acima do eixo: a parábola não tem raízes reais.';
     result.innerHTML=`<p>$y=x^2-4x+${c}=(x-2)^2${c===4?'':c>4?'+'+(c-4):c-4}$</p><p>$\\Delta=16-4\\cdot${c}=${q.delta}$. ${explanation}</p>`;math(result);
-    document.querySelectorAll('[data-delta-c]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.deltaC)===c)));
+    deltaCase.value=q.delta>0?'positive':q.delta===0?'zero':'negative';
   }
   slider.addEventListener('input',updateDelta);
-  document.querySelectorAll('[data-delta-c]').forEach(button=>button.addEventListener('click',()=>{slider.value=button.dataset.deltaC;updateDelta()}));
+  deltaCase.addEventListener('change',()=>{slider.value={positive:3,zero:4,negative:5}[deltaCase.value];updateDelta()});
   updateCoefficients();updateDelta();
 }
 
