@@ -35,8 +35,9 @@
 <div id="error" role="alert" hidden>A renderização matemática não carregou. Abra novamente o arquivo HTML completo.</div>
 <section class="lesson" aria-labelledby="reviewtitle"><div class="sectionintro"><h2 id="reviewtitle">Uma potência. Um expoente para descobrir.</h2></div><p class="lead">Na exponencial, você conhece o expoente e calcula a potência. No logaritmo, conhece a potência e procura o expoente. As duas funções conversam entre si. Comece pelas bases e pelo domínio; depois escolha a regra que ajuda na conta.</p>
 <section class="chapter"><div class="eyebrow">01 · A variável no expoente</div><h3>O que a base faz com a curva?</h3><p>A função exponencial básica é $f(x)=a^x$, com $a>0$ e $a\ne1$. Seu domínio é $\mathbb R$ e sua imagem é $(0,+\infty)$. Ela passa por $(0,1)$ e nunca vale zero: $y=0$ é uma assíntota horizontal.</p><p>Se $a>1$, a função é crescente. Se $0&lt;a&lt;1$, é decrescente. Por exemplo, $2^3=8$, $2^0=1$ e $2^{-2}=\frac14$. Um expoente negativo indica um inverso; não faz a potência ficar negativa.</p>
-<div class="lab"><h4>Escolha a função e a base.</h4><p>Compare uma base maior que um com uma base entre zero e um. Depois troque a exponencial pelo logaritmo da mesma base. Observe os pontos marcados e a direção da curva.</p><div class="lab-controls"><label for="explog-kind">Função<select id="explog-kind"><option value="exp">Exponencial · y = aˣ</option><option value="log">Logarítmica · y = logₐ x</option></select></label><label for="explog-base">Base a<select id="explog-base"><option value="2">2</option><option value="3">3</option><option value="10">10</option><option value="0.5">1/2</option><option value="0.3333333333333333">1/3</option></select></label></div><div id="explog-plot" class="lab-plot"></div><div id="explog-result" class="lab-result" aria-live="polite"></div></div></section>
-<section class="chapter"><div class="eyebrow">02 · O expoente como resposta</div><h3>Leia o logaritmo pela definição.</h3><div class="derive">$$\log_a b=c\quad\Longleftrightarrow\quad a^c=b\qquad(a>0,\ a\ne1,\ b>0)$$</div><p>Em $\log_2 8=3$, o número $3$ é o expoente que transforma $2$ em $8$. A base do logaritmo precisa ser positiva e diferente de um; o argumento precisa ser positivo. O resultado pode ser negativo, zero ou positivo.</p><p>A função $y=\log_a x$ tem domínio $(0,+\infty)$ e imagem $\mathbb R$. Passa por $(1,0)$ e por $(a,1)$. Sua assíntota vertical é $x=0$. Assim como a exponencial, é crescente se $a>1$ e decrescente se $0&lt;a&lt;1$.</p><div class="lab"><h4>Faça o caminho de ida e de volta.</h4><p>O expoente vira a imagem da exponencial. Ao aplicar o logaritmo, você recupera o expoente. As coordenadas dos pontos se trocam.</p><label for="inverse-exponent">Expoente: <output id="inverse-value" for="inverse-exponent">2</output><input id="inverse-exponent" type="range" min="-3" max="4" step="1" value="2"></label><div id="inverse-plots" class="polynomial-pair"></div><div id="inverse-result" class="lab-result" aria-live="polite"></div></div></section>
+<div class="lab"><h4>Escolha a função e a base.</h4><p>Compare uma base maior que um com uma base entre zero e um. Depois troque a exponencial pelo logaritmo da mesma base. Observe os pontos marcados e a direção da curva.</p><div class="lab-controls"><label for="explog-kind">Função<select id="explog-kind"><option value="exp">Exponencial · y = aˣ</option><option value="log">Logarítmica · y = logₐ x</option></select></label><label for="explog-base">Base a<select id="explog-base"><option value="2">2</option><option value="3">3</option><option value="10">10</option><option value="2.718281828459045">e ≈ 2,71828 · base natural</option><option value="0.5">1/2</option><option value="0.3333333333333333">1/3</option></select></label></div><div id="explog-plot" class="lab-plot"></div><div id="explog-result" class="lab-result" aria-live="polite"></div></div></section>
+<section class="chapter"><div class="eyebrow">02 · O expoente como resposta</div><h3>Leia o logaritmo pela definição.</h3><div class="derive">$$\log_a b=c\quad\Longleftrightarrow\quad a^c=b\qquad(a>0,\ a\ne1,\ b>0)$$</div><p>Em $\log_2 8=3$, o número $3$ é o expoente que transforma $2$ em $8$. A base do logaritmo precisa ser positiva e diferente de um; o argumento precisa ser positivo. O resultado pode ser negativo, zero ou positivo.</p><p>A função $y=\log_a x$ tem domínio $(0,+\infty)$ e imagem $\mathbb R$. Passa por $(1,0)$ e por $(a,1)$. Sua assíntota vertical é $x=0$. Assim como a exponencial, é crescente se $a>1$ e decrescente se $0&lt;a&lt;1$.</p><div class="lab"><h4>Faça o caminho de ida e de volta.</h4><p>O expoente vira a imagem da exponencial. Ao aplicar o logaritmo, você recupera o expoente. As coordenadas dos pontos se trocam.</p><label for="inverse-base">Base da relação inversa<select id="inverse-base"><option value="2">2</option><option value="2.718281828459045">e · exponencial natural e ln</option></select></label><label for="inverse-exponent">Expoente: <output id="inverse-value" for="inverse-exponent">2</output><input id="inverse-exponent" type="range" min="-3" max="4" step="1" value="2"></label><div id="inverse-plots" class="polynomial-pair"></div><div id="inverse-result" class="lab-result" aria-live="polite"></div></div></section>
+<div class="seedbox"><strong>A base natural e o símbolo ln</strong><p>O número $e\approx2{,}718281828$ é uma constante irracional. Como $e>1$, tanto $e^x$ quanto $\ln x=\log_e x$ são funções crescentes. Elas são inversas: $\ln(e^x)=x$ para todo real x, e $e^{\ln x}=x$ para $x>0$. A exponencial de base e aparece em modelos de crescimento e decaimento contínuos.</p></div>
 <section class="chapter"><div class="eyebrow">03 · Regras com condições</div><h3>Combine sem perder o domínio.</h3><p>Para a mesma base válida e argumentos $u>0$ e $v>0$:</p><div class="derive">$$\log_a(uv)=\log_a u+\log_a v$$ $$\log_a\left(\frac uv\right)=\log_a u-\log_a v$$ $$\log_a(u^r)=r\log_a u$$ $$\log_a b=\frac{\log_c b}{\log_c a}\quad(c>0,\ c\ne1)$$</div><p>Em geral, $\log_a(u+v)$ não é a soma dos logaritmos. E $\log_a(x^2)$ não exige $x>0$: seu domínio é $x\ne0$ e a identidade válida é $\log_a(x^2)=2\log_a|x|$.</p><div class="pitfall"><strong>O domínio vem antes da simplificação</strong>Em $\log_2 x+\log_2(x-2)$, registre $x>2$. Juntar os logaritmos em $\log_2[x(x-2)]$ não autoriza aceitar valores negativos que eram proibidos nos argumentos originais.</div></section>
 <section class="chapter"><div class="eyebrow">04 · Escolha o caminho da solução</div><h3>Mesma base, definição ou substituição.</h3><p>Em $2^x=32$, escreva $32=2^5$ e iguale os expoentes. Em $\log_2(x-1)=3$, use a definição: $x-1=2^3$, então $x=9$. Confira se o argumento é positivo.</p><p>Se houver $4^x$ e $2^x$, use $t=2^x>0$: $4^x=t^2$. Resolva a equação em t, descarte valores não positivos e volte a x. Se não houver uma base comum conveniente, aplique logaritmos: $1{,}1^t=2$ dá $t=\frac{\ln2}{\ln1{,}1}$. O símbolo ln indica logaritmo natural, de base e.</p><p>Nas inequações, a direção da função decide a comparação. Bases maiores que um preservam o sentido; bases entre zero e um o invertem. Depois faça a interseção com o domínio.</p><div class="seedbox"><strong>Uma rotina para os exercícios</strong><ol><li>Confira a base e as condições do argumento.</li><li>Escolha uma base comum, uma propriedade ou a definição.</li><li>Resolva e teste os valores no enunciado original.</li><li>Use o gráfico para conferir pontos, interseções e a direção das desigualdades.</li></ol><p>Faça de 5 a 10 exercícios por sessão. Abra a solução depois de tentar. Uma transformação por linha ajuda a descobrir onde a conta mudou.</p></div></section></section>
 
@@ -181,20 +182,20 @@ const exercises = [
   {
     "id": 5,
     "group": 0,
-    "title": "Um ponto que toda exponencial básica tem",
-    "context": "Para f(x) = 5ˣ, encontre o ponto em que a curva cruza o eixo vertical.",
+    "title": "A base natural também passa por um",
+    "context": "Para f(x) = eˣ, calcule f(0) e f(1).",
     "expression": "",
     "steps": [
-      "No eixo vertical, $x=0$.",
-      "Como $5^0=1$, temos $f(0)=1$.",
-      "O ponto é $\\boxed{(0,1)}$."
+      "Como $e^0=1$, temos $f(0)=1$.",
+      "Em $x=1$, $f(1)=e\\approx2{,}718$.",
+      "As respostas são $\\boxed{1\\text{ e }e}$. A base e é um número fixo, não uma variável."
     ],
-    "pitfall": "Toda base positiva elevada a zero vale $1$, não zero.",
+    "pitfall": "Use e na resposta exata; arredonde apenas quando a questão pedir.",
     "level": "Prática",
     "graph": {
       "curve": [
         "exp",
-        5,
+        2.718281828459045,
         1,
         0,
         0
@@ -203,6 +204,10 @@ const exercises = [
         [
           0,
           1
+        ],
+        [
+          1,
+          2.718281828459045
         ]
       ],
       "domain": "\\mathbb R",
@@ -421,20 +426,20 @@ const exercises = [
   {
     "id": 12,
     "group": 1,
-    "title": "Organize o expoente",
-    "context": "Resolva 3^(2x−1) = 27.",
+    "title": "Iguale expoentes na base e",
+    "context": "Resolva e^(2x−1) = e³.",
     "expression": "",
     "steps": [
-      "Use $27=3^3$. Então $2x-1=3$.",
-      "Some $1$ e divida por $2$: $2x=4$.",
-      "Portanto, $\\boxed{x=2}$."
+      "Como $e>1$, a função exponencial de base e é injetiva.",
+      "Iguale os expoentes: $2x-1=3$.",
+      "Logo, $2x=4$ e $\\boxed{x=2}$."
     ],
-    "pitfall": "Iguale o expoente inteiro, incluindo o termo −1.",
+    "pitfall": "A regra de igualar expoentes também vale para a base e.",
     "level": "Prática",
     "graph": {
       "curve": [
         "exp-rate",
-        3,
+        2.718281828459045,
         1,
         2,
         -1,
@@ -443,12 +448,12 @@ const exercises = [
       "points": [
         [
           2,
-          27
+          20.085536923187664
         ]
       ],
       "domain": "\\mathbb R",
       "xrange": null,
-      "line": 27
+      "line": 20.085536923187664
     }
   },
   {
@@ -587,33 +592,33 @@ const exercises = [
   {
     "id": 17,
     "group": 1,
-    "title": "Inequação com base maior que um",
-    "context": "Resolva 2ˣ > 8.",
+    "title": "Uma desigualdade na base natural",
+    "context": "Resolva eˣ > e².",
     "expression": "",
     "steps": [
-      "Escreva $8=2^3$.",
-      "A função $2^x$ é crescente: $2^x>2^3$ equivale a $x>3$.",
-      "Assim, $\\boxed{S=(3,+\\infty)}$."
+      "A base $e\\approx2{,}718$ é maior que $1$: a função é crescente.",
+      "Logo, $e^x>e^2$ equivale a $x>2$.",
+      "Portanto, $\\boxed{S=(2,+\\infty)}$."
     ],
-    "pitfall": "A igualdade x = 3 fica fora, pois o pedido é estrito.",
+    "pitfall": "O valor x = 2 fica de fora porque a desigualdade é estrita.",
     "level": "Prática",
     "graph": {
       "curve": [
         "exp",
-        2,
+        2.718281828459045,
         1,
         0,
         0
       ],
       "points": [
         [
-          3,
-          8
+          2,
+          7.3890560989306495
         ]
       ],
       "domain": "\\mathbb R",
       "xrange": null,
-      "line": 8
+      "line": 7.3890560989306495
     }
   },
   {
@@ -816,20 +821,20 @@ const exercises = [
   {
     "id": 24,
     "group": 2,
-    "title": "O logaritmo de um",
-    "context": "Calcule log₅ 1.",
+    "title": "ln é o logaritmo de base e",
+    "context": "Calcule ln(e³) e ln 1.",
     "expression": "",
     "steps": [
-      "Procure o expoente que faz $5^x=1$.",
-      "Como $5^0=1$, $\\boxed{\\log_5 1=0}$.",
-      "Todo logaritmo básico passa por $(1,0)$."
+      "O símbolo $\\ln$ significa $\\log_e$.",
+      "Como $e^3$ é uma potência da própria base, $\\ln(e^3)=3$.",
+      "Como $e^0=1$, $\\ln1=0$. Logo, as respostas são $\\boxed{3\\text{ e }0}$."
     ],
-    "pitfall": "Não confunda logaritmo de 1 com logaritmo da própria base.",
+    "pitfall": "ln não é uma multiplicação: é o nome do logaritmo natural.",
     "level": "Prática",
     "graph": {
       "curve": [
         "log",
-        5,
+        2.718281828459045,
         1,
         0,
         0
@@ -838,6 +843,10 @@ const exercises = [
         [
           1,
           0
+        ],
+        [
+          20.085536923187664,
+          3
         ]
       ],
       "domain": "x>0",
@@ -944,28 +953,32 @@ const exercises = [
   {
     "id": 28,
     "group": 2,
-    "title": "Tire o expoente para fora",
-    "context": "Simplifique log₂(x³), sabendo que x > 0.",
+    "title": "A propriedade da potência com ln",
+    "context": "Simplifique ln(x²), sabendo que x > 0.",
     "expression": "",
     "steps": [
-      "O domínio informado garante que x e x³ são positivos.",
-      "Use a propriedade da potência: $\\log_2(x^3)=3\\log_2 x$.",
-      "Portanto, $\\boxed{3\\log_2 x}$. O gráfico representa essa expressão em função de x."
+      "A condição $x>0$ permite usar o logaritmo de x.",
+      "Pela propriedade da potência, $\\ln(x^2)=2\\ln x$.",
+      "Portanto, $\\boxed{2\\ln x}$. Sem a condição x > 0, a identidade seria $2\\ln|x|$, para $x\\ne0$."
     ],
-    "pitfall": "A condição x > 0 permite aplicar a propriedade sem mudar o domínio.",
+    "pitfall": "A propriedade exige cuidado com o domínio. Não descarte valores negativos quando o argumento original é x².",
     "level": "Prática",
     "graph": {
       "curve": [
         "log",
+        2.718281828459045,
         2,
-        3,
         0,
         0
       ],
       "points": [
         [
-          2,
-          3
+          1,
+          0
+        ],
+        [
+          2.718281828459045,
+          2
         ]
       ],
       "domain": "x>0",
@@ -1040,33 +1053,33 @@ const exercises = [
   {
     "id": 31,
     "group": 3,
-    "title": "Passe para a forma exponencial",
-    "context": "Resolva log₂(x − 1) = 3.",
+    "title": "Use a definição do logaritmo natural",
+    "context": "Resolva ln(x − 1) = 2.",
     "expression": "",
     "steps": [
       "Domínio: $x-1>0$, então $x>1$.",
-      "A definição dá $x-1=2^3=8$.",
-      "Logo, $\\boxed{x=9}$, que pertence ao domínio."
+      "Como $\\ln$ tem base e, a definição dá $x-1=e^2$.",
+      "Assim, $\\boxed{x=1+e^2\\approx8{,}389}$, que pertence ao domínio."
     ],
-    "pitfall": "Não esqueça de conferir a solução no argumento original.",
+    "pitfall": "A base de ln é e; não use 2² para desfazer o logaritmo.",
     "level": "Prática",
     "graph": {
       "curve": [
         "log",
-        2,
+        2.718281828459045,
         1,
         1,
         0
       ],
       "points": [
         [
-          9,
-          3
+          8.389056098930649,
+          2
         ]
       ],
       "domain": "x>1",
       "xrange": null,
-      "line": 3
+      "line": 2
     }
   },
   {
@@ -1272,33 +1285,33 @@ const exercises = [
   {
     "id": 38,
     "group": 3,
-    "title": "Uma desigualdade decrescente",
-    "context": "Resolva log₍₁/₂₎ x ≥ −2.",
+    "title": "Compare usando uma função crescente",
+    "context": "Resolva ln x ≥ −1.",
     "expression": "",
     "steps": [
-      "Domínio: $x>0$. Como $0<\\frac12<1$, a função é decrescente.",
-      "Temos $-2=\\log_{1/2}4$. Logo, a comparação vira $x\\le4$.",
-      "Combine com o domínio: $\\boxed{S=(0,4]}$."
+      "Domínio: $x>0$. Como $e>1$, o logaritmo natural é crescente.",
+      "Temos $-1=\\ln(e^{-1})$, então a desigualdade equivale a $x\\ge e^{-1}$.",
+      "Portanto, $\\boxed{S=[e^{-1},+\\infty)}$. O extremo é positivo: $e^{-1}\\approx0{,}368$."
     ],
-    "pitfall": "A inversão da desigualdade não elimina a condição de argumento positivo.",
+    "pitfall": "Uma imagem negativa no logaritmo não exige argumento negativo.",
     "level": "Prática",
     "graph": {
       "curve": [
         "log",
-        0.5,
+        2.718281828459045,
         1,
         0,
         0
       ],
       "points": [
         [
-          4,
-          -2
+          0.36787944117144233,
+          -1
         ]
       ],
       "domain": "x>0",
       "xrange": null,
-      "line": -2
+      "line": -1
     }
   },
   {
@@ -1438,37 +1451,38 @@ const exercises = [
   {
     "id": 43,
     "group": 4,
-    "title": "Meia-vida em etapas",
-    "context": "Uma amostra, inicialmente com 80 g, segue M(t) = 80 · (1/2)^(t/2), t em dias, t ≥ 0. Calcule M(6).",
+    "title": "Decaimento contínuo na base e",
+    "context": "Uma amostra segue M(t) = 80e^(−t/2), com massa em gramas e t ≥ 0 em dias. Em quanto tempo restam 40 g? Use ln 2 ≈ 0,6931.",
     "expression": "",
     "steps": [
-      "Em seis dias, o expoente é $6/2=3$: ocorreram três meias-vidas.",
-      "Calcule $M(6)=80\\cdot(\\frac12)^3=80/8$.",
-      "Restam $\\boxed{10\\text{ g}}$, se a massa inicial era 80 g."
+      "Isole a exponencial: $80e^{-t/2}=40$ dá $e^{-t/2}=\\frac12$.",
+      "Aplique ln: $-t/2=\\ln(\\frac12)=-\\ln2$.",
+      "Logo, $\\boxed{t=2\\ln2\\approx1{,}3862\\text{ dias}}$.",
+      "O gráfico marca a interseção com a altura 40."
     ],
-    "pitfall": "A meia-vida é de dois dias. Não use t sozinho como expoente.",
+    "pitfall": "Guarde o sinal negativo do expoente ao aplicar ln. O tempo final deve ser positivo.",
     "level": "Aplicação",
     "graph": {
       "curve": [
         "exp-rate",
-        0.5,
+        2.718281828459045,
         80,
-        0.5,
+        -0.5,
         0,
         0
       ],
       "points": [
         [
-          6,
-          10
+          1.3862943611198906,
+          40
         ]
       ],
       "domain": "t\\ge0",
       "xrange": [
         0,
-        8
+        6
       ],
-      "line": null
+      "line": 40
     }
   },
   {
@@ -1650,15 +1664,15 @@ const exercises = [
   {
     "id": 49,
     "group": 4,
-    "title": "Funções inversas",
-    "context": "Resolva log₂(2^(x−1)) = 5 e explique o cancelamento.",
+    "title": "Exponencial natural e ln são inversos",
+    "context": "Resolva ln(e^(x−1)) = 5 e explique o cancelamento.",
     "expression": "",
     "steps": [
-      "Para todo real x, $2^{x-1}>0$, então o logaritmo está definido.",
-      "Exponencial e logaritmo da mesma base são inversos: $\\log_2(2^{x-1})=x-1$.",
+      "Para todo real x, $e^{x-1}>0$, então o logaritmo está definido.",
+      "Como $\\ln$ tem base e, $\\ln(e^{x-1})=x-1$.",
       "Assim, $x-1=5$ e $\\boxed{x=6}$. O gráfico da composição é uma reta."
     ],
-    "pitfall": "Esse cancelamento exige bases iguais e válidas.",
+    "pitfall": "O cancelamento entre ln e a exponencial exige a base e.",
     "level": "Conexão",
     "graph": {
       "curve": [
@@ -1715,12 +1729,12 @@ const exercises = [
 
 let graphSerial=0;
 const graphNumber=x=>Math.abs(x)<1e-12?'0':x.toLocaleString('pt-BR',{maximumSignificantDigits:4});
-function expNumber(n){if(n===.5)return String.raw`\frac12`;if(n===1/3)return String.raw`\frac13`;if(n===1.5)return String.raw`\frac32`;return String(n).replace('.','{,}');}
+function expNumber(n){if(n===Math.E)return 'e';if(n===.5)return String.raw`\frac12`;if(n===1/3)return String.raw`\frac13`;if(n===1.5)return String.raw`\frac32`;return String(n).replace('.','{,}');}
 const shiftText=h=>h===0?'x':h>0?`x-${expNumber(h)}`:`x+${expNumber(-h)}`;
 function curveInfo(s){
  const [kind,b,m,h,k]=s,log=x=>Math.log(x)/Math.log(b);
  if(kind==='exp')return {fn:x=>m*b**(x-h)+k,formula:`${m===1?'':m===-1?'-':expNumber(m)+'\\cdot'}${b<1?'('+expNumber(b)+')':expNumber(b)}^{${shiftText(h)}}${k===0?'':k>0?'+'+expNumber(k):expNumber(k)}`,boundary:null,asymptote:k};
- if(kind==='log')return {fn:x=>x>h?m*log(x-h)+k:NaN,formula:`${m===1?'':m===-1?'-':expNumber(m)+'\\cdot'}\\log_{${expNumber(b)}}(${shiftText(h)})${k===0?'':k>0?'+'+expNumber(k):expNumber(k)}`,boundary:h};
+ if(kind==='log')return {fn:x=>x>h?m*log(x-h)+k:NaN,formula:`${m===1?'':m===-1?'-':expNumber(m)+'\\cdot'}${b===Math.E?'\\ln':'\\log_{'+expNumber(b)+'}'}(${shiftText(h)})${k===0?'':k>0?'+'+expNumber(k):expNumber(k)}`,boundary:h};
  if(kind==='exp-rate'){const [_,base,factor,rate,offset,constant]=s;return {fn:x=>factor*base**(rate*x+offset)+constant,formula:`${expNumber(factor)}\\cdot(${expNumber(base)})^{${expNumber(rate)}x${offset>=0?'+'+offset:offset}}${constant?constant>0?'+'+constant:constant:''}`,boundary:null,asymptote:constant};}
  if(kind==='exp-poly'){const [_,base,a,c,d]=s;return {fn:x=>a*base**(2*x)+c*base**x+d,formula:`${expNumber(base**2)}^x${c<0?'-':'+'}${Math.abs(c)}\\cdot${base}^x${d>=0?'+'+d:d}`,boundary:null};}
  if(kind==='linear')return {fn:x=>b*x+m,formula:`${b===1?'':b}x${m<0?m:'+'+m}`,boundary:null};
@@ -1761,9 +1775,9 @@ function initExpLogLabs(){
  document.getElementById('explog-plot').innerHTML=learningPlot(g,'Exponencial ou logaritmo da base escolhida');
  const result=document.getElementById('explog-result');result.innerHTML=`<p>$y=${curveInfo(g.curve).formula}$ · ${b>1?'função crescente':'função decrescente'}.</p><p>${type==='exp'?'Domínio: todos os reais. Imagem: valores positivos. Assíntota horizontal: y = 0.':'Domínio: x > 0. Imagem: todos os reais. Assíntota vertical: x = 0.'}</p>`;math(result);}
  base.addEventListener('change',refresh);kind.addEventListener('change',refresh);refresh();
- const x=document.getElementById('inverse-exponent');
- function inverse(){const exponent=Number(x.value),power=2**exponent;document.getElementById('inverse-value').textContent=graphNumber(exponent);const result=document.getElementById('inverse-result');result.innerHTML=`<p>$2^{${exponent}}=${expNumber(power)}$ e $\\log_2(${expNumber(power)})=${exponent}$.</p><p>Na exponencial, o ponto é (${graphNumber(exponent)}; ${graphNumber(power)}). No logaritmo, as coordenadas se trocam: (${graphNumber(power)}; ${graphNumber(exponent)}).</p>`;math(result);document.getElementById('inverse-plots').innerHTML=learningPlot({curve:['exp',2,1,0,0],points:[[exponent,power]],domain:String.raw`\mathbb R`,line:null})+learningPlot({curve:['log',2,1,0,0],points:[[power,exponent]],domain:'x>0',line:null});}
- x.addEventListener('input',inverse);inverse();
+ const x=document.getElementById('inverse-exponent'),inverseBase=document.getElementById('inverse-base');
+ function inverse(){const exponent=Number(x.value),b=Number(inverseBase.value),power=b**exponent;document.getElementById('inverse-value').textContent=graphNumber(exponent);const result=document.getElementById('inverse-result');result.innerHTML=`<p>$${expNumber(b)}^{${exponent}}${b===Math.E&&exponent!==0?'\\approx':'='}${b===Math.E?graphNumber(power).replace(',','{,}'):expNumber(power)}$ e $${b===Math.E?'\\ln':'\\log_2'}(${b===Math.E?'e^{'+exponent+'}':expNumber(power)})=${exponent}$.</p><p>Na exponencial, o ponto é (${graphNumber(exponent)}; ${graphNumber(power)}). No logaritmo, as coordenadas se trocam: (${graphNumber(power)}; ${graphNumber(exponent)}).</p>`;math(result);document.getElementById('inverse-plots').innerHTML=learningPlot({curve:['exp',b,1,0,0],points:[[exponent,power]],domain:String.raw`\mathbb R`,line:null})+learningPlot({curve:['log',b,1,0,0],points:[[power,exponent]],domain:'x>0',line:null});}
+ x.addEventListener('input',inverse);inverseBase.addEventListener('change',inverse);inverse();
 }
 
 const groups=[['Funções exponenciais','10 exercícios para entender valores, curvas e transformações.'],['Equações e inequações exponenciais','10 exercícios para encontrar e comparar expoentes.'],['Logaritmos: definição e propriedades','10 exercícios para ler e combinar logaritmos.'],['Equações e inequações logarítmicas','10 exercícios para resolver sem perder o domínio.'],['Aplicações e conexões','10 exercícios com modelos, escalas e funções inversas.']];

@@ -36,7 +36,7 @@ O progresso é salvo neste navegador. Há filtros por assunto e impressão com o
 
 [Abrir revisão e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/exponenciais-logaritmos.html)
 
-Revisão interativa de bases, crescimento, decaimento, funções inversas e propriedades dos logaritmos. Cinco blocos com 10 exercícios cada: funções exponenciais; equações e inequações exponenciais; definição e propriedades dos logaritmos; equações e inequações logarítmicas; aplicações e conexões.
+Revisão interativa de bases, incluindo e, crescimento, decaimento, funções inversas e propriedades dos logaritmos. Inclui exercícios de exponencial natural e ln, mantendo o total em 50. Cinco blocos com 10 exercícios cada: funções exponenciais; equações e inequações exponenciais; definição e propriedades dos logaritmos; equações e inequações logarítmicas; aplicações e conexões.
 
 Cada exercício tem solução oculta passo a passo, gráfico relacionado à questão e alerta de erro comum. Inclui filtros, progresso independente e impressão com ou sem soluções.
 
