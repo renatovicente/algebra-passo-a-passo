@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 200 exercícios em três cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 250 exercícios em quatro cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -32,6 +32,14 @@ Cada exercício tem solução detalhada oculta por botão e alerta de erro comum
 
 O progresso é salvo neste navegador. Há filtros por assunto e impressão com ou sem soluções.
 
+## Nova aba: Exponenciais e logaritmos
+
+[Abrir revisão e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/exponenciais-logaritmos.html)
+
+Revisão interativa de bases, crescimento, decaimento, funções inversas e propriedades dos logaritmos. Cinco blocos com 10 exercícios cada: funções exponenciais; equações e inequações exponenciais; definição e propriedades dos logaritmos; equações e inequações logarítmicas; aplicações e conexões.
+
+Cada exercício tem solução oculta passo a passo, gráfico relacionado à questão e alerta de erro comum. Inclui filtros, progresso independente e impressão com ou sem soluções.
+
 ## Conteúdo do caderno original
 
 - Sinais, ordem das operações e frações.
@@ -46,7 +54,7 @@ As soluções ficam ocultas até clicar em “Ver solução”. A página també
 
 ## Como usar
 
-Abra o site ou baixe `index.html`, `poligonos.html` e `equacoes-segundo-grau.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
+Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html` e `exponenciais-logaritmos.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
 
 ## Publicação
 
