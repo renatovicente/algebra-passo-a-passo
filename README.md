@@ -1,12 +1,12 @@
 # Álgebra, passo a passo
 
-Página de estudo com 250 exercícios em quatro cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 270 exercícios em quatro cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
 ## Nova aba: Polígonos regulares
 
-[Abrir explicações e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/poligonos.html)
+[Abrir explicações e 70 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/poligonos.html)
 
 Adaptação didática original do capítulo XVII do documento `poligonos_regulares.pdf` enviado pelo usuário (páginas impressas 212–225). Explica os resultados a partir de poucas ideias anteriores, usando a história de uma praça dividida em triângulos, quinze explorações interativas e demonstrações avançadas expansíveis. O documento original não é redistribuído.
 
@@ -17,6 +17,7 @@ Adaptação didática original do capítulo XVII do documento `poligonos_regular
 - 20 exercícios de fundamentos.
 - 20 exercícios de aplicações.
 - 10 exercícios de conexões e desafios.
+- 20 exercícios exclusivos de apótema e lado em triângulos equiláteros, quadrados e hexágonos regulares, com desenhos nas soluções.
 
 Cada exercício tem solução detalhada oculta por botão e alerta de erro comum. O progresso desta aba é independente do caderno original.
 
