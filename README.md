@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 270 exercícios em quatro cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 320 exercícios em seis cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -41,6 +41,15 @@ Revisão interativa de bases, incluindo e, crescimento, decaimento, funções in
 
 Cada exercício tem solução oculta passo a passo, gráfico relacionado à questão e alerta de erro comum. Inclui filtros, progresso independente e impressão com ou sem soluções.
 
+## Novas abas: Termologia e Cinemática
+
+- [Termologia: teoria e 25 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/termologia.html): calor, temperatura, escalas térmicas e equilíbrio, com simulações e soluções ilustradas.
+- [Cinemática: teoria e 25 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/cinematica.html): movimentos, componentes da velocidade, lançamentos e gráficos, com animações nos dois laboratórios e nas 25 soluções.
+
+As animações têm reprodução, pausa, reinício, avanço por etapas e controle de ritmo. As equações usam LaTeX renderizado por KaTeX, inclusive durante as animações. Os cadernos retomam os quatro problemas da prova fornecida e explicam os erros observados nas resoluções; o PDF original não é redistribuído.
+
+Todas as seis páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
+
 ## Conteúdo do caderno original
 
 - Sinais, ordem das operações e frações.
@@ -55,7 +64,7 @@ As soluções ficam ocultas até clicar em “Ver solução”. A página també
 
 ## Como usar
 
-Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html` e `exponenciais-logaritmos.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
+Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html`, `exponenciais-logaritmos.html`, `termologia.html` e `cinematica.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
 
 ## Publicação
 
