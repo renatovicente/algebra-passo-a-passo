@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 320 exercícios em seis cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 345 exercícios em sete cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -48,7 +48,15 @@ Cada exercício tem solução oculta passo a passo, gráfico relacionado à ques
 
 As animações têm reprodução, pausa, reinício, avanço por etapas e controle de ritmo. As equações usam LaTeX renderizado por KaTeX, inclusive durante as animações. Os cadernos retomam os quatro problemas da prova fornecida e explicam os erros observados nas resoluções; o PDF original não é redistribuído.
 
-Todas as seis páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
+Todas as sete páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
+
+## Movimento circular: 25 exercícios
+
+[Abrir teoria e exercícios](https://renatovicente.github.io/algebra-passo-a-passo/movimento-circular.html)
+
+Ângulos e arcos, período e frequência, MCU, aceleração centrípeta, transmissões e MCUV. Dois laboratórios interativos e 25 soluções com desenhos animados, equações LaTeX, reprodução, pausa e avanço por etapas. Inclui filtros, progresso local e impressão com desenhos estáticos.
+
+Para reconstruir esta aba e integrar sua navegação: `python3 tools/build-circular.py`. O gerador reutiliza o KaTeX e o estilo incorporados em `cinematica.html`, sem baixar dependências.
 
 ## Conteúdo do caderno original
 
@@ -64,7 +72,7 @@ As soluções ficam ocultas até clicar em “Ver solução”. A página també
 
 ## Como usar
 
-Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html`, `exponenciais-logaritmos.html`, `termologia.html` e `cinematica.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
+Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html`, `exponenciais-logaritmos.html`, `termologia.html`, `cinematica.html` e `movimento-circular.html` para a mesma pasta e abra no navegador. O HTML contém os scripts, estilos e fontes matemáticas e funciona sem internet. O progresso é salvo apenas no navegador utilizado, sem cadastro nem envio de respostas.
 
 ## Publicação
 
