@@ -1,0 +1,504 @@
+[
+  {
+    "topic": "Comprimento",
+    "title": "Trajeto de uma caminhada",
+    "q": "Um estudante caminha 2,4 km. Expresse essa medida em m.",
+    "steps": [
+      "1 km = 1000 m = 100000 cm.",
+      "2,4 km × (1000 m/km) = 2400 m."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Comprimento de uma mola",
+    "q": "Uma mola esticada mede 35 cm. Expresse essa medida em m.",
+    "steps": [
+      "1 cm = 0,01 m = 0,00001 km.",
+      "35 cm × (0,01 m/cm) = 0,35 m."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Pista de atletismo",
+    "q": "Uma volta de uma pista mede 400 m. Expresse essa medida em km.",
+    "steps": [
+      "1 m = 100 cm = 0,001 km.",
+      "400 m × (0,001 km/m) = 0,4 km."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Altura de lançamento",
+    "q": "Uma bola é solta de uma altura de 1,8 m. Expresse essa medida em cm.",
+    "steps": [
+      "1 m = 100 cm = 0,001 km.",
+      "1,8 m × (100 cm/m) = 180 cm."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Extensão de uma estrada",
+    "q": "O trecho analisado por um radar tem 0,075 km. Expresse essa medida em cm.",
+    "steps": [
+      "1 km = 1000 m = 100000 cm.",
+      "0,075 km × (100000 cm/km) = 7500 cm."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Deslocamento de um carrinho",
+    "q": "Em um trilho, um carrinho percorre 1250 cm. Expresse essa medida em km.",
+    "steps": [
+      "1 cm = 0,01 m = 0,00001 km.",
+      "1250 cm × (1e-05 km/cm) = 0,0125 km."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Espessura de uma lâmina",
+    "q": "Uma lâmina usada em laboratório tem espessura de 0,08 cm. Expresse essa medida em m.",
+    "steps": [
+      "1 cm = 0,01 m = 0,00001 km.",
+      "0,08 cm × (0,01 m/cm) = 0,0008 m."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Raio de uma roda",
+    "q": "O raio de uma roda é 0,32 m. Expresse essa medida em cm.",
+    "steps": [
+      "1 m = 100 cm = 0,001 km.",
+      "0,32 m × (100 cm/m) = 32 cm."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Distância de frenagem",
+    "q": "Durante a frenagem, um automóvel percorre 0,042 km. Expresse essa medida em m.",
+    "steps": [
+      "1 km = 1000 m = 100000 cm.",
+      "0,042 km × (1000 m/km) = 42 m."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Comprimento",
+    "title": "Amplitude de oscilação",
+    "q": "A amplitude de um pêndulo é 6,5 cm. Expresse essa medida em m.",
+    "steps": [
+      "1 cm = 0,01 m = 0,00001 km.",
+      "6,5 cm × (0,01 m/cm) = 0,065 m."
+    ],
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Duração de uma viagem",
+    "q": "Uma viagem dura 1,5 h. Expresse essa medida em min.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "1,5 h × (60 min/h) = 90 min."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Tempo de aquecimento",
+    "q": "Um aquecedor fica ligado por 3 min. Expresse essa medida em s.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "3 min × (60 s/min) = 180 s."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Cronômetro da corrida",
+    "q": "Um cronômetro registra 150 s. Expresse essa medida em min.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "150 s ÷ 60 = 2,5 min."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Ensaio de resistência",
+    "q": "Um motor é testado durante 5400 s. Expresse essa medida em h.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "5400 s ÷ 3600 = 1,5 h."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Intervalo de medição",
+    "q": "Um sensor faz medições durante 0,25 h. Expresse essa medida em s.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "0,25 h × (3600 s/h) = 900 s."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Experimento de resfriamento",
+    "q": "O resfriamento dura 90 min. Expresse essa medida em h.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "90 min ÷ 60 = 1,5 h."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Pulso de um equipamento",
+    "q": "Um equipamento permanece ativo durante 0,05 min. Expresse essa medida em s.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "0,05 min × (60 s/min) = 3 s."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Queda registrada em vídeo",
+    "q": "Um evento filmado dura 0,02 h. Expresse essa medida em s.",
+    "steps": [
+      "1 h = 60 min = 3600 s; 1 min = 60 s.",
+      "0,02 h × (3600 s/h) = 72 s."
+    ],
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Uma hora e vinte minutos",
+    "q": "Um experimento dura 1 h e 20 min. Qual é sua duração total em segundos?",
+    "steps": [
+      "1 h = 3600 s e 20 min = 20 × 60 = 1200 s.",
+      "Some os tempos na mesma unidade: Δt = 3600 + 1200 = 4800 s."
+    ],
+    "check": "1 h e 20 min correspondem a 1 + 20/60 h, e não a 1,20 h."
+  },
+  {
+    "topic": "Tempo",
+    "title": "Duas leituras do cronômetro",
+    "q": "O cronômetro marca 2 min e 45 s. Expresse o intervalo em segundos e em minutos decimais.",
+    "steps": [
+      "Em segundos: Δt = 2 × 60 + 45 = 165 s.",
+      "Em minutos: Δt = 165/60 = 2,75 min."
+    ],
+    "check": "2 min e 45 s não são 2,45 min: divida os 45 s por 60."
+  },
+  {
+    "topic": "Massa",
+    "title": "Carrinho de laboratório",
+    "q": "A massa de um carrinho é 750 g. Expresse essa medida em kg.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "750 g × (0,001 kg/g) = 0,75 kg."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Bloco para calorimetria",
+    "q": "Um bloco metálico tem massa de 0,25 kg. Expresse essa medida em g.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "0,25 kg × (1000 g/kg) = 250 g."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Pequena esfera",
+    "q": "Uma esfera tem massa de 12 g. Expresse essa medida em kg.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "12 g × (0,001 kg/g) = 0,012 kg."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Carga de uma balança",
+    "q": "A balança indica uma massa de 2,5 kg. Expresse essa medida em g.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "2,5 kg × (1000 g/kg) = 2500 g."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Amostra de pó",
+    "q": "Uma amostra tem massa de 0,8 g. Expresse essa medida em kg.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "0,8 g × (0,001 kg/g) = 0,0008 kg."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Massa de um pacote",
+    "q": "Um pacote tem massa de 1250 g. Expresse essa medida em kg.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "1250 g × (0,001 kg/g) = 1,25 kg."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Objeto leve",
+    "q": "A massa de um objeto é 0,045 kg. Expresse essa medida em g.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "0,045 kg × (1000 g/kg) = 45 g."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Peça de metal",
+    "q": "Uma peça tem massa de 3500 g. Expresse essa medida em kg.",
+    "steps": [
+      "1 kg = 1000 g; 1 g = 0,001 kg.",
+      "3500 g × (0,001 kg/g) = 3,5 kg."
+    ],
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+  },
+  {
+    "topic": "Massa",
+    "title": "Duas massas no carrinho",
+    "q": "Um carrinho de 0,8 kg recebe uma carga de 350 g. Qual é a massa total em kg?",
+    "steps": [
+      "Converta a carga: 350 g = 350/1000 = 0,35 kg.",
+      "Some: m = 0,8 + 0,35 = 1,15 kg."
+    ],
+    "check": "Converta antes de somar: 0,8 e 350 estão originalmente em unidades diferentes."
+  },
+  {
+    "topic": "Massa",
+    "title": "Separando uma amostra",
+    "q": "De uma amostra de 1,2 kg retiram-se 275 g. Qual massa resta, em gramas?",
+    "steps": [
+      "Converta: 1,2 kg = 1200 g.",
+      "Subtraia: m = 1200 − 275 = 925 g."
+    ],
+    "check": "As duas parcelas precisam estar em gramas para fazer a subtração."
+  },
+  {
+    "topic": "Energia",
+    "title": "Calor recebido",
+    "q": "Uma amostra recebe 100 cal. Converta para J, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "100 cal × 4,2 = 420 J."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Energia de um aquecedor",
+    "q": "Um aquecedor fornece 840 J. Converta para cal, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "840 J ÷ 4,2 = 200 cal."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Pequena troca de calor",
+    "q": "Uma peça absorve 25 cal. Converta para J, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "25 cal × 4,2 = 105 J."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Energia dissipada",
+    "q": "Uma força de atrito dissipa 2100 J. Converta para cal, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "2100 J ÷ 4,2 = 500 cal."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Calor de uma reação",
+    "q": "Uma reação libera 1500 cal. Converta para J, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "1500 cal × 4,2 = 6300 J."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Energia em um pulso",
+    "q": "Um pulso transfere 63 J. Converta para cal, adotando 1 cal = 4,2 J.",
+    "steps": [
+      "Use a equivalência dada: 1 cal = 4,2 J.",
+      "63 J ÷ 4,2 = 15 cal."
+    ],
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+  },
+  {
+    "topic": "Energia",
+    "title": "Aproximação pedida no enunciado",
+    "q": "Para estimar a energia transferida, adote 1 cal = 4 J. Quantos joules correspondem a 300 cal?",
+    "steps": [
+      "Use o fator específico do problema: 1 cal = 4 J.",
+      "Q = 300 × 4 = 1200 J."
+    ],
+    "check": "Neste exercício use 4 J/cal; o fator 4,2 J/cal dos outros problemas não se aplica aqui."
+  },
+  {
+    "topic": "Energia",
+    "title": "Somando energias",
+    "q": "Uma amostra recebe 420 J e depois mais 50 cal. Qual é a energia total em J? Adote 1 cal = 4,2 J.",
+    "steps": [
+      "Converta a segunda parcela: 50 cal = 50 × 4,2 = 210 J.",
+      "Q = 420 + 210 = 630 J."
+    ],
+    "check": "Não some 420 e 50 sem converter as unidades de energia."
+  },
+  {
+    "topic": "Energia",
+    "title": "Energia que falta",
+    "q": "Um processo precisa de 1000 cal e já recebeu 1680 J. Quantas calorias faltam? Adote 1 cal = 4,2 J.",
+    "steps": [
+      "Energia já recebida: 1680/4,2 = 400 cal.",
+      "Energia que falta: 1000 − 400 = 600 cal."
+    ],
+    "check": "Primeiro converta para a unidade pedida, depois subtraia."
+  },
+  {
+    "topic": "Energia",
+    "title": "Caloria e quilocaloria",
+    "q": "Um alimento informa 2 kcal de energia. Expresse o valor em cal e em J. Adote 1 kcal = 1000 cal e 1 cal = 4,2 J.",
+    "steps": [
+      "2 kcal = 2 × 1000 = 2000 cal.",
+      "E = 2000 × 4,2 = 8400 J."
+    ],
+    "check": "kcal e cal são diferentes: o prefixo quilo multiplica a unidade por 1000."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Velocidade na estrada",
+    "q": "Um carro viaja a 72 km/h. Expresse a velocidade em m/s.",
+    "steps": [
+      "Converta numerador e denominador: 72 km/h = (72 × 1000 m)/(3600 s).",
+      "v = 72000/3600 = 20 m/s."
+    ],
+    "check": "De km/h para m/s, divida por 3,6: a conversão envolve distância e tempo."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Velocidade de um corredor",
+    "q": "Um corredor atinge 5 m/s. Qual é essa velocidade em km/h?",
+    "steps": [
+      "v = 5 × (1 km/1000 m) × (3600 s/1 h).",
+      "v = 5 × 3,6 = 18 km/h."
+    ],
+    "check": "De m/s para km/h, multiplique por 3,6."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Distância em uma viagem",
+    "q": "Um ônibus mantém 54 km/h por 2 min. Qual distância percorre em metros?",
+    "steps": [
+      "v = 54/3,6 = 15 m/s; Δt = 2 × 60 = 120 s.",
+      "s = vΔt = 15 × 120 = 1800 m."
+    ],
+    "check": "Use segundos com m/s, para que as unidades de tempo se cancelem."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Carrinho no trilho",
+    "q": "Um carrinho percorre 250 cm em 5 s. Determine sua velocidade média em m/s.",
+    "steps": [
+      "Δs = 250/100 = 2,5 m.",
+      "v_m = Δs/Δt = 2,5/5 = 0,5 m/s."
+    ],
+    "check": "O comprimento em centímetros precisa virar metros antes de obter m/s."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Energia cinética de uma bola",
+    "q": "Uma bola de 200 g move-se a 36 km/h. Calcule sua energia cinética em J usando E_c = mv²/2.",
+    "steps": [
+      "m = 200/1000 = 0,2 kg; v = 36/3,6 = 10 m/s.",
+      "E_c = 0,2 × 10²/2 = 10 J."
+    ],
+    "check": "Converta a velocidade antes de elevá-la ao quadrado; use massa em kg para obter J."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Trabalho ao erguer uma carga",
+    "q": "Uma carga de 500 g é elevada em 120 cm, com velocidade constante. Adote g = 10 m/s². Qual é o trabalho da força que a ergue, em J? Use W = mgh.",
+    "steps": [
+      "m = 0,5 kg; h = 1,2 m.",
+      "W = 0,5 × 10 × 1,2 = 6 J."
+    ],
+    "check": "O símbolo g em mgh representa a aceleração da gravidade; g depois de 500 é a unidade grama."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Aquecimento de água",
+    "q": "Uma amostra de água de 0,2 kg recebe 8400 J. Adote c = 1 cal/(g·°C) e 1 cal = 4,2 J. Qual é a elevação de temperatura? Use Q = mcΔT.",
+    "steps": [
+      "Use as unidades de c: m = 0,2 × 1000 = 200 g; Q = 8400/4,2 = 2000 cal.",
+      "ΔT = Q/(mc) = 2000/(200 × 1) = 10 °C."
+    ],
+    "check": "Com c em cal/(g·°C), use energia em cal e massa em g."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Potência de um aquecedor",
+    "q": "Um aquecedor fornece 600 cal em 2 min. Qual é sua potência média em W? Adote 1 cal = 4,2 J e 1 W = 1 J/s.",
+    "steps": [
+      "Q = 600 × 4,2 = 2520 J; Δt = 2 × 60 = 120 s.",
+      "P = Q/Δt = 2520/120 = 21 W."
+    ],
+    "check": "J dividido por s fornece W; cal dividido por min não fornece diretamente watts."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Tempo de uma caminhada",
+    "q": "Uma pessoa percorre 1,8 km a 1,5 m/s. Determine o tempo em segundos e em minutos.",
+    "steps": [
+      "s = 1,8 × 1000 = 1800 m.",
+      "Δt = s/v = 1800/1,5 = 1200 s.",
+      "Em minutos: 1200/60 = 20 min."
+    ],
+    "check": "A unidade final de tempo depende das unidades usadas em distância e velocidade."
+  },
+  {
+    "topic": "Aplicações",
+    "title": "Bateria e autonomia",
+    "q": "Uma bateria fornece 7560 J a um dispositivo que consome 30 cal por minuto. Quanto tempo a bateria dura, em minutos e em segundos? Adote 1 cal = 4,2 J e consumo constante.",
+    "steps": [
+      "Energia disponível: E = 7560/4,2 = 1800 cal.",
+      "Δt = 1800/(30 cal/min) = 60 min.",
+      "Em segundos: 60 × 60 = 3600 s."
+    ],
+    "check": "A divisão de cal por cal/min resulta em minutos; converta para segundos apenas ao final."
+  }
+]

@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 357 exercícios em sete cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 407 exercícios em oito cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -48,7 +48,7 @@ Cada exercício tem solução oculta passo a passo, gráfico relacionado à ques
 
 As animações têm reprodução, pausa, reinício, avanço por etapas e controle de ritmo. As equações usam LaTeX renderizado por KaTeX, inclusive durante as animações. Os cadernos retomam os quatro problemas da prova fornecida e explicam os erros observados nas resoluções; o PDF original não é redistribuído.
 
-Todas as sete páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
+Todas as oito páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
 
 ## Movimento circular: 37 exercícios
 
@@ -81,3 +81,11 @@ GitHub Pages publica o arquivo `index.html` da raiz da branch `main`. Para atual
 ## Renderização matemática
 
 As expressões LaTeX são renderizadas pelo [KaTeX](https://katex.org/), versão 0.19.0, incorporado ao HTML. Sua licença MIT está em `KATEX-LICENSE.txt`.
+
+## Conversão de unidades: 50 exercícios
+
+[Abrir teoria e exercícios](https://renatovicente.github.io/algebra-passo-a-passo/conversao-unidades.html)
+
+Cinco blocos de 10 problemas: comprimento (km, cm, m), tempo (h, min, s), massa (kg, g), energia (J, cal) e aplicações em física. Inclui soluções passo a passo, alertas de erros comuns, filtros, progresso local e impressão com ou sem soluções. Nas conversões de energia, cada enunciado informa o fator adotado.
+
+Para reconstruir a aba e integrar a navegação: `python3 tools/build-units.py`. O gerador reutiliza o estilo e as fontes incorporados em `cinematica.html`, sem baixar dependências.
