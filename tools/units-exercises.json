@@ -7,7 +7,12 @@
       "1 km = 1000 m = 100000 cm.",
       "2,4 km × (1000 m/km) = 2400 m."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "2,4 km",
+      "operation": "× 1000",
+      "result": "2400 m"
+    }
   },
   {
     "topic": "Comprimento",
@@ -17,7 +22,12 @@
       "1 cm = 0,01 m = 0,00001 km.",
       "35 cm × (0,01 m/cm) = 0,35 m."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "35 cm",
+      "operation": "÷ 100",
+      "result": "0,35 m"
+    }
   },
   {
     "topic": "Comprimento",
@@ -27,7 +37,12 @@
       "1 m = 100 cm = 0,001 km.",
       "400 m × (0,001 km/m) = 0,4 km."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "400 m",
+      "operation": "÷ 1000",
+      "result": "0,4 km"
+    }
   },
   {
     "topic": "Comprimento",
@@ -37,7 +52,12 @@
       "1 m = 100 cm = 0,001 km.",
       "1,8 m × (100 cm/m) = 180 cm."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "1,8 m",
+      "operation": "× 100",
+      "result": "180 cm"
+    }
   },
   {
     "topic": "Comprimento",
@@ -47,7 +67,12 @@
       "1 km = 1000 m = 100000 cm.",
       "0,075 km × (100000 cm/km) = 7500 cm."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "0,075 km",
+      "operation": "× 100000",
+      "result": "7500 cm"
+    }
   },
   {
     "topic": "Comprimento",
@@ -57,7 +82,12 @@
       "1 cm = 0,01 m = 0,00001 km.",
       "1250 cm × (1e-05 km/cm) = 0,0125 km."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "1250 cm",
+      "operation": "÷ 100000",
+      "result": "0,0125 km"
+    }
   },
   {
     "topic": "Comprimento",
@@ -67,7 +97,12 @@
       "1 cm = 0,01 m = 0,00001 km.",
       "0,08 cm × (0,01 m/cm) = 0,0008 m."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "0,08 cm",
+      "operation": "÷ 100",
+      "result": "0,0008 m"
+    }
   },
   {
     "topic": "Comprimento",
@@ -77,7 +112,12 @@
       "1 m = 100 cm = 0,001 km.",
       "0,32 m × (100 cm/m) = 32 cm."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "0,32 m",
+      "operation": "× 100",
+      "result": "32 cm"
+    }
   },
   {
     "topic": "Comprimento",
@@ -87,7 +127,12 @@
       "1 km = 1000 m = 100000 cm.",
       "0,042 km × (1000 m/km) = 42 m."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "0,042 km",
+      "operation": "× 1000",
+      "result": "42 m"
+    }
   },
   {
     "topic": "Comprimento",
@@ -97,7 +142,12 @@
       "1 cm = 0,01 m = 0,00001 km.",
       "6,5 cm × (0,01 m/cm) = 0,065 m."
     ],
-    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui."
+    "check": "Ao passar para uma unidade menor, o valor numérico aumenta; para uma unidade maior, diminui.",
+    "illustration": {
+      "start": "6,5 cm",
+      "operation": "÷ 100",
+      "result": "0,065 m"
+    }
   },
   {
     "topic": "Tempo",
@@ -107,7 +157,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "1,5 h × (60 min/h) = 90 min."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "1,5 h",
+      "operation": "× 60",
+      "result": "90 min"
+    }
   },
   {
     "topic": "Tempo",
@@ -117,7 +172,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "3 min × (60 s/min) = 180 s."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "3 min",
+      "operation": "× 60",
+      "result": "180 s"
+    }
   },
   {
     "topic": "Tempo",
@@ -127,7 +187,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "150 s ÷ 60 = 2,5 min."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "150 s",
+      "operation": "÷ 60",
+      "result": "2,5 min"
+    }
   },
   {
     "topic": "Tempo",
@@ -137,7 +202,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "5400 s ÷ 3600 = 1,5 h."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "5400 s",
+      "operation": "÷ 3600",
+      "result": "1,5 h"
+    }
   },
   {
     "topic": "Tempo",
@@ -147,7 +217,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "0,25 h × (3600 s/h) = 900 s."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "0,25 h",
+      "operation": "× 3600",
+      "result": "900 s"
+    }
   },
   {
     "topic": "Tempo",
@@ -157,7 +232,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "90 min ÷ 60 = 1,5 h."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "90 min",
+      "operation": "÷ 60",
+      "result": "1,5 h"
+    }
   },
   {
     "topic": "Tempo",
@@ -167,7 +247,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "0,05 min × (60 s/min) = 3 s."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "0,05 min",
+      "operation": "× 60",
+      "result": "3 s"
+    }
   },
   {
     "topic": "Tempo",
@@ -177,7 +262,12 @@
       "1 h = 60 min = 3600 s; 1 min = 60 s.",
       "0,02 h × (3600 s/h) = 72 s."
     ],
-    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100."
+    "check": "Horas, minutos e segundos usam fatores de 60, e não de 100.",
+    "illustration": {
+      "start": "0,02 h",
+      "operation": "× 3600",
+      "result": "72 s"
+    }
   },
   {
     "topic": "Tempo",
@@ -187,7 +277,12 @@
       "1 h = 3600 s e 20 min = 20 × 60 = 1200 s.",
       "Some os tempos na mesma unidade: Δt = 3600 + 1200 = 4800 s."
     ],
-    "check": "1 h e 20 min correspondem a 1 + 20/60 h, e não a 1,20 h."
+    "check": "1 h e 20 min correspondem a 1 + 20/60 h, e não a 1,20 h.",
+    "illustration": {
+      "start": "1 h + 20 min",
+      "operation": "3600 s + 1200 s",
+      "result": "4800 s"
+    }
   },
   {
     "topic": "Tempo",
@@ -197,7 +292,12 @@
       "Em segundos: Δt = 2 × 60 + 45 = 165 s.",
       "Em minutos: Δt = 165/60 = 2,75 min."
     ],
-    "check": "2 min e 45 s não são 2,45 min: divida os 45 s por 60."
+    "check": "2 min e 45 s não são 2,45 min: divida os 45 s por 60.",
+    "illustration": {
+      "start": "2 min + 45 s",
+      "operation": "165 s ÷ 60",
+      "result": "2,75 min"
+    }
   },
   {
     "topic": "Massa",
@@ -207,7 +307,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "750 g × (0,001 kg/g) = 0,75 kg."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "750 g",
+      "operation": "÷ 1000",
+      "result": "0,75 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -217,7 +322,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "0,25 kg × (1000 g/kg) = 250 g."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "0,25 kg",
+      "operation": "× 1000",
+      "result": "250 g"
+    }
   },
   {
     "topic": "Massa",
@@ -227,7 +337,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "12 g × (0,001 kg/g) = 0,012 kg."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "12 g",
+      "operation": "÷ 1000",
+      "result": "0,012 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -237,7 +352,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "2,5 kg × (1000 g/kg) = 2500 g."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "2,5 kg",
+      "operation": "× 1000",
+      "result": "2500 g"
+    }
   },
   {
     "topic": "Massa",
@@ -247,7 +367,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "0,8 g × (0,001 kg/g) = 0,0008 kg."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "0,8 g",
+      "operation": "÷ 1000",
+      "result": "0,0008 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -257,7 +382,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "1250 g × (0,001 kg/g) = 1,25 kg."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "1250 g",
+      "operation": "÷ 1000",
+      "result": "1,25 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -267,7 +397,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "0,045 kg × (1000 g/kg) = 45 g."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "0,045 kg",
+      "operation": "× 1000",
+      "result": "45 g"
+    }
   },
   {
     "topic": "Massa",
@@ -277,7 +412,12 @@
       "1 kg = 1000 g; 1 g = 0,001 kg.",
       "3500 g × (0,001 kg/g) = 3,5 kg."
     ],
-    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton."
+    "check": "Massa pode ser medida em kg ou g; peso é uma força e sua unidade SI é o newton.",
+    "illustration": {
+      "start": "3500 g",
+      "operation": "÷ 1000",
+      "result": "3,5 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -287,7 +427,12 @@
       "Converta a carga: 350 g = 350/1000 = 0,35 kg.",
       "Some: m = 0,8 + 0,35 = 1,15 kg."
     ],
-    "check": "Converta antes de somar: 0,8 e 350 estão originalmente em unidades diferentes."
+    "check": "Converta antes de somar: 0,8 e 350 estão originalmente em unidades diferentes.",
+    "illustration": {
+      "start": "0,8 kg + 350 g",
+      "operation": "0,8 kg + 0,35 kg",
+      "result": "1,15 kg"
+    }
   },
   {
     "topic": "Massa",
@@ -297,7 +442,12 @@
       "Converta: 1,2 kg = 1200 g.",
       "Subtraia: m = 1200 − 275 = 925 g."
     ],
-    "check": "As duas parcelas precisam estar em gramas para fazer a subtração."
+    "check": "As duas parcelas precisam estar em gramas para fazer a subtração.",
+    "illustration": {
+      "start": "1,2 kg − 275 g",
+      "operation": "1200 g − 275 g",
+      "result": "925 g"
+    }
   },
   {
     "topic": "Energia",
@@ -307,7 +457,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "100 cal × 4,2 = 420 J."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "100 cal",
+      "operation": "× 4,2 J/cal",
+      "result": "420 J"
+    }
   },
   {
     "topic": "Energia",
@@ -317,7 +472,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "840 J ÷ 4,2 = 200 cal."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "840 J",
+      "operation": "÷ 4,2 J/cal",
+      "result": "200 cal"
+    }
   },
   {
     "topic": "Energia",
@@ -327,7 +487,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "25 cal × 4,2 = 105 J."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "25 cal",
+      "operation": "× 4,2 J/cal",
+      "result": "105 J"
+    }
   },
   {
     "topic": "Energia",
@@ -337,7 +502,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "2100 J ÷ 4,2 = 500 cal."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "2100 J",
+      "operation": "÷ 4,2 J/cal",
+      "result": "500 cal"
+    }
   },
   {
     "topic": "Energia",
@@ -347,7 +517,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "1500 cal × 4,2 = 6300 J."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "1500 cal",
+      "operation": "× 4,2 J/cal",
+      "result": "6300 J"
+    }
   },
   {
     "topic": "Energia",
@@ -357,7 +532,12 @@
       "Use a equivalência dada: 1 cal = 4,2 J.",
       "63 J ÷ 4,2 = 15 cal."
     ],
-    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2."
+    "check": "De cal para J, multiplique por 4,2; de J para cal, divida por 4,2.",
+    "illustration": {
+      "start": "63 J",
+      "operation": "÷ 4,2 J/cal",
+      "result": "15 cal"
+    }
   },
   {
     "topic": "Energia",
@@ -367,7 +547,12 @@
       "Use o fator específico do problema: 1 cal = 4 J.",
       "Q = 300 × 4 = 1200 J."
     ],
-    "check": "Neste exercício use 4 J/cal; o fator 4,2 J/cal dos outros problemas não se aplica aqui."
+    "check": "Neste exercício use 4 J/cal; o fator 4,2 J/cal dos outros problemas não se aplica aqui.",
+    "illustration": {
+      "start": "300 cal",
+      "operation": "× 4 J/cal",
+      "result": "1200 J"
+    }
   },
   {
     "topic": "Energia",
@@ -377,7 +562,12 @@
       "Converta a segunda parcela: 50 cal = 50 × 4,2 = 210 J.",
       "Q = 420 + 210 = 630 J."
     ],
-    "check": "Não some 420 e 50 sem converter as unidades de energia."
+    "check": "Não some 420 e 50 sem converter as unidades de energia.",
+    "illustration": {
+      "start": "420 J + 50 cal",
+      "operation": "420 J + 210 J",
+      "result": "630 J"
+    }
   },
   {
     "topic": "Energia",
@@ -387,7 +577,12 @@
       "Energia já recebida: 1680/4,2 = 400 cal.",
       "Energia que falta: 1000 − 400 = 600 cal."
     ],
-    "check": "Primeiro converta para a unidade pedida, depois subtraia."
+    "check": "Primeiro converta para a unidade pedida, depois subtraia.",
+    "illustration": {
+      "start": "1000 cal − 1680 J",
+      "operation": "1000 cal − 400 cal",
+      "result": "600 cal"
+    }
   },
   {
     "topic": "Energia",
@@ -397,7 +592,12 @@
       "2 kcal = 2 × 1000 = 2000 cal.",
       "E = 2000 × 4,2 = 8400 J."
     ],
-    "check": "kcal e cal são diferentes: o prefixo quilo multiplica a unidade por 1000."
+    "check": "kcal e cal são diferentes: o prefixo quilo multiplica a unidade por 1000.",
+    "illustration": {
+      "start": "2 kcal",
+      "operation": "2000 cal × 4,2 J/cal",
+      "result": "8400 J"
+    }
   },
   {
     "topic": "Aplicações",
@@ -407,7 +607,12 @@
       "Converta numerador e denominador: 72 km/h = (72 × 1000 m)/(3600 s).",
       "v = 72000/3600 = 20 m/s."
     ],
-    "check": "De km/h para m/s, divida por 3,6: a conversão envolve distância e tempo."
+    "check": "De km/h para m/s, divida por 3,6: a conversão envolve distância e tempo.",
+    "illustration": {
+      "start": "72 km/h",
+      "operation": "72 × 1000 ÷ 3600",
+      "result": "20 m/s"
+    }
   },
   {
     "topic": "Aplicações",
@@ -417,7 +622,12 @@
       "v = 5 × (1 km/1000 m) × (3600 s/1 h).",
       "v = 5 × 3,6 = 18 km/h."
     ],
-    "check": "De m/s para km/h, multiplique por 3,6."
+    "check": "De m/s para km/h, multiplique por 3,6.",
+    "illustration": {
+      "start": "5 m/s",
+      "operation": "5 × 3600 ÷ 1000",
+      "result": "18 km/h"
+    }
   },
   {
     "topic": "Aplicações",
@@ -427,7 +637,12 @@
       "v = 54/3,6 = 15 m/s; Δt = 2 × 60 = 120 s.",
       "s = vΔt = 15 × 120 = 1800 m."
     ],
-    "check": "Use segundos com m/s, para que as unidades de tempo se cancelem."
+    "check": "Use segundos com m/s, para que as unidades de tempo se cancelem.",
+    "illustration": {
+      "start": "54 km/h por 2 min",
+      "operation": "15 m/s × 120 s",
+      "result": "1800 m"
+    }
   },
   {
     "topic": "Aplicações",
@@ -437,7 +652,12 @@
       "Δs = 250/100 = 2,5 m.",
       "v_m = Δs/Δt = 2,5/5 = 0,5 m/s."
     ],
-    "check": "O comprimento em centímetros precisa virar metros antes de obter m/s."
+    "check": "O comprimento em centímetros precisa virar metros antes de obter m/s.",
+    "illustration": {
+      "start": "250 cm em 5 s",
+      "operation": "2,5 m ÷ 5 s",
+      "result": "0,5 m/s"
+    }
   },
   {
     "topic": "Aplicações",
@@ -447,7 +667,12 @@
       "m = 200/1000 = 0,2 kg; v = 36/3,6 = 10 m/s.",
       "E_c = 0,2 × 10²/2 = 10 J."
     ],
-    "check": "Converta a velocidade antes de elevá-la ao quadrado; use massa em kg para obter J."
+    "check": "Converta a velocidade antes de elevá-la ao quadrado; use massa em kg para obter J.",
+    "illustration": {
+      "start": "200 g a 36 km/h",
+      "operation": "½ × 0,2 kg × (10 m/s)²",
+      "result": "10 J"
+    }
   },
   {
     "topic": "Aplicações",
@@ -457,7 +682,12 @@
       "m = 0,5 kg; h = 1,2 m.",
       "W = 0,5 × 10 × 1,2 = 6 J."
     ],
-    "check": "O símbolo g em mgh representa a aceleração da gravidade; g depois de 500 é a unidade grama."
+    "check": "O símbolo g em mgh representa a aceleração da gravidade; g depois de 500 é a unidade grama.",
+    "illustration": {
+      "start": "500 g elevados 120 cm",
+      "operation": "0,5 kg × 10 m/s² × 1,2 m",
+      "result": "6 J"
+    }
   },
   {
     "topic": "Aplicações",
@@ -467,7 +697,12 @@
       "Use as unidades de c: m = 0,2 × 1000 = 200 g; Q = 8400/4,2 = 2000 cal.",
       "ΔT = Q/(mc) = 2000/(200 × 1) = 10 °C."
     ],
-    "check": "Com c em cal/(g·°C), use energia em cal e massa em g."
+    "check": "Com c em cal/(g·°C), use energia em cal e massa em g.",
+    "illustration": {
+      "start": "0,2 kg recebem 8400 J",
+      "operation": "2000 cal ÷ (200 g × 1 cal/(g·°C))",
+      "result": "ΔT = 10 °C"
+    }
   },
   {
     "topic": "Aplicações",
@@ -477,7 +712,12 @@
       "Q = 600 × 4,2 = 2520 J; Δt = 2 × 60 = 120 s.",
       "P = Q/Δt = 2520/120 = 21 W."
     ],
-    "check": "J dividido por s fornece W; cal dividido por min não fornece diretamente watts."
+    "check": "J dividido por s fornece W; cal dividido por min não fornece diretamente watts.",
+    "illustration": {
+      "start": "600 cal em 2 min",
+      "operation": "2520 J ÷ 120 s",
+      "result": "21 W"
+    }
   },
   {
     "topic": "Aplicações",
@@ -488,7 +728,12 @@
       "Δt = s/v = 1800/1,5 = 1200 s.",
       "Em minutos: 1200/60 = 20 min."
     ],
-    "check": "A unidade final de tempo depende das unidades usadas em distância e velocidade."
+    "check": "A unidade final de tempo depende das unidades usadas em distância e velocidade.",
+    "illustration": {
+      "start": "1,8 km a 1,5 m/s",
+      "operation": "1800 m ÷ 1,5 m/s",
+      "result": "1200 s = 20 min"
+    }
   },
   {
     "topic": "Aplicações",
@@ -499,6 +744,11 @@
       "Δt = 1800/(30 cal/min) = 60 min.",
       "Em segundos: 60 × 60 = 3600 s."
     ],
-    "check": "A divisão de cal por cal/min resulta em minutos; converta para segundos apenas ao final."
+    "check": "A divisão de cal por cal/min resulta em minutos; converta para segundos apenas ao final.",
+    "illustration": {
+      "start": "7560 J; 30 cal/min",
+      "operation": "1800 cal ÷ 30 cal/min",
+      "result": "60 min = 3600 s"
+    }
   }
 ]
