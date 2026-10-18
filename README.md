@@ -1,6 +1,6 @@
 # Álgebra, passo a passo
 
-Página de estudo com 345 exercícios em sete cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
+Página de estudo com 357 exercícios em sete cadernos. A aba principal tem 100 exercícios de manipulação algébrica para o primeiro ano do ensino médio, soluções detalhadas e alertas sobre erros comuns.
 
 **Acesse:** https://renatovicente.github.io/algebra-passo-a-passo/
 
@@ -50,11 +50,11 @@ As animações têm reprodução, pausa, reinício, avanço por etapas e control
 
 Todas as sete páginas compartilham a navegação entre cadernos. Os filtros, o progresso local e a impressão com ou sem soluções continuam disponíveis. Na impressão, os desenhos estáticos substituem os controles das animações.
 
-## Movimento circular: 25 exercícios
+## Movimento circular: 37 exercícios
 
 [Abrir teoria e exercícios](https://renatovicente.github.io/algebra-passo-a-passo/movimento-circular.html)
 
-Ângulos e arcos, período e frequência, MCU, aceleração centrípeta, transmissões e MCUV. Dois laboratórios interativos e 25 soluções com desenhos animados, equações LaTeX, reprodução, pausa e avanço por etapas. Inclui filtros, progresso local e impressão com desenhos estáticos.
+Ângulos e arcos, período e frequência, MCU, aceleração centrípeta, transmissões e MCUV. Dois laboratórios interativos e 25 soluções com desenhos animados, equações LaTeX, reprodução, pausa e avanço por etapas. Inclui também os 12 exercícios do anexo de outubro de 2026 (Anexo 1 a 12), com resoluções passo a passo e os diagramas dos problemas 3 e 6. Inclui filtros, progresso local e impressão com desenhos estáticos.
 
 Para reconstruir esta aba e integrar sua navegação: `python3 tools/build-circular.py`. O gerador reutiliza o KaTeX e o estilo incorporados em `cinematica.html`, sem baixar dependências.
 

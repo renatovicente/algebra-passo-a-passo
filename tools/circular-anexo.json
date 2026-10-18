@@ -1,0 +1,176 @@
+[
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 1 · Frequência, período e aceleração",
+    "q": "Um ponto material percorre uma circunferência de 20,0 cm de diâmetro efetuando 12 rpm. Determine: a) a frequência em hertz; b) o período em segundos; c) a velocidade angular em rad/s; d) a velocidade escalar em m/s; e) a aceleração centrípeta em m/s².",
+    "steps": [
+      "O raio é metade do diâmetro: R = 10 cm = 0,10 m.",
+      "a) f = 12/60 = 0,2 Hz. b) T = 1/f = 5,0 s.",
+      "c) ω = 2πf = 0,4π rad/s.",
+      "d) v = ωR = 0,04π m/s.",
+      "e) a_cp = ω²R = (0,4π)² · 0,10 = 0,016π² m/s²."
+    ],
+    "check": "Converta rpm para Hz dividindo por 60; não confunda raio com diâmetro.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 2 · Ângulo percorrido na curva",
+    "q": "Um carro percorre uma curva circular de raio R = 1,0 km, mantendo velocidade constante v = 60 km/h. Em 36 s, o arco percorrido corresponde ao ângulo central φ. Determine esse ângulo em radianos.",
+    "steps": [
+      "Converta o tempo: 36 s = 0,01 h.",
+      "O arco percorrido é s = vΔt = 60 · 0,01 = 0,6 km.",
+      "Δφ = s/R = 0,6/1,0 = 0,6 rad."
+    ],
+    "check": "Arco e raio precisam estar na mesma unidade.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 3 · Tempo para percorrer o arco AB",
+    "q": "Determine o intervalo de tempo para um móvel percorrer o arco AB da figura com velocidade escalar constante de 24 m/s. O raio mede 160 m e o ângulo central é 3 rad.",
+    "steps": [
+      "O comprimento do arco é s = RΔφ = 160 · 3 = 480 m.",
+      "Δt = s/v = 480/24 = 20 s."
+    ],
+    "check": "O ângulo em s = RΔφ deve estar em radianos.",
+    "diagram": "circularArc",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 4 · Anemômetro de Robinson · Unicamp",
+    "q": "Anemômetros medem a velocidade do vento. O modelo de Robinson (1846) tem quatro conchas hemisféricas presas por hastes a um eixo de rotação. No modelo ideal, a velocidade do vento é a velocidade linear das conchas. Para r = 25 cm e vento de 18 km/h, determine a frequência de rotação. Se necessário, adote π = 3. Alternativas: a) 3 rpm; b) 200 rpm; c) 720 rpm; d) 1200 rpm.",
+    "steps": [
+      "v = 18/3,6 = 5 m/s; R = 0,25 m.",
+      "Uma volta mede 2πR = 2 · 3 · 0,25 = 1,5 m.",
+      "f = v/(2πR) = 5/1,5 = 10/3 Hz.",
+      "Em rpm: (10/3) · 60 = 200 rpm. Alternativa b."
+    ],
+    "check": "A igualdade entre a velocidade do vento e a das conchas é uma hipótese do modelo ideal.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 5 · Maria no carrossel · UFJF-MG",
+    "q": "Maria brinca em um carrossel com velocidade angular constante, a 4,0 m do centro. Sua mãe conta 20 voltas nos 10 min em que Maria esteve no brinquedo. Adote π = 3 e calcule: a) a distância total percorrida; b) a velocidade angular em rad/s; c) o módulo da aceleração centrípeta.",
+    "steps": [
+      "Δt = 10 · 60 = 600 s; cada volta mede 2πR = 24 m.",
+      "a) d = 20 · 24 = 480 m.",
+      "b) ω = 20 · 2π/600 = 0,2 rad/s.",
+      "c) a_cp = ω²R = 0,2² · 4 = 0,16 m/s²."
+    ],
+    "check": "A distância após 20 voltas é 480 m; o deslocamento vetorial ao voltar ao ponto inicial é zero.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 6 · Uma volta com velocidade variável",
+    "q": "Um carro percorre uma pista circular de raio R. Parte do repouso no ponto A e retorna a A após uma volta em 1,0 min. O gráfico representa a velocidade escalar: cresce linearmente de 0 a 30 m/s entre 0 e 10 s, fica em 30 m/s até 50 s e cai linearmente até zero em 60 s. Determine: a) o raio R, adotando π = 3; b) o módulo da aceleração vetorial em t = 30 s; c) a razão entre os módulos das acelerações centrípeta e tangencial em t = 5 s.",
+    "steps": [
+      "a) A área sob o gráfico é a distância: s = (10 · 30)/2 + 40 · 30 + (10 · 30)/2 = 1500 m.",
+      "Uma volta: 2πR = 1500, então R = 1500/6 = 250 m.",
+      "b) Em t = 30 s a velocidade escalar é constante: a_t = 0. Logo, |a| = a_cp = v²/R = 30²/250 = 3,6 m/s².",
+      "c) Entre 0 e 10 s: a_t = 30/10 = 3 m/s². Em 5 s: v = 3 · 5 = 15 m/s.",
+      "a_cp = 15²/250 = 0,9 m/s². Razão a_cp/a_t = 0,9/3 = 0,3."
+    ],
+    "check": "A razão entre duas acelerações não tem unidade. Na parte uniforme da curva, a aceleração vetorial continua existindo.",
+    "diagram": "circularSpeed",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 7 · O ponteiro do velocímetro",
+    "q": "Um carro arranca do repouso em uma pista retilínea com aceleração constante de 1,5 m/s² durante um intervalo T. Ao final, sua velocidade é 108 km/h. Adotando π = 3, responda: a) qual é T? b) qual é a velocidade angular constante do ponteiro do velocímetro nesse intervalo, se ele percorre Δφ = 120°?",
+    "steps": [
+      "a) v = 108/3,6 = 30 m/s. T = (v − v₀)/a = 30/1,5 = 20 s.",
+      "b) Δφ = 120 · π/180 = 2π/3 = 2 rad, usando π = 3.",
+      "ω = Δφ/T = 2/20 = 0,1 rad/s."
+    ],
+    "check": "O movimento circular é o do ponteiro; o carro se desloca em linha reta.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 8 · Arco de 30° · Fuvest-SP",
+    "q": "Um automóvel percorre uma pista de raio 1,0 km com velocidade de 36 km/h. a) Em quanto tempo, em horas, percorre um arco de 30°? b) Qual é sua aceleração centrípeta, em km/h²?",
+    "steps": [
+      "a) Δφ = 30π/180 = π/6 rad. s = RΔφ = π/6 km.",
+      "Δt = s/v = (π/6)/36 = π/216 h.",
+      "b) a_cp = v²/R = 36²/1 = 1296 km/h²."
+    ],
+    "check": "Mantenha km e horas para obter a unidade pedida de aceleração.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 9 · Queda de um eucalipto · Fuvest-SP",
+    "q": "O tronco vertical de um eucalipto é cortado rente ao solo e cai em 5,0 s, num terreno plano e horizontal, sem se desligar por completo de sua base. a) Qual é a velocidade angular média durante a queda? b) Qual é a velocidade escalar média de um ponto do tronco a 10 m da base?",
+    "steps": [
+      "O tronco gira de vertical para horizontal: Δφ = π/2 rad.",
+      "a) ω_m = Δφ/Δt = (π/2)/5 = π/10 rad/s.",
+      "b) O ponto descreve um quarto de circunferência de raio 10 m: s = RΔφ = 5π m.",
+      "v_m = s/Δt = 5π/5 = π m/s."
+    ],
+    "check": "São velocidades médias: a queda não precisa ter velocidade angular constante.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 10 · Curva a 20 km/h",
+    "q": "Um carro percorre uma curva de raio 1,0 km mantendo constante a indicação de 20 km/h no velocímetro. Qual é o ângulo central correspondente ao arco descrito em 36 s?",
+    "steps": [
+      "Δt = 36/3600 = 0,01 h.",
+      "s = vΔt = 20 · 0,01 = 0,2 km.",
+      "Δφ = s/R = 0,2/1,0 = 0,2 rad."
+    ],
+    "check": "A indicação constante do velocímetro fixa o módulo da velocidade, mas sua direção muda na curva.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 11 · Uma volta da bobina · Unicamp-SP 2021",
+    "q": "Ao passar pelo sensor magnético, a velocidade de um ponto de uma fita cassete é v = 0,045 m/s. Depois de passar pelo sensor, a fita é enrolada em uma bobina circular de diâmetro d = 6,0 cm. Em quanto tempo a bobina completa uma volta? a) 0,65 s; b) 1,3 s; c) 4,0 s; d) 0,27 s.",
+    "steps": [
+      "d = 0,060 m. O comprimento de uma volta é πd = 0,060π m.",
+      "T = πd/v = 0,060π/0,045 = 4π/3 s ≈ 4,19 s.",
+      "A alternativa mais próxima é c) 4,0 s. Com a aproximação π = 3, obtém-se 4,0 s."
+    ],
+    "check": "O enunciado fornece o diâmetro: use πd, que equivale a 2πR.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  },
+  {
+    "topic": "Anexo · Movimento circular",
+    "title": "Anexo 12 · Curva S do Senna · Enem Digital 2020",
+    "q": "No Autódromo de Interlagos, um carro de Fórmula 1 realiza a curva S do Senna em trajetória curvilínea. Nesse trecho, o velocímetro indica velocidade constante. Quais são a direção e o sentido da aceleração? a) Radial, para fora da curva. b) Radial, para dentro da curva. c) Aceleração nula, sem direção nem sentido. d) Tangencial, no sentido da velocidade. e) Tangencial, no sentido contrário à velocidade.",
+    "steps": [
+      "O módulo da velocidade permanece constante, portanto a aceleração tangencial é nula.",
+      "A direção da velocidade muda na curva, o que exige aceleração centrípeta, dirigida ao centro local de curvatura.",
+      "Resposta: b) radial, apontada para dentro da curva."
+    ],
+    "check": "Velocidade escalar constante não significa vetor velocidade constante.",
+    "diagram": "circular",
+    "values": {},
+    "exam": false
+  }
+]
