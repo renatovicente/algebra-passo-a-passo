@@ -35,11 +35,13 @@ O progresso é salvo neste navegador. Há filtros por assunto e impressão com o
 
 ## Nova aba: Exponenciais e logaritmos
 
-[Abrir revisão e 50 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/exponenciais-logaritmos.html)
+[Abrir revisão e 70 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/exponenciais-logaritmos.html)
 
-Revisão interativa de bases, incluindo e, crescimento, decaimento, funções inversas e propriedades dos logaritmos. Inclui exercícios de exponencial natural e ln, mantendo o total em 50. Cinco blocos com 10 exercícios cada: funções exponenciais; equações e inequações exponenciais; definição e propriedades dos logaritmos; equações e inequações logarítmicas; aplicações e conexões.
+Revisão interativa de bases, incluindo e, crescimento, decaimento, funções inversas e propriedades dos logaritmos. Inclui exercícios de exponencial natural e ln, nos 50 exercícios de revisão. Cinco blocos com 10 exercícios cada: funções exponenciais; equações e inequações exponenciais; definição e propriedades dos logaritmos; equações e inequações logarítmicas; aplicações e conexões.
 
 Cada exercício tem solução oculta passo a passo, gráfico relacionado à questão e alerta de erro comum. Inclui filtros, progresso independente e impressão com ou sem soluções.
+
+A seção **Lista Função Exponencial** acrescenta as 20 questões do PDF, com gráficos originais e animações interativas nas soluções (reprodução/pausa, marcos anterior/próximo, reinício e controle deslizante). O total da aba é 70 exercícios. Na questão 19, o gabarito foi corrigido para B=30, conforme o gráfico.
 
 ## Novas abas: Termologia e Cinemática
 
