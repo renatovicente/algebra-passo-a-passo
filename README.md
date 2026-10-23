@@ -99,3 +99,11 @@ Para reconstruir a aba e integrar a navegação: `python3 tools/build-units.py`.
 Lista transcrita das duas fotos, com alternativas, gabarito conferido, desenhos vetoriais reconstruídos e 14 soluções visuais interativas. Cada construção permite avançar e voltar entre quatro etapas, reproduzir/pausar, alterar a escala e restaurar os dados do enunciado. Inclui progresso local, filtro de pendentes e impressão das soluções.
 
 Fontes editáveis em `tools/inscricao/`. Para reconstruir a aba e integrar a navegação: `python3 tools/build-inscricao.py`. O gerador reutiliza o KaTeX incorporado ao caderno de exponenciais.
+
+## Recuperação: calor e lançamento horizontal
+
+[Resolver os 8 exercícios](https://renatovicente.github.io/algebra-passo-a-passo/recuperacao-calor-lancamento.html)
+
+Lista de 19 e 21 de outubro de 2026: cinco questões de calor e mudanças de fase e três de lançamento horizontal, com todos os subitens. Inclui curvas interativas de temperatura por calor acumulado, proporções das fases, comparação de quedas e simulação do corredor com velocidade ajustável. Soluções, gabarito, filtros, progresso e impressão incluídos. Na questão 1 é explicitado o calor específico da água usado; na questão 8 são distinguidos o valor-limite de 9 m/s e a interceptação estritamente acima da areia.
+
+Fontes em `tools/rec-fisica/`. Reconstrua com `python3 tools/build-rec-fisica.py`.
