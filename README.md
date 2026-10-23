@@ -91,3 +91,11 @@ As expressões LaTeX são renderizadas pelo [KaTeX](https://katex.org/), versão
 Cinco blocos de 10 problemas: comprimento (km, cm, m), tempo (h, min, s), massa (kg, g), energia (J, cal) e aplicações em física. Inclui soluções passo a passo com 50 esquemas ilustrados dos dados, conversões e resultados, alertas de erros comuns, filtros, progresso local e impressão com ou sem soluções. Os esquemas se adaptam ao celular e à impressão. Nas conversões de energia, cada enunciado informa o fator adotado.
 
 Para reconstruir a aba e integrar a navegação: `python3 tools/build-units.py`. O gerador reutiliza o estilo e as fontes incorporados em `cinematica.html`, sem baixar dependências.
+
+## Inscrição e circunscrição: Lista 9 — 2026
+
+[Resolver as 14 questões](https://renatovicente.github.io/algebra-passo-a-passo/inscricao-circunscricao.html)
+
+Lista transcrita das duas fotos, com alternativas, gabarito conferido, desenhos vetoriais reconstruídos e 14 soluções visuais interativas. Cada construção permite avançar e voltar entre quatro etapas, reproduzir/pausar, alterar a escala e restaurar os dados do enunciado. Inclui progresso local, filtro de pendentes e impressão das soluções.
+
+Fontes editáveis em `tools/inscricao/`. Para reconstruir a aba e integrar a navegação: `python3 tools/build-inscricao.py`. O gerador reutiliza o KaTeX incorporado ao caderno de exponenciais.
