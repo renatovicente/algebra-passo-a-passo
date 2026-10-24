@@ -80,6 +80,16 @@ Abra o site ou baixe `index.html`, `poligonos.html`, `equacoes-segundo-grau.html
 
 GitHub Pages publica o arquivo `index.html` da raiz da branch `main`. Para atualizar o site, altere os arquivos HTML e envie um novo commit.
 
+## Prova: polígonos e exponenciais
+
+[Abrir a prova de matemática](https://renatovicente.github.io/algebra-passo-a-passo/prova-matematica.html)
+
+Cinco questões discursivas de polígonos regulares inscritos e circunscritos, funções, equações e inequações exponenciais. A distribuição de dificuldade foi estimada pelas cinco páginas fornecidas de `provaQ3.pdf`: quatro subitens básicos, cinco intermediários e dois avançados. A matriz de correspondência, as referências aos exercícios dos cadernos e os critérios de correção ficam disponíveis na aba. O PDF original e seus dados pessoais não são publicados.
+
+Cada questão tem um cronômetro independente de 15 minutos, acionado por **Iniciar**. A contagem continua ao trocar de aba ou recarregar a página. Ao esgotar o tempo, aparece um aviso; **Reiniciar** retorna a 15:00 e aguarda um novo início. Inclui gabarito comentado e impressão separada da prova e das soluções.
+
+Fontes editáveis em `tools/prova/`. Reconstrua com `python3 tools/build-exam.py`; o gerador preserva as demais abas e reaproveita o KaTeX já incorporado ao site.
+
 ## Renderização matemática
 
 As expressões LaTeX são renderizadas pelo [KaTeX](https://katex.org/), versão 0.19.0, incorporado ao HTML. Sua licença MIT está em `KATEX-LICENSE.txt`.
