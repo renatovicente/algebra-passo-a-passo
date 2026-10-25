@@ -117,3 +117,15 @@ Fontes editáveis em `tools/inscricao/`. Para reconstruir a aba e integrar a nav
 Lista de 19 e 21 de outubro de 2026: cinco questões de calor e mudanças de fase e três de lançamento horizontal, com todos os subitens. Inclui curvas interativas de temperatura por calor acumulado, proporções das fases, comparação de quedas e simulação do corredor com velocidade ajustável. Soluções, gabarito, filtros, progresso e impressão incluídos. Na questão 1 é explicitado o calor específico da água usado; na questão 8 são distinguidos o valor-limite de 9 m/s e a interceptação estritamente acima da areia.
 
 Fontes em `tools/rec-fisica/`. Reconstrua com `python3 tools/build-rec-fisica.py`.
+
+## Física: aquecimento e prova com soluções animadas
+
+[Abrir os 10 aquecimentos e a prova](https://renatovicente.github.io/algebra-passo-a-passo/prova-fisica.html)
+
+Lançamento horizontal, calorimetria e mudança de estado, sistemas de blocos e tração. Os dez aquecimentos retomam erros de decomposição de forças, sinais, aritmética, leitura de gráficos, variação de temperatura e conversão de unidades observados na prova fornecida. Tração e mudança de fase são preparação para conteúdos novos. A análise pública não inclui nomes, notas, manuscritos ou o PDF original.
+
+A prova tem cinco questões de dois itens, totalizando 5,0 pontos. A distribuição estimada é de dois itens básicos, cinco intermediários e três avançados, com a correspondência disponível em **Erros a revisar**. Cada questão tem seu próprio cronômetro de 15 minutos, iniciado por botão, com prazo preservado ao trocar de aba ou recarregar.
+
+As cinco soluções incluem animações interativas: blocos e forças; trajetória e componentes da velocidade; gráfico de velocidade e altura; troca de calor; aquecimento do gelo e fusão parcial. Há reprodução/pausa, marcos anterior/próximo, reinício, ritmo e controle deslizante. O equilíbrio térmico usa energia transferida, não um tempo físico arbitrário. A impressão substitui as animações por desenhos estáticos no estado final. Aquecimento, prova, gabarito e análise têm impressão separada.
+
+Fontes em `tools/prova-fisica/`. Reconstrua com `python3 tools/build-physics-exam.py`. O gerador reutiliza o KaTeX local e acrescenta a aba à navegação de todas as páginas existentes. Não há dependências de rede para usar esta página depois de baixada. Progresso e cronômetros usam chaves próprias no armazenamento local do navegador.

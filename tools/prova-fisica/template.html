@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Física · Aquecimento e prova | Álgebra, passo a passo</title>
+<meta name="description" content="10 aquecimentos e uma prova de física com 5 questões, cronômetros de 15 minutos e soluções com animações interativas. Lançamento horizontal, calorimetria, mudanças de fase e tração.">
+<style>/* KATEX_CSS */</style><style>/* EXAM_CSS */</style>
+<script>/* KATEX_JS */</script><script>/* AUTORENDER_JS */</script>
+</head><body>
+<header>
+ <div class="masthead"><span>Álgebra, passo a passo</span><span>1º ano · Ensino médio</span></div>
+ <!-- EXAM_NAV -->
+ <div class="hero"><div><p class="eyebrow">Revisar o raciocínio. Enxergar o movimento.</p><h1>Uma nova prova<br>de <em>física.</em></h1><p class="intro">Lançamento horizontal, calorimetria e mudanças de estado, sistemas de blocos e tração.</p></div><aside class="exam-summary"><strong>10 + 5</strong><p>aquecimentos dirigidos<br>e questões de prova</p><span>5,0 pontos · 15 min por questão</span></aside></div>
+ <div class="mode-switch" role="group" aria-label="Etapas de estudo">
+  <button type="button" data-mode="warmups" aria-pressed="true" aria-controls="warmups">1. Aquecimento</button>
+  <button type="button" data-mode="exam" aria-pressed="false" aria-controls="exam">2. Prova</button>
+  <button type="button" data-mode="answers" aria-pressed="false" aria-controls="answers">3. Gabarito animado</button>
+  <button type="button" data-mode="review" aria-pressed="false" aria-controls="review">Erros a revisar</button>
+ </div>
+</header>
+<main>
+ <noscript><p>Ative o JavaScript para carregar os exercícios, os cronômetros e as animações.</p></noscript>
+ <section id="warmups" aria-labelledby="warmups-heading">
+  <div class="section-top"><div><p class="eyebrow">01 / Preparar</p><h2 id="warmups-heading">Dez passos antes da prova.</h2></div><button class="utility" type="button" data-print="warmups">Imprimir aquecimento</button></div>
+  <div class="instructions"><p><strong>Tente no papel antes de abrir cada solução.</strong> Os exercícios retomam os erros identificados na prova de referência e preservam os procedimentos que já estavam corretos. Os aquecimentos 3 e 10 preparam os novos assuntos: tração e mudança de estado.</p><p>Aquecimentos sem limite de tempo. Marque “Entendi e refiz” depois de resolver novamente sem ajuda. Na prova, cada questão terá um cronômetro independente.</p></div>
+  <div class="progress-row"><label for="warmup-progress">Seu progresso: <strong id="progress-label" role="status">0 de 10</strong></label><progress id="warmup-progress" max="10" value="0">0 de 10</progress><span class="small">Salvo neste navegador.</span></div>
+  <p id="progress-storage-note" class="small" hidden>O navegador não permitiu salvar seu progresso. As marcações valem apenas enquanto esta página estiver aberta.</p>
+  <p class="print-only">Aquecimento · tente primeiro; as soluções podem ser consultadas na página.</p>
+  <div id="warmup-questions"></div>
+  <button class="utility next-stage" type="button" data-mode="exam">Ir para a prova →</button>
+ </section>
+ <section id="exam" aria-labelledby="exam-heading" hidden>
+  <div class="section-top"><div><p class="eyebrow">02 / Resolver</p><h2 id="exam-heading">Seu raciocínio, passo a passo.</h2></div><button class="utility" type="button" data-print="exam">Imprimir prova</button></div>
+  <div class="instructions"><p><strong>Resolva no papel, sem consultar as soluções.</strong> Registre as equações, os sinais, as conversões e as unidades. Use apenas os valores de gravidade e constantes informados em cada questão. Cada questão vale 1,0 ponto, dividido igualmente entre os itens a e b.</p><p>Cada cronômetro começa apenas ao clicar em <strong>Iniciar</strong> e continua contando se você trocar de aba ou fechar a página. Ao completar 15 minutos, ele avisa e para em 00:00, sem bloquear a resolução. “Reiniciar” volta a 15:00 e aguarda novo início.</p><p id="timer-storage-note" hidden>Este navegador não permitiu salvar os cronômetros. Eles continuam funcionando enquanto esta página estiver aberta.</p></div>
+  <div class="print-identity">Prova de física · 5,0 pontos<br>Nome: ____________________________________ Turma: __________ Data: ____/____/______</div>
+  <nav class="question-jumps" aria-label="Ir para uma questão"><a href="#questao-1">01 · Tração</a><a href="#questao-2">02 · Lançamento</a><a href="#questao-3">03 · Gráfico</a><a href="#questao-4">04 · Equilíbrio</a><a href="#questao-5">05 · Fusão</a></nav>
+  <div id="exam-questions"></div>
+ </section>
+ <section id="answers" aria-labelledby="answers-heading" hidden>
+  <div class="section-top"><div><p class="eyebrow">03 / Conferir e explorar</p><h2 id="answers-heading">A física em movimento.</h2></div><button class="utility" type="button" data-print="answers">Imprimir gabarito</button></div>
+  <p class="intro">Leia as etapas e use as animações para ligar equações e situações físicas. Reproduza, pause, avance até um marco ou arraste o controle. A reprodução só começa quando você pede.</p>
+  <div id="answer-solutions"></div>
+ </section>
+ <section id="review" aria-labelledby="review-heading" hidden>
+  <div class="section-top"><div><p class="eyebrow">O que a resolução anterior ensina</p><h2 id="review-heading">Erros específicos, prática dirigida.</h2></div><button class="utility" type="button" data-print="review">Imprimir análise</button></div>
+  <div class="instructions"><p>Esta análise se baseia nas contas legíveis da prova anexada. Ela descreve procedimentos, sem atribuir dificuldades gerais à estudante. As referências indicam o item e a página do PDF de seis páginas.</p><p><strong>Acertos a preservar:</strong> decomposição da velocidade e tempo de voo na questão 2; conversão de kJ para J e determinação da massa na questão 4a. Tração e mudança de fase são conteúdos novos nesta preparação, não erros observados no anexo.</p></div>
+  <div id="error-review"></div>
+  <div class="calibration" id="calibracao">
+   <h3>Como a dificuldade foi distribuída</h3>
+   <p>Foram analisadas as seis páginas fornecidas de <strong>prova-fisica-q3.pdf</strong>: uma capa e cinco questões de física, com dois itens de 0,5 ponto por questão. Não foram presumidas questões de outras partes do caderno.</p>
+   <p>A dificuldade foi estimada pela escolha do modelo e pelo número de etapas: <strong>2 itens básicos, 5 intermediários e 3 avançados</strong>, mantidos nas mesmas posições. Trata-se de uma estimativa pedagógica, não de classificação oficial ou equivalência estatística. O novo conteúdo muda parte das exigências: a questão 1 acrescenta tração, a 2 usa lançamento horizontal e a 5 acrescenta fusão parcial.</p>
+   <div class="difficulty-strip"><span>2 básicos</span><span>5 intermediários</span><span>3 avançados</span></div>
+   <div class="table-scroll"><table><caption>Correspondência entre as provas · todos os itens valem 0,5 ponto</caption><thead><tr><th>Item</th><th>Na referência</th><th>Nesta prova</th><th>Nível estimado</th></tr></thead><tbody id="calibration-rows"></tbody></table></div>
+   <p>Questões inéditas adaptadas dos cadernos de cinemática, termologia, conversão de unidades e recuperação de calor e lançamento horizontal. O sistema de blocos amplia a revisão de forças. As fontes e os aquecimentos correspondentes estão ligados em cada solução. Para uma nota de 0 a 10, multiplique o total obtido por 2.</p>
+  </div>
+ </section>
+</main>
+<footer>Material de estudo · Modelos ideais e figuras esquemáticas. Progresso e cronômetros ficam neste navegador. A prova original, os manuscritos e os dados pessoais não integram esta aba.</footer>
+<script>/* EXAM_DATA */</script><script>/* EXAM_ANIMATIONS */</script><script>/* EXAM_APP */</script>
+</body></html>
