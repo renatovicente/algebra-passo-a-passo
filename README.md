@@ -129,3 +129,15 @@ A prova tem cinco questões de dois itens, totalizando 5,0 pontos. A distribuiç
 As cinco soluções incluem animações interativas: blocos e forças; trajetória e componentes da velocidade; gráfico de velocidade e altura; troca de calor; aquecimento do gelo e fusão parcial. Há reprodução/pausa, marcos anterior/próximo, reinício, ritmo e controle deslizante. O equilíbrio térmico usa energia transferida, não um tempo físico arbitrário. A impressão substitui as animações por desenhos estáticos no estado final. Aquecimento, prova, gabarito e análise têm impressão separada.
 
 Fontes em `tools/prova-fisica/`. Reconstrua com `python3 tools/build-physics-exam.py`. O gerador reutiliza o KaTeX local e acrescenta a aba à navegação de todas as páginas existentes. Não há dependências de rede para usar esta página depois de baixada. Progresso e cronômetros usam chaves próprias no armazenamento local do navegador.
+
+## Prova 2: polígonos e exponenciais
+
+[Abrir a segunda prova de matemática](https://renatovicente.github.io/algebra-passo-a-passo/prova-matematica-2.html)
+
+Uma nova rodada com os mesmos assuntos e a mesma matriz da primeira prova: cinco questões, 11 subitens, 5,0 pontos, sendo 2,5 em geometria e 2,5 em álgebra. São quatro itens básicos, cinco intermediários e dois avançados, nas mesmas posições; a equivalência de dificuldade é uma estimativa pedagógica.
+
+Inclui triângulo circunscrito e quadrado inscrito na mesma circunferência, construção do dodecágono a partir do hexágono, raio interno e externo de um hexágono, função exponencial decrescente, inequação racional exponencial, quadrado perfeito e mudança de base. O gabarito apresenta passos, critérios de correção, referências aos cadernos e alertas de erros.
+
+Cada questão tem um cronômetro de 15 minutos iniciado por botão, com persistência e reinício. As contagens são independentes da primeira prova e da prova de física. Há impressão separada de enunciados e soluções. A aba foi acrescentada à navegação das páginas existentes.
+
+Fontes em `tools/prova2/`. Reconstrua com `python3 tools/build-exam-2.py`.
