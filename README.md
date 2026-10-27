@@ -141,3 +141,13 @@ Inclui triângulo circunscrito e quadrado inscrito na mesma circunferência, con
 Cada questão tem um cronômetro de 15 minutos iniciado por botão, com persistência e reinício. As contagens são independentes da primeira prova e da prova de física. Há impressão separada de enunciados e soluções. A aba foi acrescentada à navegação das páginas existentes.
 
 Fontes em `tools/prova2/`. Reconstrua com `python3 tools/build-exam-2.py`.
+
+## Prova 2: lançamento horizontal, calorimetria e tração
+
+[Abrir a segunda prova de física](https://renatovicente.github.io/algebra-passo-a-passo/prova-fisica-2.html)
+
+Cinco questões inéditas com dois itens cada, totalizando 5,0 pontos. Mantém a matriz da primeira prova do site: dois itens básicos, cinco intermediários e três avançados, nas mesmas posições. A dificuldade é uma estimativa pedagógica. Inclui blocos ligados por polia com força oblíqua, lançamento horizontal, gravidade deduzida de um gráfico, equilíbrio térmico entre corpos de capacidades diferentes e fusão parcial do gelo.
+
+Cada questão tem um cronômetro independente de 15 minutos, iniciado por botão, com prazo preservado ao recarregar ou trocar de aba. O armazenamento é separado das outras provas. As cinco soluções têm animações controladas por reprodução/pausa, etapas, ritmo e controle deslizante; os modelos conservam o comprimento do fio, a energia e a massa. O equilíbrio térmico é exibido por fração da energia trocada, sem atribuir um tempo físico arbitrário.
+
+Há impressão separada de prova, gabarito e critérios, com desenhos estáticos no gabarito. Os links remetem aos cadernos e aos dez aquecimentos da primeira prova. Fontes em `tools/prova-fisica2/`; reconstrua com `python3 tools/build-physics-exam-2.py`.
