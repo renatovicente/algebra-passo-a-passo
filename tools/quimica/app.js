@@ -47,7 +47,7 @@
 
   // Absolute deadlines prevent background-tab throttling from extending the limit.
   const duration=15*60*1000;
-  const storageKey='reforcco-prova-quimica-timers-v1';
+  const storageKey='reforcco-prova-quimica-timers-v2';
   let deadlines={};
   function readTimers(){
     try{
