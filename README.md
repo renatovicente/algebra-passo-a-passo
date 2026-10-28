@@ -151,3 +151,8 @@ Cinco questões inéditas com dois itens cada, totalizando 5,0 pontos. Mantém a
 Cada questão tem um cronômetro independente de 15 minutos, iniciado por botão, com prazo preservado ao recarregar ou trocar de aba. O armazenamento é separado das outras provas. As cinco soluções têm animações controladas por reprodução/pausa, etapas, ritmo e controle deslizante; os modelos conservam o comprimento do fio, a energia e a massa. O equilíbrio térmico é exibido por fração da energia trocada, sem atribuir um tempo físico arbitrário.
 
 Há impressão separada de prova, gabarito e critérios, com desenhos estáticos no gabarito. Os links remetem aos cadernos e aos dez aquecimentos da primeira prova. Fontes em `tools/prova-fisica2/`; reconstrua com `python3 tools/build-physics-exam-2.py`.
+
+
+## Simulado de química
+
+`prova-quimica.html`: cinco questões discursivas, 5 pontos, baseadas na circular 148/2026 e nas listas fornecidas. Inclui gabarito por etapas, critérios de correção, impressão e cronômetros independentes. Fontes editáveis em `tools/quimica/`; reconstruir com `python3 tools/build-chemistry.py`. Os documentos e as fotos originais não são publicados.
