@@ -156,3 +156,8 @@ Há impressão separada de prova, gabarito e critérios, com desenhos estáticos
 ## Simulado de química
 
 `prova-quimica.html`: cinco questões discursivas, 5 pontos, baseadas na circular 148/2026 e nas listas fornecidas. Foco nos assuntos da próxima prova: hidrocarbonetos e combustíveis fósseis; síntese, decomposição e simples troca; ácidos, bases e sais. Cálculos de estequiometria, gases e pureza são aplicados a esses assuntos. Inclui gabarito por etapas, critérios de correção, impressão e cronômetros independentes. Fontes editáveis em `tools/quimica/`; reconstruir com `python3 tools/build-chemistry.py`. Os documentos e as fotos originais não são publicados.
+
+
+## Simulado de 32 testes
+
+`testes-32.html`: oito questões objetivas por disciplina (Matemática, Química, Física e Aritmética), com seis atuais e duas de revisão em cada bloco. Cinco alternativas, correção por disciplina, gabarito comentado e impressão. Conteúdo em `tools/testes32/data.json`; reconstruir com `python3 tools/build-tests32.py`. Referências e distribuição constam na própria página.

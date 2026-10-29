@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "subject": "Matemática",
+    "topic": "Equação exponencial",
+    "kind": "Atual",
+    "prompt": "O conjunto solução, em ℝ, de $4^x-10\\cdot2^x+16=0$ é:",
+    "options": [
+      "$\\{1,3\\}$",
+      "$\\{2,8\\}$",
+      "$\\{1,2\\}$",
+      "$\\{-1,3\\}$",
+      "$\\{3\\}$"
+    ],
+    "correct": 0,
+    "steps": [
+      "Faça $t=2^x>0$. A equação vira $t^2-10t+16=0$, isto é, $(t-2)(t-8)=0$.",
+      "$2^x=2$ ou $2^x=8$: $x=1$ ou $x=3$."
+    ],
+    "tip": "Volte de t para x antes de marcar a alternativa."
+  },
+  {
+    "id": 2,
+    "subject": "Matemática",
+    "topic": "Polígonos inscritos",
+    "kind": "Atual",
+    "prompt": "Um hexágono regular está inscrito em uma circunferência de raio 6 cm. Um quadrado está inscrito na mesma circunferência. A razão entre os perímetros do hexágono e do quadrado é:",
+    "options": [
+      "$\\sqrt2$",
+      "$3/2$",
+      "$3\\sqrt2/4$",
+      "$\\sqrt3/2$",
+      "$3\\sqrt2/2$"
+    ],
+    "correct": 2,
+    "steps": [
+      "No hexágono, o lado mede 6 cm; seu perímetro é 36 cm.",
+      "A diagonal do quadrado mede 12 cm, então o lado é $6\\sqrt2$ e o perímetro $24\\sqrt2$. A razão é $36/(24\\sqrt2)=3\\sqrt2/4$."
+    ],
+    "tip": "No quadrado, o raio é metade da diagonal, não do lado."
+  },
+  {
+    "id": 3,
+    "subject": "Matemática",
+    "topic": "Função quadrática",
+    "kind": "Revisão",
+    "prompt": "Uma oficina modela seu lucro diário, em reais, por $L(x)=-2x^2+80x-600$, sendo x o número inteiro de peças vendidas, com $0\\le x\\le40$. O lucro máximo previsto é:",
+    "options": [
+      "R$ 100",
+      "R$ 160",
+      "R$ 180",
+      "R$ 200",
+      "R$ 400"
+    ],
+    "correct": 3,
+    "steps": [
+      "A parábola tem concavidade para baixo. Seu vértice ocorre em $x=-80/(2\\cdot(-2))=20$.",
+      "$L(20)=-800+1600-600=200$. O valor 20 é inteiro e pertence ao domínio."
+    ],
+    "tip": "Diferencie a quantidade de peças do valor do lucro."
+  },
+  {
+    "id": 4,
+    "subject": "Matemática",
+    "topic": "Inequação exponencial",
+    "kind": "Atual",
+    "prompt": "Para quais valores reais de x se verifica $(1/3)^{2x-1}\\ge27$?",
+    "options": [
+      "$x\\ge2$",
+      "$x\\le-1$",
+      "$x\\ge-1$",
+      "$x\\le1$",
+      "$x\\le-2$"
+    ],
+    "correct": 1,
+    "steps": [
+      "$27=(1/3)^{-3}$. Como a base está entre 0 e 1, a ordem entre expoentes se inverte.",
+      "$2x-1\\le-3$, portanto $x\\le-1$."
+    ],
+    "tip": "A base menor que 1 produz uma função decrescente."
+  },
+  {
+    "id": 5,
+    "subject": "Matemática",
+    "topic": "Polígonos circunscritos",
+    "kind": "Atual",
+    "prompt": "Uma circunferência de raio 3 cm está inscrita em um triângulo equilátero. O perímetro desse triângulo é:",
+    "options": [
+      "$6\\sqrt3$ cm",
+      "$9\\sqrt3$ cm",
+      "18 cm",
+      "$12\\sqrt3$ cm",
+      "$18\\sqrt3$ cm"
+    ],
+    "correct": 4,
+    "steps": [
+      "O raio interno é o apótema, um terço da altura: $h=9$ cm.",
+      "$h=\\ell\\sqrt3/2$ dá $\\ell=6\\sqrt3$ cm. O perímetro é $3\\ell=18\\sqrt3$ cm."
+    ],
+    "tip": "O raio dado é interno. Ele não é a distância do centro ao vértice."
+  },
+  {
+    "id": 6,
+    "subject": "Matemática",
+    "topic": "Função exponencial",
+    "kind": "Atual",
+    "prompt": "Uma cultura tem população modelada por $N(t)=500\\cdot2^{t/3}$, com t em horas. Segundo o modelo, o primeiro instante em que a população atinge 8.000 é:",
+    "options": [
+      "6 h",
+      "9 h",
+      "12 h",
+      "15 h",
+      "24 h"
+    ],
+    "correct": 2,
+    "steps": [
+      "$500\\cdot2^{t/3}=8000$ implica $2^{t/3}=16=2^4$.",
+      "$t/3=4$, logo $t=12$ h. A função é crescente."
+    ],
+    "tip": "O fator de crescimento multiplica a população inicial."
+  },
+  {
+    "id": 7,
+    "subject": "Matemática",
+    "topic": "Inequação racional",
+    "kind": "Revisão",
+    "prompt": "O conjunto solução de $\\frac{x+1}{x-2}\\le0$ é:",
+    "options": [
+      "$[-1,2)$",
+      "$(-\\infty,-1]$",
+      "$[-1,2]$",
+      "$(2,+\\infty)$",
+      "$(-1,2)$"
+    ],
+    "correct": 0,
+    "steps": [
+      "O numerador zera em −1; o denominador zera em 2, que é excluído do domínio.",
+      "O quociente é negativo entre −1 e 2. Inclua −1 pela igualdade e exclua 2."
+    ],
+    "tip": "Não multiplique pelo denominador sem conhecer seu sinal."
+  },
+  {
+    "id": 8,
+    "subject": "Matemática",
+    "topic": "Polígonos inscritos e circunscritos",
+    "kind": "Atual",
+    "prompt": "Uma praça circular de raio 4 m contém um quadrado inscrito e é circundada por outro quadrado, circunscrito à mesma circunferência. A diferença entre as áreas dos dois quadrados é:",
+    "options": [
+      "16 m²",
+      "$16\\sqrt2$ m²",
+      "24 m²",
+      "32 m²",
+      "64 m²"
+    ],
+    "correct": 3,
+    "steps": [
+      "O quadrado externo tem lado igual ao diâmetro, 8 m, e área 64 m².",
+      "O interno tem diagonal 8 m; sua área é $8^2/2=32$ m². A diferença é 32 m²."
+    ],
+    "tip": "Diferencie lado e diagonal em cada quadrado."
+  },
+  {
+    "id": 9,
+    "subject": "Química",
+    "topic": "Hidrocarbonetos e combustíveis fósseis",
+    "kind": "Atual",
+    "prompt": "O petróleo é uma mistura formada em processos geológicos. Considere X = CH₃–CH(CH₃)–CH₂–CH₃ e Y = CH₂=CH–CH₂–CH₃. A alternativa que classifica corretamente X e Y e explica o caráter não renovável do petróleo é:",
+    "options": [
+      "X e Y são alcanos; o petróleo não contém carbono.",
+      "X é alceno e Y é alcano; o petróleo se repõe anualmente.",
+      "X e Y são alcenos; o petróleo é produzido na combustão.",
+      "X é alcano e Y é alceno; a reposição do petróleo é muito lenta em relação ao consumo.",
+      "X é cicloalcano e Y é alcino; o petróleo não pode sofrer combustão."
+    ],
+    "correct": 3,
+    "steps": [
+      "X tem apenas ligações simples entre carbonos e cadeia aberta: alcano. Y tem uma dupla: alceno.",
+      "O tempo geológico de formação do petróleo é muito maior que o tempo de consumo humano."
+    ],
+    "tip": "Ramificação não transforma uma cadeia aberta em ciclo."
+  },
+  {
+    "id": 10,
+    "subject": "Química",
+    "topic": "Classificação e fórmulas",
+    "kind": "Atual",
+    "prompt": "Um hidrocarboneto tem cadeia aberta, normal, seis átomos de carbono e uma única ligação dupla. Entre as opções abaixo, um nome possível e sua fórmula molecular são:",
+    "options": [
+      "Hexano — C₆H₁₄",
+      "Hex-2-eno — C₆H₁₂",
+      "Hex-2-ino — C₆H₁₂",
+      "Ciclo-hexano — C₆H₁₀",
+      "Pent-1-eno — C₆H₁₂"
+    ],
+    "correct": 1,
+    "steps": [
+      "Alcenos acíclicos com uma dupla obedecem a CₙH₂ₙ: para n = 6, C₆H₁₂.",
+      "A dupla entre C2 e C3 corresponde a hex-2-eno."
+    ],
+    "tip": "Conte carbonos e hidrogênios separadamente; uma dupla reduz dois H em relação ao alcano."
+  },
+  {
+    "id": 11,
+    "subject": "Química",
+    "topic": "Separação de misturas",
+    "kind": "Revisão",
+    "prompt": "Uma mistura contém areia insolúvel, água e sal totalmente dissolvido. Deseja-se recuperar a areia e também obter água líquida separada do sal. A sequência mais adequada é:",
+    "options": [
+      "Evaporação e peneiração",
+      "Decantação e filtração simples",
+      "Filtração e destilação simples",
+      "Destilação e imantação",
+      "Peneiração e centrifugação"
+    ],
+    "correct": 2,
+    "steps": [
+      "A filtração retém a areia e deixa passar a solução salina.",
+      "Na destilação simples, a água vaporiza e é condensada em outro recipiente; o sal permanece no balão."
+    ],
+    "tip": "Evaporação sem condensação não permite recolher a água líquida."
+  },
+  {
+    "id": 12,
+    "subject": "Química",
+    "topic": "Síntese e decomposição",
+    "kind": "Atual",
+    "prompt": "Considere I. N₂ + H₂ → NH₃ e II. KClO₃ → KCl + O₂. Após o balanceamento com os menores coeficientes inteiros, a classificação de I e a soma dos coeficientes de II são, respectivamente:",
+    "options": [
+      "Síntese e 7",
+      "Decomposição e 7",
+      "Síntese e 5",
+      "Simples troca e 6",
+      "Decomposição e 5"
+    ],
+    "correct": 0,
+    "steps": [
+      "I: N₂ + 3 H₂ → 2 NH₃, síntese, pois os reagentes formam um único composto.",
+      "II: 2 KClO₃ → 2 KCl + 3 O₂. A soma é 2 + 2 + 3 = 7."
+    ],
+    "tip": "Não altere índices das fórmulas ao balancear."
+  },
+  {
+    "id": 13,
+    "subject": "Química",
+    "topic": "Simples troca e estequiometria",
+    "kind": "Atual",
+    "prompt": "Uma amostra de 6,5 g de Zn puro reage completamente com HCl diluído em excesso. Considere Zn > H > Cu na série de reatividade, M(Zn) = 65 g/mol e volume molar gasoso de 22,4 L/mol nas CNTP. O volume de H₂ formado nas CNTP e o comportamento do cobre em HCl diluído são:",
+    "options": [
+      "1,12 L; o cobre libera H₂.",
+      "2,24 L; o cobre libera H₂.",
+      "4,48 L; o cobre não libera H₂.",
+      "22,4 L; o cobre não libera H₂.",
+      "2,24 L; o cobre não libera H₂."
+    ],
+    "correct": 4,
+    "steps": [
+      "Zn + 2 HCl → ZnCl₂ + H₂. A proporção Zn:H₂ é 1:1.",
+      "n(Zn) = 6,5/65 = 0,10 mol; V(H₂) = 0,10×22,4 = 2,24 L. Cu está abaixo de H na série e não o desloca do HCl diluído."
+    ],
+    "tip": "O coeficiente 2 do ácido não duplica a quantidade de H₂."
+  },
+  {
+    "id": 14,
+    "subject": "Química",
+    "topic": "Ácidos, bases e sais",
+    "kind": "Atual",
+    "prompt": "Na neutralização total entre ácido fosfórico e hidróxido de cálcio, forma-se fosfato de cálcio. Dados: Ca²⁺ e PO₄³⁻. A fórmula do sal e a quantidade de base necessária para neutralizar 0,20 mol do ácido são:",
+    "options": [
+      "CaPO₄; 0,20 mol",
+      "Ca₂(PO₄)₃; 0,30 mol",
+      "Ca₃(PO₄)₂; 0,30 mol",
+      "Ca₃(PO₄)₂; 0,20 mol",
+      "Ca₃PO₄; 0,60 mol"
+    ],
+    "correct": 2,
+    "steps": [
+      "Para neutralidade: 3 Ca²⁺ e 2 PO₄³⁻, portanto Ca₃(PO₄)₂.",
+      "2 H₃PO₄ + 3 Ca(OH)₂ → Ca₃(PO₄)₂ + 6 H₂O. A base necessária é 0,20×3/2 = 0,30 mol."
+    ],
+    "tip": "Monte a fórmula pelas cargas e use os coeficientes para a proporção em mol."
+  },
+  {
+    "id": 15,
+    "subject": "Química",
+    "topic": "Estrutura atômica",
+    "kind": "Revisão",
+    "prompt": "Um átomo neutro X tem número atômico 17 e número de massa 35. Ao ganhar um elétron, forma X⁻. Os números de prótons, nêutrons e elétrons desse íon são, respectivamente:",
+    "options": [
+      "17, 18 e 18",
+      "18, 17 e 18",
+      "17, 35 e 16",
+      "17, 18 e 16",
+      "18, 18 e 17"
+    ],
+    "correct": 0,
+    "steps": [
+      "O número atômico fornece 17 prótons. Nêutrons = 35 − 17 = 18.",
+      "O átomo neutro tinha 17 elétrons; ao ganhar um, passa a 18. O núcleo não muda."
+    ],
+    "tip": "A carga negativa indica ganho de elétrons, não de prótons."
+  },
+  {
+    "id": 16,
+    "subject": "Química",
+    "topic": "Funções inorgânicas e indicadores",
+    "kind": "Atual",
+    "prompt": "Um indicador é azul em meio básico, verde próximo da neutralidade e amarelo em meio ácido. Adiciona-se HCl aos poucos a uma solução de NaOH até haver excesso de ácido. A sequência de cores e a função do NaCl formado são:",
+    "options": [
+      "Amarelo → verde → azul; base",
+      "Azul → amarelo → verde; ácido",
+      "Verde → azul → amarelo; sal",
+      "Azul → verde → amarelo; sal",
+      "Azul → verde → amarelo; base"
+    ],
+    "correct": 3,
+    "steps": [
+      "Inicialmente há excesso de NaOH: azul. Na neutralização: verde. Após adicionar HCl em excesso: amarelo.",
+      "HCl + NaOH → NaCl + H₂O. NaCl é um sal."
+    ],
+    "tip": "O sal formado não torna a mistura necessariamente neutra se ainda houver reagente em excesso."
+  },
+  {
+    "id": 17,
+    "subject": "Física",
+    "topic": "Lançamento horizontal",
+    "kind": "Atual",
+    "prompt": "Uma esfera deixa horizontalmente uma bancada de 1,25 m de altura com velocidade de 4,0 m/s. Despreze o ar e use g = 10 m/s². O tempo de queda e o alcance horizontal são:",
+    "options": [
+      "0,25 s e 1,0 m",
+      "0,50 s e 2,0 m",
+      "0,50 s e 4,0 m",
+      "1,0 s e 4,0 m",
+      "1,25 s e 5,0 m"
+    ],
+    "correct": 1,
+    "steps": [
+      "$h=gt^2/2$: $1,25=5t^2$, então $t=0,50$ s.",
+      "$x=v_xt=4,0\\cdot0,50=2,0$ m."
+    ],
+    "tip": "A velocidade inicial vertical é zero; a horizontal não determina o tempo de queda."
+  },
+  {
+    "id": 18,
+    "subject": "Física",
+    "topic": "Calorimetria",
+    "kind": "Atual",
+    "prompt": "Em um recipiente ideal, sem trocas com o ambiente e com capacidade térmica desprezível, misturam-se 200 g de água a 80 °C e 300 g de água a 20 °C. Sem mudança de estado, a temperatura de equilíbrio é:",
+    "options": [
+      "30 °C",
+      "40 °C",
+      "50 °C",
+      "56 °C",
+      "44 °C"
+    ],
+    "correct": 4,
+    "steps": [
+      "Como é a mesma substância, o calor específico cancela: 200(80 − T) = 300(T − 20).",
+      "16000 − 200T = 300T − 6000; T = 22000/500 = 44 °C."
+    ],
+    "tip": "A média simples das temperaturas só serve quando as capacidades térmicas são iguais."
+  },
+  {
+    "id": 19,
+    "subject": "Física",
+    "topic": "Movimento uniforme e unidades",
+    "kind": "Revisão",
+    "prompt": "Dois sensores separados por 0,60 m registram a passagem de um veículo com velocidade constante de 72 km/h. O intervalo entre os registros é:",
+    "options": [
+      "3 ms",
+      "12 ms",
+      "30 ms",
+      "60 ms",
+      "120 ms"
+    ],
+    "correct": 2,
+    "steps": [
+      "72 km/h = 72/3,6 = 20 m/s.",
+      "Δt = 0,60/20 = 0,030 s = 30 ms."
+    ],
+    "tip": "Converta km/h para m/s antes de dividir distância por velocidade."
+  },
+  {
+    "id": 20,
+    "subject": "Física",
+    "topic": "Sistemas de blocos com tração",
+    "kind": "Atual",
+    "prompt": "Dois blocos A (2 kg) e B (3 kg) estão sobre uma mesa horizontal sem atrito, ligados por um fio ideal e esticado. Uma força horizontal de 20 N puxa B, afastando-o de A. A aceleração do conjunto e a tração no fio são:",
+    "options": [
+      "4 m/s² e 8 N",
+      "4 m/s² e 12 N",
+      "10 m/s² e 20 N",
+      "4 m/s² e 20 N",
+      "2 m/s² e 6 N"
+    ],
+    "correct": 0,
+    "steps": [
+      "Para o conjunto: a = 20/(2 + 3) = 4 m/s².",
+      "No bloco A, a única força horizontal é a tração: T = 2×4 = 8 N."
+    ],
+    "tip": "Isole o bloco que não recebe a força externa para calcular a tração."
+  },
+  {
+    "id": 21,
+    "subject": "Física",
+    "topic": "Lançamento horizontal — afirmações",
+    "kind": "Atual",
+    "prompt": "Um objeto é lançado horizontalmente, sem resistência do ar. Avalie: 01. A velocidade horizontal é constante. 02. O tempo de queda depende da velocidade horizontal inicial, para uma mesma altura. 04. A aceleração é vertical e constante. 08. A trajetória é retilínea. A soma dos números das afirmações corretas é:",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5",
+      "13"
+    ],
+    "correct": 3,
+    "steps": [
+      "01 é correta: não há força horizontal. 02 é falsa: a queda depende da altura e de g.",
+      "04 é correta: a aceleração é a gravidade. 08 é falsa: a trajetória é parabólica. Soma = 1 + 4 = 5."
+    ],
+    "tip": "Velocidade horizontal constante não implica trajetória retilínea."
+  },
+  {
+    "id": 22,
+    "subject": "Física",
+    "topic": "Mudança de estado e potência",
+    "kind": "Atual",
+    "prompt": "Um aquecedor ideal de potência 200 W fornece calor a 100 g de gelo inicialmente a 0 °C, sob pressão de 1 atm. Use calor latente de fusão de 334 J/g e calor específico da água de 4,2 J/(g·°C). O tempo para obter toda a água a 20 °C é:",
+    "options": [
+      "42 s",
+      "167 s",
+      "200 s",
+      "250 s",
+      "209 s"
+    ],
+    "correct": 4,
+    "steps": [
+      "Fusão: Q₁ = 100×334 = 33400 J. Aquecimento: Q₂ = 100×4,2×20 = 8400 J.",
+      "Q = 41800 J; t = Q/P = 41800/200 = 209 s."
+    ],
+    "tip": "Primeiro derreta o gelo; só depois aqueça a água."
+  },
+  {
+    "id": 23,
+    "subject": "Física",
+    "topic": "Dinâmica e conversões",
+    "kind": "Revisão",
+    "prompt": "Um carro passa de 36 km/h a 25 m/s em 5,0 s, com aceleração constante. A força resultante durante esse intervalo vale 3.600 N. A massa do carro é:",
+    "options": [
+      "720 kg",
+      "1.200 kg",
+      "1.440 kg",
+      "1.800 kg",
+      "3.600 kg"
+    ],
+    "correct": 1,
+    "steps": [
+      "36 km/h = 10 m/s. a = (25 − 10)/5 = 3 m/s².",
+      "F = ma, logo m = 3600/3 = 1200 kg."
+    ],
+    "tip": "Use a força resultante, não uma força isolada."
+  },
+  {
+    "id": 24,
+    "subject": "Física",
+    "topic": "Blocos, polia e tração",
+    "kind": "Atual",
+    "prompt": "Um bloco A de 3 kg está sobre mesa horizontal sem atrito e ligado por fio ideal a um bloco B de 2 kg suspenso. O fio passa por uma polia ideal na borda da mesa. Use g = 10 m/s². Solto do repouso, o sistema tem aceleração e tração iguais a:",
+    "options": [
+      "10 m/s² e 20 N",
+      "4 m/s² e 20 N",
+      "4 m/s² e 12 N",
+      "5 m/s² e 15 N",
+      "2 m/s² e 6 N"
+    ],
+    "correct": 2,
+    "steps": [
+      "A força externa que move o conjunto é o peso de B: 20 N. a = 20/(3 + 2) = 4 m/s².",
+      "Para A: T = 3×4 = 12 N. Conferindo B: 20 − 12 = 2×4."
+    ],
+    "tip": "O bloco suspenso acelera; a tração não é igual ao seu peso."
+  },
+  {
+    "id": 25,
+    "subject": "Aritmética",
+    "topic": "Definição de logaritmo",
+    "kind": "Atual",
+    "prompt": "O valor de $\\log_2(1/8)+\\log_3 81$ é:",
+    "options": [
+      "−7",
+      "−1",
+      "0",
+      "1",
+      "7"
+    ],
+    "correct": 3,
+    "steps": [
+      "$\\log_2(1/8)=-3$, pois $2^{-3}=1/8$.",
+      "$\\log_3 81=4$. A soma é $-3+4=1$."
+    ],
+    "tip": "Um argumento positivo menor que 1 pode ter logaritmo negativo."
+  },
+  {
+    "id": 26,
+    "subject": "Aritmética",
+    "topic": "Propriedades dos logaritmos",
+    "kind": "Atual",
+    "prompt": "Sabendo que $\\log_{10}2=a$ e $\\log_{10}3=b$, a expressão de $\\log_{10}72$ é:",
+    "options": [
+      "$3a+2b$",
+      "$2a+3b$",
+      "$6ab$",
+      "$a+b+6$",
+      "$(a+b)^2$"
+    ],
+    "correct": 0,
+    "steps": [
+      "$72=2^3\\cdot3^2$.",
+      "O logaritmo do produto é a soma: $\\log72=3\\log2+2\\log3=3a+2b$."
+    ],
+    "tip": "O logaritmo de um produto não é o produto dos logaritmos."
+  },
+  {
+    "id": 27,
+    "subject": "Aritmética",
+    "topic": "PG e algoritmo",
+    "kind": "Revisão",
+    "prompt": "Uma PG positiva tem $a_2=6$ e $a_5=48$. Após encontrar a razão q e o primeiro termo $a_1$, execute: u ← q² + a₁; v ← 2u; w ← v − q. O valor final de w é:",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct": 2,
+    "steps": [
+      "$a_5/a_2=q^3=8$, logo $q=2$ e $a_1=6/2=3$.",
+      "u = 4 + 3 = 7; v = 14; w = 14 − 2 = 12."
+    ],
+    "tip": "A diferença entre os índices 5 e 2 é 3; preserve a ordem do algoritmo."
+  },
+  {
+    "id": 28,
+    "subject": "Aritmética",
+    "topic": "Equação logarítmica e domínio",
+    "kind": "Atual",
+    "prompt": "O conjunto solução real de $\\log_2(x-1)+\\log_2(x-3)=3$ é:",
+    "options": [
+      "$\\{-1,5\\}$",
+      "$\\{5\\}$",
+      "$\\{-1\\}$",
+      "$\\{3\\}$",
+      "$\\{4\\}$"
+    ],
+    "correct": 1,
+    "steps": [
+      "O domínio exige $x>3$. Reunindo os logaritmos: $(x-1)(x-3)=2^3=8$.",
+      "$x^2-4x-5=0$ fornece −1 e 5. Somente 5 pertence ao domínio."
+    ],
+    "tip": "O domínio deve ser conferido mesmo quando as raízes resolvem a equação transformada."
+  },
+  {
+    "id": 29,
+    "subject": "Aritmética",
+    "topic": "Mudança de base",
+    "kind": "Atual",
+    "prompt": "O valor de $\\log_4 8+\\log_8 4$ é:",
+    "options": [
+      "$5/2$",
+      "$3/2$",
+      "$2$",
+      "$7/6$",
+      "$13/6$"
+    ],
+    "correct": 4,
+    "steps": [
+      "$\\log_4 8=3/2$ e $\\log_8 4=2/3$, usando base 2.",
+      "$3/2+2/3=(9+4)/6=13/6$."
+    ],
+    "tip": "Esses logaritmos são recíprocos, mas sua soma não é necessariamente 2."
+  },
+  {
+    "id": 30,
+    "subject": "Aritmética",
+    "topic": "Logaritmos em modelos",
+    "kind": "Atual",
+    "prompt": "Um modelo descreve uma quantidade por $N(t)=100\\cdot3^t$, com t em horas. Adote $\\log_{10}2=0,30$ e $\\log_{10}3=0,48$. O tempo aproximado para atingir N = 2.000 é:",
+    "options": [
+      "1,30 h",
+      "2,08 h",
+      "2,40 h",
+      "2,71 h",
+      "4,17 h"
+    ],
+    "correct": 3,
+    "steps": [
+      "$3^t=20$, então $t=\\log20/\\log3$.",
+      "$\\log20=1+\\log2=1,30$; $t=1,30/0,48\\approx2,71$ h."
+    ],
+    "tip": "Divida pelo valor inicial antes de aplicar o logaritmo."
+  },
+  {
+    "id": 31,
+    "subject": "Aritmética",
+    "topic": "Progressão aritmética",
+    "kind": "Revisão",
+    "prompt": "Em uma PA, $a_3=11$ e $a_8=31$. A soma dos dez primeiros termos é:",
+    "options": [
+      "210",
+      "200",
+      "190",
+      "180",
+      "220"
+    ],
+    "correct": 0,
+    "steps": [
+      "$a_8-a_3=5r=20$, logo $r=4$ e $a_1=11-2\\cdot4=3$.",
+      "$a_{10}=3+9\\cdot4=39$; $S_{10}=10(3+39)/2=210$."
+    ],
+    "tip": "O termo de índice n tem n − 1 incrementos em relação ao primeiro."
+  },
+  {
+    "id": 32,
+    "subject": "Aritmética",
+    "topic": "Logaritmos e algoritmo",
+    "kind": "Atual",
+    "prompt": "Para $x>0$, um algoritmo calcula a ← log₂(x); b ← log₂(4x); c ← a + b. Se a saída c é 8, o valor de x é:",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "32"
+    ],
+    "correct": 2,
+    "steps": [
+      "$b=\\log_2 4+\\log_2 x=2+a$. Portanto, $c=2a+2=8$ e $a=3$.",
+      "$\\log_2 x=3$ implica $x=2^3=8$."
+    ],
+    "tip": "Não confunda o logaritmo calculado com o valor de entrada x."
+  }
+]
