@@ -1,0 +1,1673 @@
+{
+  "exponenciais": {
+    "title": "Exponenciais · prova e treino",
+    "intro": "Uma exponencial transforma somas no expoente em multiplicações no resultado. Bases maiores que 1 crescem; bases entre 0 e 1 decrescem. Ao comparar expoentes, essa direção importa.",
+    "note": "Prova: 4a está correta; em 4b a conta está correta, mas o intervalo final está invertido. Em 4c faltam o ramo negativo e a interseção. Na questão 5, a razão foi invertida e o último item pede uma reta.",
+    "exercises": [
+      {
+        "title": "Original · Questão 4",
+        "prompt": "Faça o que se pede. Resolva em $\\mathbb R$.\na) Resolva $16^{3x-1}>8^{2x+6}$.\nb) Resolva $(1/9)^{3x-1}\\leq(1/3)^{2x}$.\nc) Dada $y=(1/2)^{-x^2+4x}$, encontre os valores reais de $x$ para os quais $1<y<32$.",
+        "answer": "a) $x>11/3$. b) $x\\geq1/2$, ou $[1/2,+\\infty)$. c) $x\\in(-1,0)\\cup(4,5)$.",
+        "steps": [
+          "a) $16=2^4$ e $8=2^3$: $2^{12x-4}>2^{6x+18}$.",
+          "a) A base é maior que 1: $12x-4>6x+18$, logo $6x>22$ e $x>11/3$.",
+          "b) Use $1/9=(1/3)^2$: $(1/3)^{6x-2}\\leq(1/3)^{2x}$.",
+          "b) A base está entre 0 e 1: $6x-2\\geq2x$. Assim, $x\\geq1/2$.",
+          "c) Reescreva $y=2^{x^2-4x}$ e $1=2^0$, $32=2^5$. Logo, $0<x^2-4x<5$.",
+          "c) $x(x-4)>0$ exige $x<0$ ou $x>4$. Os dois fatores também podem ser negativos.",
+          "c) $x^2-4x-5=(x-5)(x+1)<0$ exige $-1<x<5$.",
+          "c) Interseção: $(-1,0)\\cup(4,5)$. Todos os extremos ficam excluídos."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · Questão 5",
+        "prompt": "O gráfico de $f(x)=k\\cdot a^x$ passa por $A=(1,3)$ e $B=(2,\\frac{9}{2})$. Considere $a>0$, $a\\ne1$. Determine:\na) as constantes $a$ e $k$.\nb) $f(0)$ e $f(3)$.\nc) a função polinomial do primeiro grau que passa por A e B.",
+        "answer": "a) $a=\\frac{3}{2}$, $k=2$. b) $f(0)=2$, $f(3)=\\frac{27}{4}$. c) $g(x)=\\frac{3}{2}x+(\\frac{3}{2})$.",
+        "steps": [
+          "a) $ka=3$ e $ka^2=\\frac{9}{2}$. Divida a segunda equação pela primeira: $a=\\frac{9}{2}/3=\\frac{3}{2}$.",
+          "a) Então $k=3/\\frac{3}{2}=2$.",
+          "b) $a^0=1$, portanto $f(0)=k=2$.",
+          "b) $f(3)=k a^3=\\frac{27}{4}$.",
+          "c) Escreva $g(x)=mx+b$. A inclinação é $m=(y_B-y_A)/(2-1)=\\frac{3}{2}$.",
+          "c) Use A: $b=y_A-m=\\frac{3}{2}$. Logo $g(x)=\\frac{3}{2}x+(\\frac{3}{2})$."
+        ],
+        "original": true,
+        "figure": "exp"
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "Resolva $4^{3x-2}>8^{x+1}$.",
+        "answer": "$x>7/3$.",
+        "steps": [
+          "$2^{6x-4}>2^{3x+3}$.",
+          "$6x-4>3x+3\\Rightarrow3x>7$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Resolva $(1/27)^{x-2}\\leq(1/3)^{2x+1}$.",
+        "answer": "$x\\geq7$.",
+        "steps": [
+          "$(1/3)^{3x-6}\\leq(1/3)^{2x+1}$.",
+          "A base decresce: $3x-6\\geq2x+1$, logo $x\\geq7$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Resolva $25^{x+2}\\geq125^{x-1}$.",
+        "answer": "$x\\leq7$.",
+        "steps": [
+          "$5^{2x+4}\\geq5^{3x-3}$.",
+          "$2x+4\\geq3x-3\\Rightarrow x\\leq7$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Resolva $(1/8)^{2x+1}<(1/4)^{x+4}$.",
+        "answer": "$x>5/4$.",
+        "steps": [
+          "$(1/2)^{6x+3}<(1/2)^{2x+8}$.",
+          "$6x+3>2x+8\\Rightarrow4x>5$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Dada $y=(1/2)^{-x^2+6x}$, determine $x$ para que $1<y<128$.",
+        "answer": "$(-1,0)\\cup(6,7)$.",
+        "steps": [
+          "$y=2^{x^2-6x}$: $0<x^2-6x<7$.",
+          "$x(x-6)>0$: $x<0$ ou $x>6$.",
+          "$(x+1)(x-7)<0$: $-1<x<7$. Intersecte os conjuntos."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Dada $y=(1/3)^{-x^2+2x}$, resolva $1\\leq y\\leq27$.",
+        "answer": "$[-1,0]\\cup[2,3]$.",
+        "steps": [
+          "$y=3^{x^2-2x}$: $0\\leq x^2-2x\\leq3$.",
+          "$x(x-2)\\geq0$: $x\\leq0$ ou $x\\geq2$.",
+          "$(x+1)(x-3)\\leq0$: $-1\\leq x\\leq3$. Intersecte e inclua os extremos."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "$f(x)=ka^x$ passa por $A=(1,12)$ e $B=(2,36)$. Determine $a,k,f(0),f(3)$ e a função do primeiro grau pelos pontos.",
+        "answer": "$a=3$, $k=4$, $f(0)=4$, $f(3)=108$; $g(x)=24x+(-12)$.",
+        "steps": [
+          "$a=y_B/y_A=36/12=3$. $k=y_A/a=4$.",
+          "$f(0)=k=4$ e $f(3)=ka^3=108$.",
+          "Para a reta, $m=y_B-y_A=24$ e $b=y_A-m=-12$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "$f(x)=ka^x$ passa por $A=(1,4)$ e $B=(2,\\frac{4}{3})$. Determine $a,k,f(0),f(3)$ e a função do primeiro grau pelos pontos.",
+        "answer": "$a=\\frac{1}{3}$, $k=12$, $f(0)=12$, $f(3)=\\frac{4}{9}$; $g(x)=\\frac{-8}{3}x+(\\frac{20}{3})$.",
+        "steps": [
+          "$a=y_B/y_A=\\frac{4}{3}/4=\\frac{1}{3}$. $k=y_A/a=12$.",
+          "$f(0)=k=12$ e $f(3)=ka^3=\\frac{4}{9}$.",
+          "Para a reta, $m=y_B-y_A=\\frac{-8}{3}$ e $b=y_A-m=\\frac{20}{3}$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "$f(x)=ka^x$ passa por $A=(1,\\frac{15}{2})$ e $B=(2,\\frac{45}{4})$. Determine $a,k,f(0),f(3)$ e a função do primeiro grau pelos pontos.",
+        "answer": "$a=\\frac{3}{2}$, $k=5$, $f(0)=5$, $f(3)=\\frac{135}{8}$; $g(x)=\\frac{15}{4}x+(\\frac{15}{4})$.",
+        "steps": [
+          "$a=y_B/y_A=\\frac{45}{4}/\\frac{15}{2}=\\frac{3}{2}$. $k=y_A/a=5$.",
+          "$f(0)=k=5$ e $f(3)=ka^3=\\frac{135}{8}$.",
+          "Para a reta, $m=y_B-y_A=\\frac{15}{4}$ e $b=y_A-m=\\frac{15}{4}$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "$f(x)=ka^x$ passa por $A=(1,3)$ e $B=(2,\\frac{3}{2})$. Determine $a,k,f(0),f(3)$ e a função do primeiro grau pelos pontos.",
+        "answer": "$a=\\frac{1}{2}$, $k=6$, $f(0)=6$, $f(3)=\\frac{3}{4}$; $g(x)=\\frac{-3}{2}x+(\\frac{9}{2})$.",
+        "steps": [
+          "$a=y_B/y_A=\\frac{3}{2}/3=\\frac{1}{2}$. $k=y_A/a=6$.",
+          "$f(0)=k=6$ e $f(3)=ka^3=\\frac{3}{4}$.",
+          "Para a reta, $m=y_B-y_A=\\frac{-3}{2}$ e $b=y_A-m=\\frac{9}{2}$."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Escreva 16 e 8 como potências de 2.",
+        "answer": "$16=2^4$; $8=2^3$.",
+        "steps": [
+          "Multiplique a base 2 quatro ou três vezes."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Qual intervalo representa $x\\geq2$?",
+        "answer": "$[2,+\\infty)$.",
+        "steps": [
+          "Inclua 2 e todos os valores à direita."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "logaritmos": {
+    "title": "Logaritmos · lista da escola",
+    "intro": "Logaritmo responde: qual expoente produz este número? Se $2^3=8$, então $\\log_2 8=3$. Antes de calcular, exija argumento positivo e base positiva diferente de 1.",
+    "note": "14 questões originais. A questão 7 repete β como constante e variável: mostramos a leitura literal e a interpretação compatível com as alternativas. Na questão 10, usamos o modelo fornecido no instante pedido; ele não descreve aumento zero em t=0.",
+    "exercises": [
+      {
+        "title": "Original · lista 1",
+        "prompt": "Resolva em $\\mathbb R$: $\\log_x(x+2)=2$.",
+        "answer": "$x=2$.",
+        "steps": [
+          "Domínio: $x>0$, $x\\ne1$ e $x+2>0$.",
+          "$x^2=x+2\\Rightarrow(x-2)(x+1)=0$. Descarte $-1$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 2",
+        "prompt": "Determine o domínio de $f(x)=\\log_{x-1}(x^2-x-6)$.",
+        "answer": "$(3,+\\infty)$.",
+        "steps": [
+          "Base: $x>1$, $x\\ne2$. Argumento: $(x-3)(x+2)>0$, isto é, $x<-2$ ou $x>3$.",
+          "A interseção é $x>3$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 3",
+        "prompt": "$f(x)=2x^2+(\\log_{1/3}k)x+2$, com $k>0$. Qual o produto dos valores de $k$ para os quais há raiz dupla?",
+        "answer": "$1$ (A).",
+        "steps": [
+          "$\\Delta=(\\log_{1/3}k)^2-16=0$.",
+          "$\\log_{1/3}k=\\pm4$: $k=1/81$ ou $81$. Produto 1."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 4",
+        "prompt": "Na curva $y=\\log x$, há dois retângulos: um de $x=2$ a $x=4$, altura $\\log2$; outro de $x=4$ a $x=6$, altura $\\log4$. Determine a área hachurada.",
+        "answer": "$\\log64$ (E).",
+        "steps": [
+          "$A=2\\log2+2\\log4=2\\log2+4\\log2=6\\log2=\\log64$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 5",
+        "prompt": "A reta $x=k$ intersecta $y=\\log_5x$ e $y=\\log_5(x+4)$ em pontos distantes $1/2$. Escreva $k=p+\\sqrt q$, com $p,q$ inteiros. Determine $p+q$.",
+        "answer": "$6$ (A).",
+        "steps": [
+          "$k>0$. A distância é $\\log_5((k+4)/k)=1/2$.",
+          "$(k+4)/k=\\sqrt5$, então $k=4/(\\sqrt5-1)=1+\\sqrt5$. Logo $p+q=6$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 6",
+        "prompt": "Qual número maior que 1 tem o logaritmo decimal de sua raiz quadrada igual à raiz quadrada de seu logaritmo decimal?",
+        "answer": "$10000$.",
+        "steps": [
+          "Seja $u=\\log x>0$. Então $u/2=\\sqrt u$.",
+          "Eleve ao quadrado: $u^2=4u$. Como $u>0$, $u=4$ e $x=10^4$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 7",
+        "prompt": "Seja $\\beta=\\frac12\\frac{\\log_{10}3}{\\log_{10}3-\\log_{10}7}$. A folha pede o conjunto solução de $3^{\\cos\\beta}\\leq(3/7)^\\beta$ em $[0,2\\pi]$.",
+        "answer": "Com a variável angular corrigida para $x$: $[\\pi/3,5\\pi/3]$ (B). A redação literal não define essa incógnita.",
+        "steps": [
+          "$\\beta\\log(3/7)=\\tfrac12\\log3$, portanto $(3/7)^\\beta=\\sqrt3$.",
+          "A intenção das alternativas é $3^{\\cos x}\\leq\\sqrt3$, ou $\\cos x\\leq1/2$.",
+          "No círculo trigonométrico: $x\\in[\\pi/3,5\\pi/3]$. Literalmente β já é constante negativa (aproximadamente −0,648), fora do intervalo indicado; não há variável livre."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 8",
+        "prompt": "Há um ano, uma cultura tinha 7000 bactérias; hoje tem 420 milhões. O modelo é $f(t)=ke^{at}$, com $t$ em anos. Quantas haverá daqui a 3 anos? A folha fornece $\\ln2=0{,}7$, $\\ln3=1{,}1$, $\\ln10=2{,}3$.",
+        "answer": "$9{,}072\\times10^{22}$ (E).",
+        "steps": [
+          "Escolha $t=0$ na criação. $k=7000$ e $e^a=420000000/7000=60000$.",
+          "Daqui a 3 anos será $t=4$: $7000(60000)^4=9{,}072\\times10^{22}$. Não é necessário aproximar logaritmos."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 9",
+        "prompt": "Chile: magnitude 9,5; Indonésia: 9,3. Dadas $M=\\log A-\\log A_0$ e $\\log E=11{,}8+1{,}5M$, determine $E_{Chile}/E_{Indonésia}$.",
+        "answer": "$10^{0,3}$ (E).",
+        "steps": [
+          "Subtraia os logaritmos: $\\log(E_C/E_I)=1{,}5(9{,}5-9{,}3)=0{,}3$.",
+          "Logo a razão é $10^{0,3}$, aproximadamente 2."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 10",
+        "prompt": "Uma cultura começa com 250 bactérias. O aumento percentual após $t$ minutos é modelado por $B(t)=-30\\log_3(t+21)+150$. Quantas bactérias há ao fim da primeira hora?",
+        "answer": "$325$ (A).",
+        "steps": [
+          "$t=60$; $t+21=81=3^4$. $B(60)=-120+150=30\\%$.",
+          "Quantidade: $250(1+30/100)=325$. O modelo é usado no intervalo proposto; em t=0 ele não fornece aumento zero."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 11",
+        "prompt": "Japão: magnitude 9; China: 7. Se $M=\\frac23\\log(E/E_0)$, relacione as energias $E_1$ (Japão) e $E_2$ (China).",
+        "answer": "$E_1=10^3E_2$ (C).",
+        "steps": [
+          "$9-7=\\frac23\\log(E_1/E_2)$.",
+          "$\\log(E_1/E_2)=3$; a razão é 1000."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 12",
+        "prompt": "A equação $\\log_3x=1+12\\log_{x^2}3$ tem duas raízes reais. Qual o produto?",
+        "answer": "$3$ (D).",
+        "steps": [
+          "Domínio: $x>0$, $x\\ne1$. Faça $u=\\log_3x\\ne0$.",
+          "$\\log_{x^2}3=1/(2u)$. Então $u=1+6/u$, isto é, $(u-3)(u+2)=0$.",
+          "$x=27$ ou $1/9$. Produto 3."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 13",
+        "prompt": "Se $\\log x+\\log x^2+\\log x^3+\\log x^4=-20$, determine $x$.",
+        "answer": "$0{,}01$ (D).",
+        "steps": [
+          "$x>0$. $(1+2+3+4)\\log x=-20$.",
+          "$\\log x=-2$, logo $x=10^{-2}$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Original · lista 14",
+        "prompt": "Resolva $\\log 2^x+\\log(1+2^x)=\\log20$.",
+        "answer": "$x=2$ (B).",
+        "steps": [
+          "Faça $u=2^x>0$. $u(1+u)=20$.",
+          "$(u-4)(u+5)=0$. Descarte $-5$: $2^x=4$, portanto $x=2$."
+        ],
+        "original": true,
+        "figure": null
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "$\\log_x(x+6)=2$.",
+        "answer": "$x=3$.",
+        "steps": [
+          "$x>0,x\\ne1$. $x^2-x-6=0$: raízes 3 e −2. Só 3 é admissível."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Domínio de $\\log_{x-2}(x^2-5x+6)$.",
+        "answer": "$(3,+\\infty)$.",
+        "steps": [
+          "Base exige $x>2,x\\ne3$. Argumento $(x-2)(x-3)>0$. Interseção: $x>3$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "$x^2+(\\log_2k)x+4$ tem raiz dupla. Determine os valores de $k$ e seu produto.",
+        "answer": "$k=16$ ou $1/16$; produto 1.",
+        "steps": [
+          "$\\Delta=(\\log_2k)^2-16=0$. Então $\\log_2k=\\pm4$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Simplifique $3\\log2+\\log8$.",
+        "answer": "$\\log64$.",
+        "steps": [
+          "$\\log8=3\\log2$, portanto a soma é $6\\log2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "A distância vertical entre $\\log_4x$ e $\\log_4(x+6)$ é $1/2$. Ache $x$.",
+        "answer": "$x=6$.",
+        "steps": [
+          "$\\log_4((x+6)/x)=1/2$ exige $(x+6)/x=2$. Logo $x=6>0$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Resolva $\\log\\sqrt x=2\\sqrt{\\log x}$, com $x>1$.",
+        "answer": "$10^{16}$.",
+        "steps": [
+          "$u=\\log x>0$: $u/2=2\\sqrt u$. Dividindo por $\\sqrt u$, $\\sqrt u=4$, $u=16$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Uma população de 200 triplica anualmente. Quantos indivíduos haverá após 4 anos?",
+        "answer": "$16200$.",
+        "steps": [
+          "$N(t)=200\\cdot3^t$. $N(4)=200\\cdot81=16200$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Se $\\log E=C+1{,}5M$, qual a razão de energias para uma diferença de 2 unidades de magnitude?",
+        "answer": "$1000$.",
+        "steps": [
+          "$\\log(E_1/E_2)=1{,}5\\cdot2=3$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Resolva $\\log_2x=2+16\\log_{x^2}2$.",
+        "answer": "$x=16$ ou $1/4$.",
+        "steps": [
+          "$u=\\log_2x\\ne0$. $u=2+8/u\\Rightarrow(u-4)(u+2)=0$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Resolva $\\log3^x+\\log(2+3^x)=\\log15$.",
+        "answer": "$x=1$.",
+        "steps": [
+          "$u=3^x>0$: $u(u+2)=15\\Rightarrow(u-3)(u+5)=0$. $u=3$, $x=1$."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Complete $2^{\\square}=32$.",
+        "answer": "5.",
+        "steps": [
+          "$2^5=32$."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Calcule $3^{-2}$.",
+        "answer": "$1/9$.",
+        "steps": [
+          "Expoente negativo inverte: $3^{-2}=1/3^2$."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Resolva $(x-2)(x+1)>0$.",
+        "answer": "$x<-1$ ou $x>2$.",
+        "steps": [
+          "As raízes dividem a reta em três regiões. Fora delas, os fatores têm o mesmo sinal."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Qual o domínio de $\\sqrt u$ em reais?",
+        "answer": "$u\\geq0$.",
+        "steps": [
+          "O quadrado de um real nunca é negativo."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "areas": {
+    "title": "Áreas · triângulos e quadriláteros",
+    "intro": "Área conta quantos quadradinhos cobrem uma região. Deslocar um triângulo de uma borda para a outra transforma um paralelogramo em retângulo sem alterar sua área. A altura é sempre perpendicular à base.",
+    "note": "20 questões originais, incluindo os quatro subitens da questão 7. A questão 20 contém medidas incompatíveis; a solução identifica a inconsistência e explica a resposta pretendida. As figuras são reconstruções esquemáticas.",
+    "exercises": [
+      {
+        "title": "Original · lista 1",
+        "prompt": "Calcule a área de um triângulo retângulo com hipotenusa 25 cm e um cateto 7 cm.",
+        "answer": "$84\\,cm^2$.",
+        "steps": [
+          "O outro cateto é $\\sqrt{25^2-7^2}=24$.",
+          "$A=7\\cdot24/2=84$."
+        ],
+        "original": true,
+        "figure": "area-1"
+      },
+      {
+        "title": "Original · lista 2",
+        "prompt": "Um losango tem lado 10 cm. A projeção horizontal do lado oblíquo mede 8 cm, conforme a altura traçada fora da base. Calcule a área.",
+        "answer": "$60\\,cm^2$.",
+        "steps": [
+          "$h=\\sqrt{10^2-8^2}=6$.",
+          "$A=10\\cdot6=60$."
+        ],
+        "original": true,
+        "figure": "area-2"
+      },
+      {
+        "title": "Original · lista 3",
+        "prompt": "Um hexágono regular e um quadrado têm o mesmo perímetro. A diagonal do quadrado é $3\\sqrt2$ cm. Calcule a área do hexágono.",
+        "answer": "$6\\sqrt3\\,cm^2$.",
+        "steps": [
+          "O lado do quadrado é 3; perímetro 12. O lado do hexágono é 2.",
+          "O hexágono contém 6 triângulos equiláteros: $A=6\\cdot2^2\\sqrt3/4=6\\sqrt3$."
+        ],
+        "original": true,
+        "figure": "area-3"
+      },
+      {
+        "title": "Original · lista 4",
+        "prompt": "O quadrado ABCD tem lado $x$; M é o ponto médio de BC. E está no prolongamento de CD além de D, com ED=4 cm. A área do triângulo EMC é igual à área do quadrado. Determine $x$.",
+        "answer": "$4/3\\,cm$.",
+        "steps": [
+          "$EC=x+4$ e $CM=x/2$. $A_{EMC}=(x+4)x/4$.",
+          "$(x+4)x/4=x^2$; como $x>0$, $x+4=4x$, $x=4/3$."
+        ],
+        "original": true,
+        "figure": "area-4"
+      },
+      {
+        "title": "Original · lista 5",
+        "prompt": "No trapézio ABCD, $AB=5$ cm e $DC=4$ cm são paralelos. O triângulo BCD tem área $6\\,cm^2$. Calcule a área do trapézio.",
+        "answer": "$13{,}5\\,cm^2$.",
+        "steps": [
+          "$4h/2=6\\Rightarrow h=3$.",
+          "$A=(5+4)3/2=13{,}5$."
+        ],
+        "original": true,
+        "figure": "area-5"
+      },
+      {
+        "title": "Original · lista 6",
+        "prompt": "O paralelogramo ABCD tem perímetro 22 cm. M é o ponto médio de DC e BM é perpendicular a DC. AD mede 2 cm a mais que DM. Calcule a área.",
+        "answer": "$24\\,cm^2$.",
+        "steps": [
+          "Faça $DM=x$, $DC=2x$, $AD=x+2$. $2(2x+x+2)=22\\Rightarrow x=3$.",
+          "No triângulo BMC, $BC=5$ e $MC=3$, logo $BM=4$. $A=6\\cdot4=24$."
+        ],
+        "original": true,
+        "figure": "area-6"
+      },
+      {
+        "title": "Original · lista 7",
+        "prompt": "Calcule as áreas: a) triângulo equilátero de lado 18 cm; b) triângulo de base 23 cm e altura externa 19 cm; c) isósceles de lados 13,13,24 cm; d) triângulo retângulo de cateto 5 cm e hipotenusa 15 cm.",
+        "answer": "a) $81\\sqrt3$; b) $218{,}5$; c) $60$; d) $25\\sqrt2$, em $cm^2$.",
+        "steps": [
+          "a) $18^2\\sqrt3/4=81\\sqrt3$. b) $23\\cdot19/2=218{,}5$.",
+          "c) A altura divide a base ao meio: $h=\\sqrt{13^2-12^2}=5$; $A=24\\cdot5/2=60$.",
+          "d) O outro cateto é $\\sqrt{15^2-5^2}=10\\sqrt2$; $A=5\\cdot10\\sqrt2/2=25\\sqrt2$."
+        ],
+        "original": true,
+        "figure": "area-7"
+      },
+      {
+        "title": "Original · lista 8",
+        "prompt": "Um retângulo tem perímetro 28 cm e área $48\\,cm^2$. Calcule cada diagonal.",
+        "answer": "$10\\,cm$.",
+        "steps": [
+          "$a+b=14$, $ab=48$.",
+          "$d^2=a^2+b^2=(a+b)^2-2ab=196-96=100$."
+        ],
+        "original": true,
+        "figure": "area-8"
+      },
+      {
+        "title": "Original · lista 9",
+        "prompt": "No hexágono regular ABCDEF, a distância de E à diagonal AC é 3. Determine a área do pentágono ACDEF (o hexágono sem o triângulo ABC).",
+        "answer": "$5\\sqrt3$ (C), com a descrição visível da região.",
+        "steps": [
+          "Use A=(-s,0), C=(s/2,\\sqrt3s/2), E=(s/2,-\\sqrt3s/2). A distância de E à reta AC é $3s/2$. Assim $s=2$.",
+          "$A_{hex}=6\\sqrt3$ e $A_{ABC}=\\sqrt3$. A região ACDEF tem área $5\\sqrt3$.",
+          "O gabarito impresso marca D ($6\\sqrt3$), que corresponde ao hexágono inteiro. Pela região hachurada, que exclui ABC, a resposta é C."
+        ],
+        "original": true,
+        "figure": "area-9"
+      },
+      {
+        "title": "Original · lista 10",
+        "prompt": "Um trapézio retângulo tem bases AB=12 e DC=8, lado BC perpendicular às bases e área 30. Determine o lado oblíquo AD=x.",
+        "answer": "$5$ (C).",
+        "steps": [
+          "$30=(12+8)h/2\\Rightarrow h=3$.",
+          "A projeção do lado oblíquo mede 4: $x=\\sqrt{4^2+3^2}=5$."
+        ],
+        "original": true,
+        "figure": "area-10"
+      },
+      {
+        "title": "Original · lista 11",
+        "prompt": "No triângulo isósceles ABC, AB=6 e a altura relativa a AB é 10. Um retângulo tem lado superior sobre AB e lado inferior paralelo a AB, a uma distância 5 de AB, com os vértices inferiores nos lados AC e BC. Calcule sua área.",
+        "answer": "$15$ (B).",
+        "steps": [
+          "À metade da altura, a largura do triângulo é metade de 6: 3.",
+          "O retângulo mede $3\\times5$; área 15."
+        ],
+        "original": true,
+        "figure": "area-11"
+      },
+      {
+        "title": "Original · lista 12",
+        "prompt": "Um retângulo ABCD tem AB=5 e AD=3. E pertence a CD, com CE=1. F é a interseção de AC e BE. Determine a área de BCF.",
+        "answer": "$5/4$ (B).",
+        "steps": [
+          "Use A=(0,0), B=(5,0), C=(5,3), E=(4,3). AC: $y=3x/5$; BE: $y=15-3x$.",
+          "$3x/5=15-3x\\Rightarrow x_F=25/6$. A distância de F à reta BC é $5-25/6=5/6$.",
+          "$A_{BCF}=3(5/6)/2=5/4$."
+        ],
+        "original": true,
+        "figure": "area-12"
+      },
+      {
+        "title": "Original · lista 13",
+        "prompt": "O retângulo ABCD tem área $153\\,cm^2$. Um quadrado AB′C′D′ ocupa seu canto superior esquerdo. A distância horizontal de B′ ao lado BC é 12 cm; a distância vertical de D′ ao lado DC é 4 cm. Ache o lado do quadrado.",
+        "answer": "$5\\,cm$.",
+        "steps": [
+          "Sendo x o lado, o retângulo mede $(x+12)$ por $(x+4)$.",
+          "$(x+12)(x+4)=153\\Rightarrow x^2+16x-105=0$. Raízes 5 e −21; escolha 5."
+        ],
+        "original": true,
+        "figure": "area-13"
+      },
+      {
+        "title": "Original · lista 14",
+        "prompt": "Calcule a área do paralelogramo ABCD com AB=8 cm, BC=12 cm e ângulo ABC=135°.",
+        "answer": "$48\\sqrt2\\,cm^2$.",
+        "steps": [
+          "$A=ab\\sin\\theta=8\\cdot12\\cdot\\sin135°$.",
+          "$\\sin135°=\\sqrt2/2$; área $48\\sqrt2$."
+        ],
+        "original": true,
+        "figure": "area-14"
+      },
+      {
+        "title": "Original · lista 15",
+        "prompt": "Um terreno é formado pelo retângulo ABED, AB=60 m e AD=20 m, mais o triângulo retângulo BEC, BC=16 m, com A,B,C alinhados. Uma reta perpendicular a AB divide o terreno em duas áreas iguais. Qual sua distância a A?",
+        "answer": "$34\\,m$ (D).",
+        "steps": [
+          "$A=60\\cdot20+16\\cdot20/2=1360$. Metade 680.",
+          "O corte está no retângulo: $20x=680$, logo $x=34<60$."
+        ],
+        "original": true,
+        "figure": "area-15"
+      },
+      {
+        "title": "Original · lista 16",
+        "prompt": "Um terreno triangular tem frentes de 20 m e 45 m nas ruas que formam ângulo de 120°. Determine a área.",
+        "answer": "$225\\sqrt3\\,m^2$ (C).",
+        "steps": [
+          "$A=20\\cdot45\\sin120°/2$.",
+          "$\\sin120°=\\sqrt3/2$; área $225\\sqrt3$."
+        ],
+        "original": true,
+        "figure": "area-16"
+      },
+      {
+        "title": "Original · lista 17",
+        "prompt": "Um octógono regular ABCDEFGH tem lado 2. Calcule a área do quadrilátero BCDG.",
+        "answer": "$4\\sqrt2+4$ (C).",
+        "steps": [
+          "Na orientação da figura: C=(0,0), B=(2,0), D=(-\\sqrt2,\\sqrt2), G=(2,2+2\\sqrt2).",
+          "Divida pela diagonal BD: $A_{BCD}=\\sqrt2$; $A_{BDG}=(2+\\sqrt2)(2+2\\sqrt2)/2=4+3\\sqrt2$.",
+          "Some: $4+4\\sqrt2$."
+        ],
+        "original": true,
+        "figure": "area-17"
+      },
+      {
+        "title": "Original · lista 18",
+        "prompt": "Um trapézio tem bases 34 cm e 17 cm e lados oblíquos 8 cm e 15 cm. Calcule a área.",
+        "answer": "$180\\,cm^2$.",
+        "steps": [
+          "As projeções p e q dos lados oblíquos somam 17. $p^2+h^2=64$ e $q^2+h^2=225$.",
+          "$(q-p)17=161$, então $p=64/17$, $q=225/17$. $h=120/17$.",
+          "$A=(34+17)(120/17)/2=180$."
+        ],
+        "original": true,
+        "figure": "area-18"
+      },
+      {
+        "title": "Original · lista 19",
+        "prompt": "Os triângulos ABC e BDE são congruentes, com ângulos BAC e DBE retos. A,E,B estão alinhados; C está acima de A, D acima de B; F=CB∩ED. AB=12 e AC=5. Calcule a área de EFB.",
+        "answer": "$750/169$ (E).",
+        "steps": [
+          "Use A=(0,0), B=(12,0), C=(0,5). Pela disposição, BE=5, BD=12; E=(7,0), D=(12,12).",
+          "CB: $y=5-5x/12$; ED: $y=12(x-7)/5$. Interseção: $x_F=1308/169$, $y_F=300/169$.",
+          "$A_{EFB}=5(300/169)/2=750/169$."
+        ],
+        "original": true,
+        "figure": "area-19"
+      },
+      {
+        "title": "Original · lista 20",
+        "prompt": "No quadrilátero ACED, os ângulos A e E são retos; D pertence a AB e E pertence a CB. A folha informa AC=12 cm, AB=20 cm, BE=15 cm e CE=10 cm. Calcule a área de ACED.",
+        "answer": "Dados incompatíveis. Desconsiderando CE=10, a resposta pretendida é $52{,}5\\,cm^2$ (D).",
+        "steps": [
+          "Se ABC é retângulo em A, $BC=\\sqrt{12^2+20^2}=4\\sqrt{34}\\ne25=15+10$. Não existe uma figura com todos os dados.",
+          "Com AC=12, AB=20, BE=15 e ângulos retos, BDE e BCA são semelhantes com razão $BE/BA=3/4$.",
+          "$A_{ABC}=120$; $A_{BDE}=120(3/4)^2=67{,}5$. Diferença $52{,}5$. Nesse caso $CE=4\\sqrt{34}-15$, aproximadamente 8,32 cm."
+        ],
+        "original": true,
+        "figure": "area-20"
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "Triângulo retângulo: hipotenusa 13 cm e cateto 5 cm. Área?",
+        "answer": "$30\\,cm^2$.",
+        "steps": [
+          "Outro cateto: $\\sqrt{169-25}=12$. Área $5\\cdot12/2=30$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Losango de lado 13 cm e projeção horizontal do lado 5 cm. Área?",
+        "answer": "$156\\,cm^2$.",
+        "steps": [
+          "$h=\\sqrt{169-25}=12$. $A=13\\cdot12=156$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Hexágono regular com perímetro 18 cm. Área?",
+        "answer": "$27\\sqrt3/2\\,cm^2$.",
+        "steps": [
+          "Lado 3. $A=6\\cdot9\\sqrt3/4=27\\sqrt3/2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Trapézio com bases 7 e 11 cm; o triângulo formado pela base menor e um vértice da maior tem área 21 cm². Área do trapézio?",
+        "answer": "$54\\,cm^2$.",
+        "steps": [
+          "$7h/2=21\\Rightarrow h=6$. $A=(7+11)6/2=54$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Isósceles de lados 10,10,12 cm. Área?",
+        "answer": "$48\\,cm^2$.",
+        "steps": [
+          "$h=\\sqrt{100-36}=8$. $A=12\\cdot8/2=48$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Retângulo: perímetro 34 cm e área 60 cm². Diagonal?",
+        "answer": "$13\\,cm$.",
+        "steps": [
+          "$a+b=17$, $ab=60$. $d^2=289-120=169$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Trapézio retângulo de bases 15 e 9 cm e área 96 cm². Lado oblíquo?",
+        "answer": "$10\\,cm$.",
+        "steps": [
+          "$h=192/24=8$. Projeção 6; lado $\\sqrt{64+36}=10$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Paralelogramo de lados 10 e 8 cm e ângulo de 30°. Área?",
+        "answer": "$40\\,cm^2$.",
+        "steps": [
+          "$A=10\\cdot8\\cdot\\sin30°=40$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Um quadrado de lado x ocupa um canto de um retângulo de lados x+8 e x+3. A área do retângulo é 108 cm². Ache x.",
+        "answer": "$4\\,cm$.",
+        "steps": [
+          "$x^2+11x+24=108$. $(x-4)(x+15)=0$; $x>0$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Um terreno é um retângulo de 40 por 12 m mais um triângulo de base 10 m e altura 12 m em uma extremidade. A que distância da extremidade retangular deve passar um corte perpendicular ao lado de 40 m para dividir a área ao meio?",
+        "answer": "$22{,}5\\,m$.",
+        "steps": [
+          "Área total $480+60=540$. Metade 270. $12x=270\\Rightarrow x=22{,}5$."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Converta $1\\,m^2$ em $cm^2$.",
+        "answer": "$10000\\,cm^2$.",
+        "steps": [
+          "Cada dimensão multiplica por 100; área multiplica por $100^2$."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Catetos 6 e 8: hipotenusa?",
+        "answer": "10.",
+        "steps": [
+          "$c=\\sqrt{36+64}=10$."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Um retângulo 8×5 tem que área?",
+        "answer": "40 unidades quadradas.",
+        "steps": [
+          "Multiplique base por altura."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Um triângulo tem base 8 e altura perpendicular 5. Área?",
+        "answer": "20 unidades quadradas.",
+        "steps": [
+          "Ele ocupa metade do paralelogramo correspondente: 8×5/2."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "circunferencias": {
+    "title": "Geometria · circunferências",
+    "intro": "Ligue os centros e trace alturas: tangências viram somas de raios, e polígonos regulares se dividem em triângulos. Distinguir raio externo e apótema evita escolher a fórmula errada.",
+    "note": "Na questão 1, os resultados são corretos. Na questão 2, AB=AD faz ABD isósceles: os ângulos da base são 75°, não 90°. Na questão 3, 8÷4=2, e não 4; esse erro se propaga para o raio menor.",
+    "exercises": [
+      {
+        "title": "Original · prova 1",
+        "prompt": "Uma circunferência tem raio $5\\sqrt6$ cm. Calcule a) o lado do quadrado inscrito; b) o lado do hexágono regular circunscrito.",
+        "answer": "a) $10\\sqrt3$ cm; b) $10\\sqrt2$ cm.",
+        "steps": [
+          "a) A diagonal do quadrado é $2R$: $l=R\\sqrt2=5\\sqrt{12}=10\\sqrt3$.",
+          "b) O raio é o apótema do hexágono: $R=l\\sqrt3/2$. Logo $l=2R/\\sqrt3=10\\sqrt2$."
+        ],
+        "original": true,
+        "figure": "circle-square"
+      },
+      {
+        "title": "Original · prova 2",
+        "prompt": "ABC é equilátero inscrito em uma circunferência. AD é bissetriz de BAC; D está no interior da circunferência e AB=AD. BD=$\\sqrt2$. Determine a) AB; b) o raio da circunferência. Use $\\sin75°=(\\sqrt2+\\sqrt6)/4$.",
+        "answer": "a) $1+\\sqrt3$; b) $(3+\\sqrt3)/3$.",
+        "steps": [
+          "$\\angle BAD=30°$. Como AB=AD, os outros ângulos de ABD são 75°.",
+          "Lei dos senos: $AB/\\sin75°=\\sqrt2/\\sin30°$. $AB=1+\\sqrt3$.",
+          "No equilátero, $R=AB/\\sqrt3=(3+\\sqrt3)/3$."
+        ],
+        "original": true,
+        "figure": "triangle"
+      },
+      {
+        "title": "Original · prova 3",
+        "prompt": "Um quadrado ABCD de lado 8 cm contém quatro circunferências iguais dispostas em duas linhas e duas colunas, tangentes entre si e aos lados. Uma circunferência central é tangente às quatro. Determine a) o raio maior R; b) o raio central r.",
+        "answer": "$R=2$ cm; $r=2(\\sqrt2-1)$ cm.",
+        "steps": [
+          "Um lado do quadrado contém dois diâmetros: $4R=8$, logo $R=2$.",
+          "A distância do centro do quadrado a um centro maior é $\\sqrt{R^2+R^2}=R\\sqrt2$.",
+          "Pela tangência externa, $R+r=R\\sqrt2$. Então $r=2(\\sqrt2-1)$."
+        ],
+        "original": true,
+        "figure": "four-circles"
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "Uma circunferência tem raio $3\\sqrt6$ cm. Ache o lado do quadrado inscrito e do hexágono regular circunscrito.",
+        "answer": "$6\\sqrt3$ cm e $6\\sqrt2$ cm.",
+        "steps": [
+          "$l_q=R\\sqrt2=3\\sqrt{12}=6\\sqrt3$.",
+          "$l_h=2R/\\sqrt3=6\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Uma circunferência tem raio $4\\sqrt6$ cm. Ache o lado do quadrado inscrito e do hexágono regular circunscrito.",
+        "answer": "$8\\sqrt3$ cm e $8\\sqrt2$ cm.",
+        "steps": [
+          "$l_q=R\\sqrt2=4\\sqrt{12}=8\\sqrt3$.",
+          "$l_h=2R/\\sqrt3=8\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Uma circunferência tem raio $6\\sqrt6$ cm. Ache o lado do quadrado inscrito e do hexágono regular circunscrito.",
+        "answer": "$12\\sqrt3$ cm e $12\\sqrt2$ cm.",
+        "steps": [
+          "$l_q=R\\sqrt2=6\\sqrt{12}=12\\sqrt3$.",
+          "$l_h=2R/\\sqrt3=12\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Repita a configuração de quatro círculos e um central da questão original 3 em um quadrado de lado 12 cm. Ache os dois raios.",
+        "answer": "$R=3$ cm; $r=3(\\sqrt2-1)$ cm.",
+        "steps": [
+          "$R=L/4=3$.",
+          "Os centros formam um triângulo retângulo de catetos R: $R+r=R\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Repita a configuração de quatro círculos e um central da questão original 3 em um quadrado de lado 16 cm. Ache os dois raios.",
+        "answer": "$R=4$ cm; $r=4(\\sqrt2-1)$ cm.",
+        "steps": [
+          "$R=L/4=4$.",
+          "Os centros formam um triângulo retângulo de catetos R: $R+r=R\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Repita a configuração de quatro círculos e um central da questão original 3 em um quadrado de lado 20 cm. Ache os dois raios.",
+        "answer": "$R=5$ cm; $r=5(\\sqrt2-1)$ cm.",
+        "steps": [
+          "$R=L/4=5$.",
+          "Os centros formam um triângulo retângulo de catetos R: $R+r=R\\sqrt2$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Na configuração da questão original 2, substitua BD por $2\\sqrt2$. Determine AB e o raio externo do equilátero.",
+        "answer": "$AB=2(1+\\sqrt3)$; $R=2(3+\\sqrt3)/3$.",
+        "steps": [
+          "Os ângulos de ABD continuam 30°,75°,75°.",
+          "$AB=2(2\\sqrt2)\\sin75°=2(1+\\sqrt3)$. Divida por $\\sqrt3$ para obter R."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Na configuração da questão original 2, substitua BD por $3\\sqrt2$. Determine AB e o raio externo do equilátero.",
+        "answer": "$AB=3(1+\\sqrt3)$; $R=3(3+\\sqrt3)/3$.",
+        "steps": [
+          "Os ângulos de ABD continuam 30°,75°,75°.",
+          "$AB=2(3\\sqrt2)\\sin75°=3(1+\\sqrt3)$. Divida por $\\sqrt3$ para obter R."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Um quadrado inscrito tem lado $6\\sqrt2$ cm. Ache o raio da circunferência e o lado do triângulo equilátero inscrito nela.",
+        "answer": "$R=6$ cm; lado $6\\sqrt3$ cm.",
+        "steps": [
+          "$R=l_q/\\sqrt2=6$.",
+          "$l_t=R\\sqrt3=6\\sqrt3$."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Um hexágono regular circunscrito tem lado 8 cm. Ache o raio da circunferência inscrita e o lado do quadrado inscrito nessa circunferência.",
+        "answer": "$R=4\\sqrt3$ cm; lado $4\\sqrt6$ cm.",
+        "steps": [
+          "$R=8\\sqrt3/2=4\\sqrt3$.",
+          "$l_q=R\\sqrt2=4\\sqrt6$."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Simplifique $\\sqrt{12}$.",
+        "answer": "$2\\sqrt3$.",
+        "steps": [
+          "$\\sqrt{4\\cdot3}=2\\sqrt3$."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Quanto é 8÷4?",
+        "answer": "2.",
+        "steps": [
+          "Confira: 4×2=8."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "calorimetria": {
+    "title": "Calorimetria · curvas e mudanças de fase",
+    "intro": "Calor pode aumentar a temperatura ou mudar o estado físico. Uma curva inclinada pede Q=mcΔT; um patamar pede Q=mL. O eixo Q é acumulado: o calor de uma etapa é a diferença entre suas extremidades.",
+    "note": "Na prova 4a, c=0,8 está correto. Em 4b, é preciso usar 520000−160000, e não 520000. Na prova 5, os dois itens estão corretos.",
+    "exercises": [
+      {
+        "title": "Original · prova 4",
+        "prompt": "Uma amostra de 500 g recebe calor. O gráfico mostra: fim da fusão a 150 °C e Q=40000 cal; início da ebulição a 450 °C e Q=160000 cal; fim da ebulição a Q=520000 cal. Pontos de fusão e ebulição: 150 °C e 450 °C. Calcule a) o calor específico do líquido; b) o calor latente de vaporização.",
+        "answer": "a) $0{,}8\\,cal/(g\\cdot°C)$; b) $720\\,cal/g$.",
+        "steps": [
+          "a) $\\Delta Q=160000-40000=120000$ e $\\Delta T=450-150=300$.",
+          "$c=120000/(500\\cdot300)=0{,}8$.",
+          "b) Só o patamar: $Q_v=520000-160000=360000$. $L_v=360000/500=720$."
+        ],
+        "original": true,
+        "figure": "heat-curve"
+      },
+      {
+        "title": "Original · prova 5",
+        "prompt": "Um bloco de gelo de 200 g sai do freezer a −15 °C, derrete e a água chega à temperatura ambiente. O gráfico indica 21100 cal acumuladas ao final. Use $c_g=0{,}5$, $c_a=1$ em cal/(g·°C) e $L_f=80$ cal/g. Determine a) o calor total até terminar a fusão; b) a temperatura ambiente.",
+        "answer": "a) $17500\\,cal$; b) $18\\,°C$.",
+        "steps": [
+          "Aqueça o gelo: $Q_1=200\\cdot0{,}5\\cdot15=1500$.",
+          "Derreta: $Q_2=200\\cdot80=16000$. Até o fim da fusão: 17500 cal.",
+          "Sobram $21100-17500=3600$ cal. $\\Delta T=3600/(200\\cdot1)=18$ °C."
+        ],
+        "original": true,
+        "figure": "ice"
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "Uma massa de 100 g de gelo a −10 °C recebe 10500 cal até a água atingir o equilíbrio. Use c_g=0,5, c_a=1 cal/(g·°C) e L_f=80 cal/g. Ache o calor até o fim da fusão e a temperatura final.",
+        "answer": "8500 cal e 20 °C.",
+        "steps": [
+          "Aquecer o gelo: 100×0,5×10=500 cal.",
+          "Fundir: 100×80=8000 cal. Soma: 8500 cal.",
+          "Aqueça a água com o restante: (10500−8500)/100=20 °C."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Uma massa de 150 g de gelo a −20 °C recebe 15000 cal até a água atingir o equilíbrio. Use c_g=0,5, c_a=1 cal/(g·°C) e L_f=80 cal/g. Ache o calor até o fim da fusão e a temperatura final.",
+        "answer": "13500 cal e 10 °C.",
+        "steps": [
+          "Aquecer o gelo: 150×0,5×20=1500 cal.",
+          "Fundir: 150×80=12000 cal. Soma: 13500 cal.",
+          "Aqueça a água com o restante: (15000−13500)/150=10 °C."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Uma massa de 250 g de gelo a −8 °C recebe 27000 cal até a água atingir o equilíbrio. Use c_g=0,5, c_a=1 cal/(g·°C) e L_f=80 cal/g. Ache o calor até o fim da fusão e a temperatura final.",
+        "answer": "21000 cal e 24 °C.",
+        "steps": [
+          "Aquecer o gelo: 250×0,5×8=1000 cal.",
+          "Fundir: 250×80=20000 cal. Soma: 21000 cal.",
+          "Aqueça a água com o restante: (27000−21000)/250=24 °C."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Uma massa de 300 g de gelo a −12 °C recebe 30300 cal até a água atingir o equilíbrio. Use c_g=0,5, c_a=1 cal/(g·°C) e L_f=80 cal/g. Ache o calor até o fim da fusão e a temperatura final.",
+        "answer": "25800 cal e 15 °C.",
+        "steps": [
+          "Aquecer o gelo: 300×0,5×12=1800 cal.",
+          "Fundir: 300×80=24000 cal. Soma: 25800 cal.",
+          "Aqueça a água com o restante: (30300−25800)/300=15 °C."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Uma massa de 400 g de gelo a −5 °C recebe 45000 cal até a água atingir o equilíbrio. Use c_g=0,5, c_a=1 cal/(g·°C) e L_f=80 cal/g. Ache o calor até o fim da fusão e a temperatura final.",
+        "answer": "33000 cal e 30 °C.",
+        "steps": [
+          "Aquecer o gelo: 400×0,5×5=1000 cal.",
+          "Fundir: 400×80=32000 cal. Soma: 33000 cal.",
+          "Aqueça a água com o restante: (45000−33000)/400=30 °C."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Uma amostra de 200 g tem trecho líquido de 50 a 150 °C entre Q=10000 e Q=20000 cal. A seguir há patamar até Q=80000 cal. Determine c do líquido e L da mudança de fase.",
+        "answer": "c=0.5 cal/(g·°C); L=300 cal/g.",
+        "steps": [
+          "Calor no trecho líquido: 20000−10000=10000 cal. Variação térmica: 100 °C.",
+          "c=10000/(200×100)=0.5.",
+          "Calor no patamar: 80000−20000=60000 cal. L=60000/200=300."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Uma amostra de 300 g tem trecho líquido de 50 a 150 °C entre Q=10000 e Q=34000 cal. A seguir há patamar até Q=154000 cal. Determine c do líquido e L da mudança de fase.",
+        "answer": "c=0.8 cal/(g·°C); L=400 cal/g.",
+        "steps": [
+          "Calor no trecho líquido: 34000−10000=24000 cal. Variação térmica: 100 °C.",
+          "c=24000/(300×100)=0.8.",
+          "Calor no patamar: 154000−34000=120000 cal. L=120000/300=400."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Uma amostra de 400 g tem trecho líquido de 50 a 150 °C entre Q=10000 e Q=34000 cal. A seguir há patamar até Q=134000 cal. Determine c do líquido e L da mudança de fase.",
+        "answer": "c=0.6 cal/(g·°C); L=250 cal/g.",
+        "steps": [
+          "Calor no trecho líquido: 34000−10000=24000 cal. Variação térmica: 100 °C.",
+          "c=24000/(400×100)=0.6.",
+          "Calor no patamar: 134000−34000=100000 cal. L=100000/400=250."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Uma amostra de 500 g tem trecho líquido de 50 a 150 °C entre Q=10000 e Q=70000 cal. A seguir há patamar até Q=370000 cal. Determine c do líquido e L da mudança de fase.",
+        "answer": "c=1.2 cal/(g·°C); L=600 cal/g.",
+        "steps": [
+          "Calor no trecho líquido: 70000−10000=60000 cal. Variação térmica: 100 °C.",
+          "c=60000/(500×100)=1.2.",
+          "Calor no patamar: 370000−70000=300000 cal. L=300000/500=600."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Uma amostra de 100 g tem trecho líquido de 50 a 150 °C entre Q=10000 e Q=20000 cal. A seguir há patamar até Q=70000 cal. Determine c do líquido e L da mudança de fase.",
+        "answer": "c=1 cal/(g·°C); L=500 cal/g.",
+        "steps": [
+          "Calor no trecho líquido: 20000−10000=10000 cal. Variação térmica: 100 °C.",
+          "c=10000/(100×100)=1.",
+          "Calor no patamar: 70000−20000=50000 cal. L=50000/100=500."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Um gráfico acumulado vai de 400 a 1600 cal em uma etapa. Qual o calor dessa etapa?",
+        "answer": "1200 cal.",
+        "steps": [
+          "Subtraia o início do fim: 1600−400."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "De −15 °C a 0 °C: qual a variação?",
+        "answer": "15 °C.",
+        "steps": [
+          "0−(−15)=15."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "lancamento": {
+    "title": "Lançamento horizontal · prova e treino",
+    "intro": "Dois movimentos acontecem ao mesmo tempo: horizontalmente, a velocidade é constante; verticalmente, a gravidade aumenta a velocidade. O relógio é o mesmo para ambos. A velocidade resultante é a hipotenusa de um triângulo de componentes.",
+    "note": "A questão 2 foi resolvida corretamente. Na questão 3, Lara encontrou o tempo e as componentes, mas faltou concluir a raiz que fornece a velocidade resultante.",
+    "exercises": [
+      {
+        "title": "Original · prova 2",
+        "prompt": "Uma esfera é lançada horizontalmente para ultrapassar um fosso de 4,0 m. A plataforma de chegada está 1,25 m abaixo da primeira. Adote o sentido para baixo positivo, g=10 m/s² e despreze resistência do ar e rotação. Determine a) a velocidade horizontal mínima; b) a velocidade resultante ao tocar a plataforma usando essa velocidade mínima.",
+        "answer": "a) $8\\,m/s$; b) $\\sqrt{89}\\approx9{,}43\\,m/s$.",
+        "steps": [
+          "$h=gt^2/2$: $1{,}25=5t^2$, portanto $t=0{,}5$ s.",
+          "$v_{0,min}=d/t=4/0{,}5=8$ m/s.",
+          "$v_y=gt=5$ m/s. $v=\\sqrt{8^2+5^2}=\\sqrt{89}$ m/s."
+        ],
+        "original": true,
+        "figure": "projectile"
+      },
+      {
+        "title": "Original · prova 3",
+        "prompt": "Um avião em voo horizontal a 3000 m de altitude e 540 km/h solta uma bomba. Ela explode 15 s antes de atingir o solo. Desprezando o ar, determine sua velocidade resultante na explosão. Use g=10 m/s²; a folha fornece $\\sqrt6=2{,}45$ e $\\sqrt{1261}=35{,}5$.",
+        "answer": "Aproximadamente $177{,}5\\,m/s$ com as aproximações da folha.",
+        "steps": [
+          "$v_x=540/3{,}6=150$ m/s. $t_{queda}=\\sqrt{2\\cdot3000/10}=10\\sqrt6\\approx24{,}5$ s.",
+          "$t_{expl}=24{,}5-15=9{,}5$ s; $v_y=95$ m/s.",
+          "$v=\\sqrt{150^2+95^2}=\\sqrt{31525}=5\\sqrt{1261}\\approx177{,}5$ m/s. Com maior precisão desde o início, cerca de 177,53 m/s."
+        ],
+        "original": true,
+        "figure": "projectile"
+      },
+      {
+        "title": "Novo 1",
+        "prompt": "Uma esfera deve cruzar um fosso de 6 m e cair numa plataforma 5 m abaixo. Com g=10 m/s² e sem ar, ache o tempo de queda, a velocidade horizontal mínima e a velocidade resultante na chegada.",
+        "answer": "$t=1$ s; $v_x=6$ m/s; $v=\\sqrt{136}$ m/s.",
+        "steps": [
+          "t=√(2h/g)=√(10/10)=1 s.",
+          "v_x=d/t=6 m/s; v_y=gt=10 m/s.",
+          "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{136}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Uma esfera deve cruzar um fosso de 12 m e cair numa plataforma 20 m abaixo. Com g=10 m/s² e sem ar, ache o tempo de queda, a velocidade horizontal mínima e a velocidade resultante na chegada.",
+        "answer": "$t=2$ s; $v_x=6$ m/s; $v=\\sqrt{436}$ m/s.",
+        "steps": [
+          "t=√(2h/g)=√(40/10)=2 s.",
+          "v_x=d/t=6 m/s; v_y=gt=20 m/s.",
+          "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{436}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Uma esfera deve cruzar um fosso de 3 m e cair numa plataforma 1.25 m abaixo. Com g=10 m/s² e sem ar, ache o tempo de queda, a velocidade horizontal mínima e a velocidade resultante na chegada.",
+        "answer": "$t=0.5$ s; $v_x=6$ m/s; $v=\\sqrt{61}$ m/s.",
+        "steps": [
+          "t=√(2h/g)=√(2.5/10)=0.5 s.",
+          "v_x=d/t=6 m/s; v_y=gt=5 m/s.",
+          "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{61}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Uma esfera deve cruzar um fosso de 24 m e cair numa plataforma 45 m abaixo. Com g=10 m/s² e sem ar, ache o tempo de queda, a velocidade horizontal mínima e a velocidade resultante na chegada.",
+        "answer": "$t=3$ s; $v_x=8$ m/s; $v=\\sqrt{964}$ m/s.",
+        "steps": [
+          "t=√(2h/g)=√(90/10)=3 s.",
+          "v_x=d/t=8 m/s; v_y=gt=30 m/s.",
+          "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{964}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Uma esfera deve cruzar um fosso de 40 m e cair numa plataforma 80 m abaixo. Com g=10 m/s² e sem ar, ache o tempo de queda, a velocidade horizontal mínima e a velocidade resultante na chegada.",
+        "answer": "$t=4$ s; $v_x=10$ m/s; $v=\\sqrt{1700}$ m/s.",
+        "steps": [
+          "t=√(2h/g)=√(160/10)=4 s.",
+          "v_x=d/t=10 m/s; v_y=gt=40 m/s.",
+          "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{1700}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Um pacote é solto de um veículo aéreo horizontal a 500 m e 108 km/h. Qual sua velocidade resultante 4 s antes de atingir o solo? Use g=10 m/s² e despreze o ar.",
+        "answer": "$\\sqrt{4500}\\,m/s$.",
+        "steps": [
+          "v_x=108/3,6=30 m/s. Tempo total=√(2×500/10)=10 s.",
+          "Instante pedido: t=6 s. v_y=10t=60 m/s.",
+          "$v=\\sqrt{30^2+60^2}=\\sqrt{4500}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Um pacote é solto de um veículo aéreo horizontal a 125 m e 43.2 km/h. Qual sua velocidade resultante 2 s antes de atingir o solo? Use g=10 m/s² e despreze o ar.",
+        "answer": "$\\sqrt{1044}\\,m/s$.",
+        "steps": [
+          "v_x=43.2/3,6=12 m/s. Tempo total=√(2×125/10)=5 s.",
+          "Instante pedido: t=3 s. v_y=10t=30 m/s.",
+          "$v=\\sqrt{12^2+30^2}=\\sqrt{1044}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Um pacote é solto de um veículo aéreo horizontal a 320 m e 144 km/h. Qual sua velocidade resultante 5 s antes de atingir o solo? Use g=10 m/s² e despreze o ar.",
+        "answer": "$\\sqrt{2500}\\,m/s$.",
+        "steps": [
+          "v_x=144/3,6=40 m/s. Tempo total=√(2×320/10)=8 s.",
+          "Instante pedido: t=3 s. v_y=10t=30 m/s.",
+          "$v=\\sqrt{40^2+30^2}=\\sqrt{2500}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Um pacote é solto de um veículo aéreo horizontal a 180 m e 86.4 km/h. Qual sua velocidade resultante 3 s antes de atingir o solo? Use g=10 m/s² e despreze o ar.",
+        "answer": "$\\sqrt{1476}\\,m/s$.",
+        "steps": [
+          "v_x=86.4/3,6=24 m/s. Tempo total=√(2×180/10)=6 s.",
+          "Instante pedido: t=3 s. v_y=10t=30 m/s.",
+          "$v=\\sqrt{24^2+30^2}=\\sqrt{1476}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Um pacote é solto de um veículo aéreo horizontal a 720 m e 180 km/h. Qual sua velocidade resultante 6 s antes de atingir o solo? Use g=10 m/s² e despreze o ar.",
+        "answer": "$\\sqrt{6100}\\,m/s$.",
+        "steps": [
+          "v_x=180/3,6=50 m/s. Tempo total=√(2×720/10)=12 s.",
+          "Instante pedido: t=6 s. v_y=10t=60 m/s.",
+          "$v=\\sqrt{50^2+60^2}=\\sqrt{6100}$ m/s."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Converta 72 km/h para m/s.",
+        "answer": "20 m/s.",
+        "steps": [
+          "Divida por 3,6."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Componentes perpendiculares 6 e 8 m/s. Qual o módulo?",
+        "answer": "10 m/s.",
+        "steps": [
+          "√(6²+8²)=√100."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "dilatacao": {
+    "title": "Dilatação térmica · primeiros passos",
+    "intro": "Ao aquecer um sólido, as distâncias médias entre suas partículas costumam aumentar. Cada dimensão cresce um pouco. Por isso a área varia aproximadamente duas vezes e o volume três vezes a variação relativa do comprimento.",
+    "note": "Os anexos deste assunto são anotações de teoria, sem questões originais. Para sólidos isotrópicos e pequenas dilatações: β≈2α e γ≈3α. Os cálculos usam coeficientes constantes e o modelo de primeira ordem.",
+    "exercises": [
+      {
+        "title": "Novo 1",
+        "prompt": "Uma barra de 2 m tem $\\alpha=1.2e-05\\,°C^{-1}$ e é aquecida em 50 °C. Calcule a dilatação e o comprimento final.",
+        "answer": "ΔL=1.2 mm; L_f=2.0012 m.",
+        "steps": [
+          "ΔL=L₀αΔT=2×1.2e-05×50=0.0012 m.",
+          "Converta para mm multiplicando por 1000. Some ΔL a L₀: 2.0012 m."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Uma barra de 5 m tem $\\alpha=2e-05\\,°C^{-1}$ e é aquecida em 80 °C. Calcule a dilatação e o comprimento final.",
+        "answer": "ΔL=8 mm; L_f=5.008 m.",
+        "steps": [
+          "ΔL=L₀αΔT=5×2e-05×80=0.008 m.",
+          "Converta para mm multiplicando por 1000. Some ΔL a L₀: 5.008 m."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Uma barra de 1.5 m tem $\\alpha=1.6e-05\\,°C^{-1}$ e é aquecida em 100 °C. Calcule a dilatação e o comprimento final.",
+        "answer": "ΔL=2.4 mm; L_f=1.5024 m.",
+        "steps": [
+          "ΔL=L₀αΔT=1.5×1.6e-05×100=0.0024 m.",
+          "Converta para mm multiplicando por 1000. Some ΔL a L₀: 1.5024 m."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Uma barra de 4 m esfria de 100 para 20 °C. Use α=25×10⁻⁶ °C⁻¹. Ache ΔL e L final.",
+        "answer": "ΔL=−8 mm; L final=3,992 m.",
+        "steps": [
+          "ΔT=20−100=−80 °C.",
+          "ΔL=4×25×10⁻⁶×(−80)=−0,008 m. O sinal indica contração. L final=4−0,008."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "Uma barra de 2 m aumenta 3 mm ao aquecer 75 °C. Determine α.",
+        "answer": "α=2×10⁻⁵ °C⁻¹.",
+        "steps": [
+          "3 mm=0,003 m.",
+          "α=ΔL/(L₀ΔT)=0,003/(2×75)=0,00002."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Uma placa isotrópica tem área 0,5 m², α=10⁻⁵ °C⁻¹ e aquece 100 °C. Ache ΔA e A final.",
+        "answer": "ΔA≈0,001 m²; A final≈0,501 m².",
+        "steps": [
+          "β≈2α=2×10⁻⁵ °C⁻¹.",
+          "ΔA=A₀βΔT=0,5×2×10⁻⁵×100=0,001 m². Some à área inicial."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Um bloco isotrópico de 1000 cm³ tem α=2×10⁻⁵ °C⁻¹ e aquece 50 °C. Ache ΔV e V final.",
+        "answer": "ΔV≈3 cm³; V final≈1003 cm³.",
+        "steps": [
+          "γ≈3α=6×10⁻⁵ °C⁻¹.",
+          "ΔV=1000×6×10⁻⁵×50=3 cm³."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Uma chapa com um furo circular é aquecida uniformemente. O furo cresce ou diminui? Se sua área inicial é 20 cm², α=10⁻⁵ °C⁻¹ e ΔT=200 °C, calcule a área final.",
+        "answer": "O furo cresce; A final≈20,08 cm².",
+        "steps": [
+          "Imagine preencher o furo com o mesmo material: essa parte também se expandiria.",
+          "ΔA≈20×2×10⁻⁵×200=0,08 cm²."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Trilhos de 10 m têm α=12×10⁻⁶ °C⁻¹. Qual folga por trilho absorve uma elevação de 40 °C? Considere a expansão longitudinal livre, sem outros efeitos.",
+        "answer": "4,8 mm.",
+        "steps": [
+          "ΔL=10×12×10⁻⁶×40=0,0048 m.",
+          "A folga deve acomodar esse aumento: 4,8 mm por comprimento de trilho."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Duas barras de 1 m, com α₁=10⁻⁵ e α₂=2×10⁻⁵ °C⁻¹, aquecem 100 °C. Qual a diferença de seus comprimentos finais?",
+        "answer": "1 mm.",
+        "steps": [
+          "ΔL₁=0,001 m; ΔL₂=0,002 m.",
+          "Como tinham o mesmo comprimento, a diferença final é 0,001 m=1 mm."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Converta 2,5 mm para metros.",
+        "answer": "0,0025 m.",
+        "steps": [
+          "Divida por 1000."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Temperatura sobe de −10 para 40 °C. Qual ΔT?",
+        "answer": "50 °C.",
+        "steps": [
+          "ΔT=T_final−T_inicial=40−(−10)."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Calcule 2×10⁻⁵×100.",
+        "answer": "0,002.",
+        "steps": [
+          "100=10², então 2×10⁻³."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Uma barra cresce 0,1% de seu comprimento de 3 m. Quanto cresce?",
+        "answer": "0,003 m ou 3 mm.",
+        "steps": [
+          "0,1%=0,001. Multiplique por 3 m."
+        ],
+        "original": false
+      }
+    ]
+  },
+  "kepler": {
+    "title": "Leis de Kepler · órbitas e períodos",
+    "intro": "Uma órbita elíptica tem o astro central em um foco. O planeta passa mais rápido perto desse foco: em tempos iguais, o segmento que liga os dois varre áreas iguais. Para corpos orbitando o mesmo centro, T²/a³ é constante.",
+    "note": "Os anexos trazem anotações da primeira e da segunda leis e apenas o título da terceira. Esta introdução completa a terceira lei. O “raio médio” escolar é o semieixo maior a=(periélio+afélio)/2; não é uma média temporal da distância. Usamos o modelo de dois corpos, com a massa do orbitante desprezível.",
+    "exercises": [
+      {
+        "title": "Novo 1",
+        "prompt": "Uma órbita tem periélio 2 UA e afélio 6 UA. Determine o semieixo maior e a excentricidade.",
+        "answer": "a=4 UA; e=0,5.",
+        "steps": [
+          "a=(2+6)/2=4 UA.",
+          "c=(6−2)/2=2 UA; e=c/a=1/2."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 2",
+        "prompt": "Onde fica o Sol numa órbita elíptica? O planeta mantém velocidade constante?",
+        "answer": "O Sol fica em um foco; a velocidade varia.",
+        "steps": [
+          "A primeira lei posiciona o Sol em um foco, não no centro.",
+          "A segunda lei exige maior rapidez perto do periélio para varrer a mesma área no mesmo tempo."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 3",
+        "prompt": "Um planeta varre 12 unidades de área em 3 dias. Quanto tempo leva para varrer 20 unidades?",
+        "answer": "5 dias.",
+        "steps": [
+          "A velocidade areolar é 12/3=4 unidades por dia.",
+          "Δt=20/4=5 dias."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 4",
+        "prompt": "Na mesma órbita, duas regiões têm áreas 8 e 12. Se a primeira é percorrida em 6 dias, quanto dura a segunda?",
+        "answer": "9 dias.",
+        "steps": [
+          "A₁/Δt₁=A₂/Δt₂.",
+          "Δt₂=6×12/8=9 dias."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 5",
+        "prompt": "No periélio, r_p=1 UA e v_p=30 km/s; no afélio, r_a=3 UA. Determine v_a.",
+        "answer": "10 km/s.",
+        "steps": [
+          "Nos extremos da órbita, a velocidade é perpendicular ao raio: r_pv_p=r_av_a.",
+          "v_a=1×30/3=10 km/s."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 6",
+        "prompt": "Um planeta orbita o Sol com a=4 UA. Usando a Terra como referência (a=1 UA, T=1 ano), ache seu período.",
+        "answer": "8 anos.",
+        "steps": [
+          "T²/a³=1 nas unidades escolhidas.",
+          "T=√(4³)=√64=8 anos."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 7",
+        "prompt": "Um planeta solar tem período de 27 anos. Ache o semieixo maior em UA.",
+        "answer": "9 UA.",
+        "steps": [
+          "a³=T²=729.",
+          "a=∛729=9 UA."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 8",
+        "prompt": "Dois satélites orbitam o mesmo planeta; a₂=4a₁. Qual a razão T₂/T₁?",
+        "answer": "8.",
+        "steps": [
+          "(T₂/T₁)²=(a₂/a₁)³=64.",
+          "T₂/T₁=8."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 9",
+        "prompt": "Um planeta tem periélio 3 UA e afélio 5 UA ao redor do Sol. Calcule a e T.",
+        "answer": "a=4 UA; T=8 anos.",
+        "steps": [
+          "a=(3+5)/2=4 UA.",
+          "T=√(4³)=8 anos, comparando com a Terra."
+        ],
+        "original": false,
+        "figure": null
+      },
+      {
+        "title": "Novo 10",
+        "prompt": "Dois corpos têm a mesma distância orbital característica, mas orbitam estrelas de massas diferentes. É correto igualar T²/a³ dos dois?",
+        "answer": "Não. A constante depende da massa do astro central.",
+        "steps": [
+          "A comparação escolar de Kepler exige o mesmo centro gravitacional.",
+          "No modelo de massa orbitante desprezível, T²/a³=4π²/(GM). Maior massa central dá menor período para o mesmo a."
+        ],
+        "original": false,
+        "figure": null
+      }
+    ],
+    "warmup": [
+      {
+        "title": "Aquecimento",
+        "prompt": "Calcule 4³ e √64.",
+        "answer": "64 e 8.",
+        "steps": [
+          "4×4×4=64; 8²=64."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Resolva a³=729 para a positivo.",
+        "answer": "9.",
+        "steps": [
+          "9³=729."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Uma taxa é 15 unidades em 5 dias. Qual o valor diário?",
+        "answer": "3 unidades por dia.",
+        "steps": [
+          "Divida 15 por 5."
+        ],
+        "original": false
+      },
+      {
+        "title": "Aquecimento",
+        "prompt": "Ache a média aritmética entre 2 e 8.",
+        "answer": "5.",
+        "steps": [
+          "(2+8)/2=5."
+        ],
+        "original": false
+      }
+    ]
+  }
+}
