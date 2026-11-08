@@ -1,0 +1,5 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');const js=fs.readFileSync(__dirname+'/kepler-lesson.js','utf8');new vm.Script(js);const code=js.slice(js.indexOf('function pos('),js.indexOf('const txt='));const c={tau:2*Math.PI};vm.createContext(c);vm.runInContext(code,c);
+for(const e of [0,.0167,.2056,.6,.8])for(const t of [0,.1,.5,.93]){const [x,y]=c.pos(e,t);assert(Math.abs(Math.hypot(x,y)+Math.hypot(x+2*e,y)-2)<1e-10);}
+function area(mid,frac){let pts=[[0,0]];for(let i=0;i<=10000;i++)pts.push(c.pos(.6,mid-frac/2+frac*i/10000));return Math.abs(pts.reduce((s,p,i)=>{let q=pts[(i+1)%pts.length];return s+p[0]*q[1]-q[0]*p[1]},0))/2;}
+for(const frac of [.02,.08,.15]){let a=area(0,frac),b=area(.5,frac);assert(Math.abs(a-b)<1e-7);assert(Math.abs(a/(Math.PI*.8)-frac)<1e-7);}
+const html=fs.readFileSync(__dirname+'/../../novembro-kepler.html','utf8');for(const [,s] of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(s);assert.equal((html.match(/id="k-chart"/g)||[]).length,1);console.log('Elipses: soma focal constante; setores: áreas iguais e fração correta; scripts válidos.');
