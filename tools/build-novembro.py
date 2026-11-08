@@ -20,6 +20,9 @@ for key,t in T.items():
   html=html.replace('</body>','<script>'+(folder/'kepler-lesson.js').read_text()+'</script></body>')
   html=html.replace('<section id="introduction">','<section id="introduction" hidden>')
   html=html.replace('href="#introduction"','href="#kepler-course"')
+ if key=='circunferencias':
+  html=html.replace('</head>','<style>.geo-player svg{display:block;width:100%;height:auto;background:#fffef9;border-radius:10px}.geo-player{margin:18px 0}.geo-player label{display:block;margin:12px 0}.geo-player output{float:right}.geo-visual-details{padding:18px 0;border-bottom:1px solid #d9ded4}.geo-player .current-step{min-height:100px}@media print{.geo-player{display:none}}</style></head>')
+  html=html.replace('</body>','<script>'+(folder/'circles.js').read_text()+'</script></body>')
  (root/f'novembro-{key}.html').write_text(html)
 for p in root.glob('*.html'):
  def update(m):
