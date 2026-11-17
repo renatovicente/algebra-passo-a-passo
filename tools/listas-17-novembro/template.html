@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{DESCRIPTION}}"><link rel="icon" href="data:,">
+<title>{{TITLE}} · Álgebra, passo a passo</title>
+<style>/* KATEX_CSS */</style><style>/* PAGE_CSS */</style>
+<script>/* KATEX_JS */</script><script>/* AUTORENDER_JS */</script>
+</head>
+<body data-progress-key="{{SLUG}}-v1">
+<a class="skip" href="#main">Ir ao conteúdo</a>
+<header>
+<div class="masthead"><strong>Álgebra, passo a passo</strong><span>1º ano · Ensino médio</span></div>
+<details class="all-notebooks"><summary>Todos os cadernos do site</summary><!-- NOTEBOOK_NAV --></details>
+<!-- LIST_NAV -->
+<div class="hero"><div><p class="eyebrow">{{SUBTITLE}}</p><h1>{{TITLE}}</h1><p class="intro">{{INTRO}}</p></div><aside class="hero-count" aria-label="Conteúdo da lista"><strong>{{COUNT}}</strong><p>exercícios da lista<br>com resolução passo a passo</p><span>Tente no papel. Confira depois.</span></aside></div>
+<nav class="section-nav" aria-label="Seções da lista"><a href="#metodo">Antes de começar</a><a data-jump href="#questoes">Resolver os exercícios</a><a href="#gabarito">Gabarito rápido</a></nav>
+</header>
+<main id="main">
+<section class="guide" id="metodo" aria-labelledby="method-title"><h2 id="method-title">{{GUIDE}}</h2><p>{{GUIDANCE}}</p><div class="formula-grid"><!-- FORMULAS --></div><p class="small">Abra a solução depois de tentar e marque “Entendi e refiz” quando conseguir explicar os passos sem consultar.</p></section>
+<noscript><p>Os enunciados, figuras e soluções estão disponíveis abaixo. Ative JavaScript para formatar as equações em LaTeX, usar os filtros e salvar seu progresso.</p></noscript>
+<p id="math-error" role="alert" hidden>Não foi possível formatar alguma fórmula. Reabra o arquivo HTML completo; o conteúdo permanece disponível.</p>
+<div class="toolbar interactive-tools"><label class="topic-filter" for="topic">Assunto <select id="topic"><option value="all">Todos os assuntos</option><!-- TOPICS --></select></label><button id="clear-filters">Mostrar todos</button></div>
+<div class="progressline interactive-tools"><span id="shown" aria-live="polite"></span><label><input id="pending" type="checkbox">Só pendentes</label><div class="progresswrap"><span id="progresslabel" aria-live="polite"></span><progress id="progress" max="{{COUNT}}" value="0" aria-label="Exercícios concluídos"></progress></div></div>
+<p id="storage-note" class="small" hidden>Não foi possível salvar o progresso neste navegador. As marcações continuam funcionando nesta sessão.</p>
+<section id="questoes" aria-labelledby="questions-heading"><div class="section-heading"><h2 id="questions-heading">Tente, confira, refaça.</h2><p>{{COUNT}} exercícios · numeração original preservada</p></div><!-- JUMPS --><!-- QUESTIONS --></section>
+<p id="empty" hidden>Nenhum exercício neste filtro. Escolha outro assunto ou desmarque “Só pendentes”.</p>
+<details class="answer-key" id="gabarito"><summary>Gabarito rápido · abra depois de tentar</summary><p class="small">Clique no número para abrir a resolução completa. As alternativas foram recalculadas; as marcações nas fotos não foram usadas como justificativa.</p><ul class="key-grid"><!-- ANSWER_KEY --></ul></details>
+<div class="printtools interactive-tools"><button data-print="questions">Imprimir os {{COUNT}} exercícios sem soluções</button><button data-print="answers">Imprimir os {{COUNT}} exercícios com soluções</button></div>
+</main>
+<footer>Lista transcrita das fotos enviadas em 17/11/2026. Figuras reconstruídas para estudo; enunciados explicitam as relações geométricas usadas. Equações renderizadas em LaTeX com <a href="https://katex.org/">KaTeX</a>. Fotos e anotações pessoais não são publicadas. Progresso salvo somente neste navegador · Funciona sem internet.</footer>
+<script>/* PAGE_APP */</script>
+</body>
+</html>

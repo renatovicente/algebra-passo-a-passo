@@ -176,3 +176,17 @@ Fontes em `tools/revisao-logaritmos/`. Para reconstruir e validar:
 python3 tools/revisao-logaritmos/build.py
 node tools/revisao-logaritmos/validate.cjs
 ```
+
+## Listas de 17 de novembro: áreas planas e revisão de matemática
+
+- [Áreas de figuras planas — Lista 11](https://renatovicente.github.io/algebra-passo-a-passo/areas-figuras-planas-lista-11.html): 17 exercícios de círculos, setores, coroas circulares, polígonos e composição de áreas, com 17 figuras redesenhadas.
+- [Revisão de matemática](https://renatovicente.github.io/algebra-passo-a-passo/matematica-revisao-17-novembro.html): 9 exercícios de equações, funções, inequações, exponenciais e logaritmos, com os dois gráficos reconstruídos.
+
+Ambas as abas incluem soluções passo a passo em LaTeX, alternativas, gabarito conferido, filtros por assunto, progresso local e impressão com ou sem soluções. A duplicação de impressão da questão 7 de matemática é explicada na própria solução. As fotos e anotações pessoais não são publicadas.
+
+Fontes em `tools/listas-17-novembro/`. Reconstrução e validação:
+
+```sh
+python3 tools/listas-17-novembro/build.py
+node tools/listas-17-novembro/validate.cjs
+```
