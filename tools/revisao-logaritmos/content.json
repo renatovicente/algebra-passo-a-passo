@@ -1,0 +1,448 @@
+[
+  {
+    "id": "foto-1",
+    "label": "Questão 1",
+    "title": "pH e concentração",
+    "topic": "pH",
+    "kind": "original",
+    "prompt": "O pH de uma solução é calculado por $\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]$, usando o valor numérico da concentração em mol/L. Uma substância tem concentração de íons de hidrogênio de $0{,}0032$ mol/L. Qual é seu pH? Use $\\log 2\\approx0{,}3$.",
+    "steps": [
+      "Sem base indicada, $\\log$ tem base 10. Escreva a concentração como produto: $0{,}0032=32\\cdot10^{-4}=2^5\\cdot10^{-4}$.",
+      "Use as propriedades: $\\log(2^5\\cdot10^{-4})=5\\log2+\\log10^{-4}=5\\log2-4$.",
+      "Substitua a aproximação dada: $\\log(0{,}0032)\\approx5\\cdot0{,}3-4=-2{,}5$.",
+      "Aplique o sinal negativo da fórmula: $\\mathrm{pH}\\approx-(-2{,}5)=2{,}5$. O pH é adimensional.",
+      "Confira a ordem de grandeza: $10^{-3}<0{,}0032<10^{-2}$, então o pH deve estar entre 2 e 3."
+    ],
+    "answer": "$\\mathrm{pH}\\approx2{,}5$.",
+    "pitfall": "O sinal de menos está fora do logaritmo. Não transforme $-\\log c$ em $\\log(-c)$ nem confunda o logaritmo com o seu argumento.",
+    "reference": null
+  },
+  {
+    "id": "foto-2a",
+    "label": "Questão 2a",
+    "title": "Produto, potência e quociente",
+    "topic": "Propriedades",
+    "kind": "original",
+    "prompt": "Sejam $a,b,c$ reais positivos, com $b\\ne1$. Se $\\log_ba=1{,}42$ e $\\log_bc=-0{,}16$, determine $\\log_b\\left(\\dfrac{a^2b}{c}\\right)$.",
+    "steps": [
+      "Separe produto e quociente: $\\log_b(a^2b/c)=\\log_b(a^2)+\\log_bb-\\log_bc$.",
+      "O expoente vira um fator e o logaritmo da própria base vale 1: $2\\log_ba+1-\\log_bc$.",
+      "Substitua os valores com parênteses: $2\\cdot1{,}42+1-(-0{,}16)$.",
+      "Calcule: $2{,}84+1+0{,}16=4$."
+    ],
+    "answer": "$4$.",
+    "pitfall": "$\\log_b(a^2)=2\\log_ba$, e não $(\\log_ba)^2$. O fator $b$ dentro do argumento contribui com $\\log_bb=1$.",
+    "reference": null
+  },
+  {
+    "id": "foto-2b",
+    "label": "Questão 2b",
+    "title": "Uma raiz na base",
+    "topic": "Raízes e decimais",
+    "kind": "original",
+    "prompt": "Sabendo que $A=\\log_{\\sqrt[3]{7}}7+\\log0{,}001$, determine o valor de $A$.",
+    "steps": [
+      "Escreva a base como potência: $\\sqrt[3]{7}=7^{1/3}$.",
+      "Pela definição, $\\log_{7^{1/3}}7=y$ equivale a $(7^{1/3})^y=7^1$. Logo $y/3=1$ e $y=3$.",
+      "Como $0{,}001=10^{-3}$, temos $\\log0{,}001=-3$.",
+      "Some os dois termos: $A=3+(-3)=0$."
+    ],
+    "answer": "$A=0$.",
+    "pitfall": "A raiz está na base do primeiro logaritmo. O índice 3 produz o valor 3, não $1/3$.",
+    "reference": null
+  },
+  {
+    "id": "foto-2c",
+    "label": "Questão 2c",
+    "title": "Base menor que um",
+    "topic": "Mudança de base",
+    "kind": "original",
+    "prompt": "Se $\\log_23=a$ e $\\log_25=b$, determine, em função de $a$ e $b$, o valor de $\\log_{0{,}5}75$.",
+    "steps": [
+      "Fatore o argumento: $75=3\\cdot5^2$.",
+      "Mude para a base 2: $\\log_{0{,}5}75=\\dfrac{\\log_275}{\\log_20{,}5}$.",
+      "No numerador, $\\log_275=\\log_23+2\\log_25=a+2b$.",
+      "No denominador, $0{,}5=2^{-1}$, portanto $\\log_20{,}5=-1$.",
+      "Divida: $(a+2b)/(-1)=-a-2b$. O sinal negativo faz sentido: uma base entre 0 e 1 precisa de expoente negativo para gerar 75."
+    ],
+    "answer": "$-a-2b$.",
+    "pitfall": "Na mudança de base, o logaritmo da base vai no denominador. Dividir por $-1$ troca o sinal de toda a expressão.",
+    "reference": null
+  },
+  {
+    "id": "foto-3",
+    "label": "Questão 3",
+    "title": "Produto dos seis expoentes",
+    "topic": "Produtos de logaritmos",
+    "kind": "original",
+    "prompt": "Sejam $x_1,x_2,x_3,x_4,x_5,x_6$ reais tais que $2^{x_1}=4$, $3^{x_2}=5$, $4^{x_3}=6$, $5^{x_4}=7$, $6^{x_5}=8$ e $7^{x_6}=9$. Calcule $x_1x_2x_3x_4x_5x_6$.",
+    "steps": [
+      "Traduza cada igualdade pela definição: $x_1=\\log_24$, $x_2=\\log_35$, $x_3=\\log_46$, $x_4=\\log_57$, $x_5=\\log_68$ e $x_6=\\log_79$.",
+      "Use uma base comum, por exemplo 10: $P=\\dfrac{\\log4}{\\log2}\\cdot\\dfrac{\\log5}{\\log3}\\cdot\\dfrac{\\log6}{\\log4}\\cdot\\dfrac{\\log7}{\\log5}\\cdot\\dfrac{\\log8}{\\log6}\\cdot\\dfrac{\\log9}{\\log7}$.",
+      "Cancele os fatores iguais e não nulos $\\log4$, $\\log5$, $\\log6$ e $\\log7$. Sobram $P=\\dfrac{\\log8\\cdot\\log9}{\\log2\\cdot\\log3}$.",
+      "Use $8=2^3$ e $9=3^2$: $P=\\dfrac{3\\log2\\cdot2\\log3}{\\log2\\cdot\\log3}=3\\cdot2=6$."
+    ],
+    "answer": "$6$.",
+    "pitfall": "Não há motivo para os expoentes formarem uma progressão geométrica. Aqui, a simplificação ocorre entre fatores de frações após a mudança de base.",
+    "reference": null
+  },
+  {
+    "id": "foto-4a",
+    "label": "Questão 4a",
+    "title": "Uma fração com logaritmos",
+    "topic": "Aproximações e frações",
+    "kind": "original",
+    "prompt": "Considere $\\log2\\approx0{,}3$, $\\log3\\approx0{,}5$ e $\\log5\\approx0{,}7$. Calcule $E=\\dfrac{\\log(\\sqrt[3]{72})\\cdot(\\log4)\\cdot(\\log27)}{(\\log360)\\cdot(\\log16)}$, deixando o resultado obtido com essas aproximações como fração irredutível.",
+    "steps": [
+      "Fatore $72=2^3\\cdot3^2$. Então $\\log(\\sqrt[3]{72})=\\frac13(3\\log2+2\\log3)\\approx\\frac13(0{,}9+1)=\\frac{19}{30}$.",
+      "Calcule os outros fatores do numerador: $\\log4=2\\log2\\approx\\frac35$ e $\\log27=3\\log3\\approx\\frac32$.",
+      "Como $360=2^3\\cdot3^2\\cdot5$, temos $\\log360\\approx0{,}9+1+0{,}7=\\frac{13}{5}$. Além disso, $\\log16=4\\log2\\approx\\frac65$.",
+      "Mantenha os produtos de logaritmos: $E\\approx\\dfrac{\\frac{19}{30}\\cdot\\frac35\\cdot\\frac32}{\\frac{13}{5}\\cdot\\frac65}=\\dfrac{57/100}{78/25}$.",
+      "Divida multiplicando pelo inverso: $\\frac{57}{100}\\cdot\\frac{25}{78}=\\frac{57}{312}=\\frac{19}{104}$. Como $104=2^3\\cdot13$, não há fator comum com 19.",
+      "A fração é exata para os números aproximados fornecidos. Ela não é o valor exato da expressão com logaritmos reais."
+    ],
+    "answer": "$\\dfrac{19}{104}$, usando as aproximações do enunciado.",
+    "pitfall": "$\\log u\\cdot\\log v$ é um produto de números. Não é $\\log(uv)$: esta última expressão corresponde à soma $\\log u+\\log v$.",
+    "reference": null
+  },
+  {
+    "id": "foto-4b",
+    "label": "Questão 4b",
+    "title": "Três bases, uma incógnita",
+    "topic": "Equações",
+    "kind": "original",
+    "prompt": "Seja $x>0$ tal que $\\log_2x+\\log_4x-\\log_8x=1$. Determine $x$, escrevendo o resultado na forma de uma potência.",
+    "steps": [
+      "As bases são potências de 2. Use $\\log_4x=\\frac12\\log_2x$ e $\\log_8x=\\frac13\\log_2x$.",
+      "Faça $t=\\log_2x$. A equação vira $t+\\frac12t-\\frac13t=1$.",
+      "Some os coeficientes com denominador 6: $\\left(\\frac66+\\frac36-\\frac26\\right)t=\\frac76t=1$.",
+      "Logo $t=\\frac67$. Volte à definição: $\\log_2x=\\frac67$ implica $x=2^{6/7}$.",
+      "Verifique: $\\frac67+\\frac37-\\frac27=1$. A potência encontrada é positiva e respeita o domínio."
+    ],
+    "answer": "$x=2^{6/7}$.",
+    "pitfall": "O resultado $6/7$ é o valor de $\\log_2x$. Para encontrar $x$, ainda é preciso aplicar a definição do logaritmo.",
+    "reference": null
+  },
+  {
+    "id": "treino-01",
+    "label": "Treino 01",
+    "title": "Uma concentração menor",
+    "topic": "pH",
+    "kind": "treino",
+    "prompt": "Uma solução tem $[\\mathrm{H_3O^+}]=0{,}0008$ mol/L. Use $\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]$ e $\\log2\\approx0{,}3$ para calcular o pH.",
+    "steps": [
+      "$0{,}0008=8\\cdot10^{-4}=2^3\\cdot10^{-4}$.",
+      "$\\log(0{,}0008)=3\\log2-4\\approx0{,}9-4=-3{,}1$.",
+      "$\\mathrm{pH}\\approx-(-3{,}1)=3{,}1$."
+    ],
+    "answer": "$\\mathrm{pH}\\approx3{,}1$.",
+    "pitfall": "A potência de 10 precisa reproduzir a posição da vírgula: $8\\cdot10^{-4}=0{,}0008$.",
+    "reference": "foto-1"
+  },
+  {
+    "id": "treino-02",
+    "label": "Treino 02",
+    "title": "Concentração e potência de dois",
+    "topic": "pH",
+    "kind": "treino",
+    "prompt": "Calcule o pH de uma solução com $[\\mathrm{H_3O^+}]=0{,}0016$ mol/L. Use $\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]$ e $\\log2\\approx0{,}3$.",
+    "steps": [
+      "$0{,}0016=16\\cdot10^{-4}=2^4\\cdot10^{-4}$.",
+      "$\\log(0{,}0016)=4\\log2-4\\approx1{,}2-4=-2{,}8$.",
+      "$\\mathrm{pH}\\approx2{,}8$."
+    ],
+    "answer": "$\\mathrm{pH}\\approx2{,}8$.",
+    "pitfall": "O expoente 4 multiplica $\\log2$; ele não eleva $0{,}3$ à quarta potência.",
+    "reference": "foto-1"
+  },
+  {
+    "id": "treino-03",
+    "label": "Treino 03",
+    "title": "Mais casas decimais",
+    "topic": "pH",
+    "kind": "treino",
+    "prompt": "Uma solução tem concentração de íons de hidrogênio de $0{,}000064$ mol/L. Use $\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]$ e $\\log2\\approx0{,}3$. Qual é o pH?",
+    "steps": [
+      "$0{,}000064=64\\cdot10^{-6}=2^6\\cdot10^{-6}$.",
+      "$\\log(0{,}000064)=6\\log2-6\\approx1{,}8-6=-4{,}2$.",
+      "$\\mathrm{pH}\\approx4{,}2$. Como a concentração está entre $10^{-5}$ e $10^{-4}$, o pH entre 4 e 5 é coerente."
+    ],
+    "answer": "$\\mathrm{pH}\\approx4{,}2$.",
+    "pitfall": "Conte as casas decimais ao montar a potência de 10 e aplique o sinal negativo só no final.",
+    "reference": "foto-1"
+  },
+  {
+    "id": "treino-04",
+    "label": "Treino 04",
+    "title": "Cubo no numerador",
+    "topic": "Propriedades",
+    "kind": "treino",
+    "prompt": "Para $a,b,c>0$ e $b\\ne1$, sabe-se que $\\log_ba=0{,}8$ e $\\log_bc=-0{,}2$. Calcule $\\log_b(a^3b/c^2)$.",
+    "steps": [
+      "$\\log_b(a^3b/c^2)=3\\log_ba+\\log_bb-2\\log_bc$.",
+      "$3\\cdot0{,}8+1-2\\cdot(-0{,}2)=2{,}4+1+0{,}4$.",
+      "O resultado é $3{,}8$."
+    ],
+    "answer": "$3{,}8$.",
+    "pitfall": "Os expoentes multiplicam os logaritmos. Subtrair um número negativo gera uma soma.",
+    "reference": "foto-2a"
+  },
+  {
+    "id": "treino-05",
+    "label": "Treino 05",
+    "title": "Uma raiz no argumento",
+    "topic": "Propriedades",
+    "kind": "treino",
+    "prompt": "Para $a,b,c>0$ e $b\\ne1$, sejam $\\log_ba=1{,}2$ e $\\log_bc=0{,}4$. Calcule $\\log_b(\\sqrt a/(bc))$.",
+    "steps": [
+      "$\\log_b(\\sqrt a/(bc))=\\frac12\\log_ba-\\log_bb-\\log_bc$.",
+      "$\\frac12\\cdot1{,}2-1-0{,}4=0{,}6-1-0{,}4$.",
+      "O resultado é $-0{,}8$."
+    ],
+    "answer": "$-0{,}8$.",
+    "pitfall": "O denominador inteiro é subtraído: tanto o fator $b$ quanto o fator $c$.",
+    "reference": "foto-2a"
+  },
+  {
+    "id": "treino-06",
+    "label": "Treino 06",
+    "title": "Duas potências e um quociente",
+    "topic": "Propriedades",
+    "kind": "treino",
+    "prompt": "Para $a,b,c>0$ e $b\\ne1$, sejam $\\log_ba=-0{,}3$ e $\\log_bc=0{,}6$. Determine $\\log_b(a^2b^3/c)$.",
+    "steps": [
+      "$\\log_b(a^2b^3/c)=2\\log_ba+3\\log_bb-\\log_bc$.",
+      "$2\\cdot(-0{,}3)+3-0{,}6=-0{,}6+3-0{,}6$.",
+      "O resultado é $1{,}8$."
+    ],
+    "answer": "$1{,}8$.",
+    "pitfall": "$\\log_b(b^3)=3$ para toda base permitida, não apenas para a base 10.",
+    "reference": "foto-2a"
+  },
+  {
+    "id": "treino-07",
+    "label": "Treino 07",
+    "title": "Raiz quarta e decimal",
+    "topic": "Raízes e decimais",
+    "kind": "treino",
+    "prompt": "Calcule $A=\\log_{\\sqrt[4]{5}}25+\\log0{,}0001$.",
+    "steps": [
+      "$\\sqrt[4]{5}=5^{1/4}$ e $25=5^2$. Se $(5^{1/4})^y=5^2$, então $y/4=2$ e $y=8$.",
+      "$\\log0{,}0001=\\log10^{-4}=-4$.",
+      "$A=8-4=4$."
+    ],
+    "answer": "$A=4$.",
+    "pitfall": "Considere o expoente do argumento e o da base: $\\log_{5^{1/4}}5^2=2/(1/4)$.",
+    "reference": "foto-2b"
+  },
+  {
+    "id": "treino-08",
+    "label": "Treino 08",
+    "title": "Raiz cúbica e quadrado",
+    "topic": "Raízes e decimais",
+    "kind": "treino",
+    "prompt": "Determine $B=\\log_{\\sqrt[3]{2}}4+\\log0{,}01$.",
+    "steps": [
+      "$\\log_{2^{1/3}}2^2=2/(1/3)=6$.",
+      "$\\log0{,}01=\\log10^{-2}=-2$.",
+      "$B=6-2=4$."
+    ],
+    "answer": "$B=4$.",
+    "pitfall": "Um número decimal entre 0 e 1 tem logaritmo decimal negativo.",
+    "reference": "foto-2b"
+  },
+  {
+    "id": "treino-09",
+    "label": "Treino 09",
+    "title": "Quarenta e cinco na base um meio",
+    "topic": "Mudança de base",
+    "kind": "treino",
+    "prompt": "Sabendo que $\\log_23=a$ e $\\log_25=b$, escreva $\\log_{1/2}45$ em função de $a$ e $b$.",
+    "steps": [
+      "$45=3^2\\cdot5$, logo $\\log_245=2a+b$.",
+      "$\\log_2(1/2)=-1$. Pela mudança de base, $\\log_{1/2}45=(2a+b)/(-1)$.",
+      "O resultado é $-2a-b$."
+    ],
+    "answer": "$-2a-b$.",
+    "pitfall": "O fator 2 pertence ao logaritmo de 3, pois $45=3^2\\cdot5$.",
+    "reference": "foto-2c"
+  },
+  {
+    "id": "treino-10",
+    "label": "Treino 10",
+    "title": "Uma base igual a um quarto",
+    "topic": "Mudança de base",
+    "kind": "treino",
+    "prompt": "Sejam $\\log_23=a$ e $\\log_25=b$. Escreva $\\log_{1/4}150$ em função de $a$ e $b$.",
+    "steps": [
+      "$150=2\\cdot3\\cdot5^2$, então $\\log_2150=1+a+2b$.",
+      "$1/4=2^{-2}$, logo $\\log_2(1/4)=-2$.",
+      "$\\log_{1/4}150=\\dfrac{1+a+2b}{-2}=-\\dfrac{1+a+2b}{2}$."
+    ],
+    "answer": "$-\\dfrac{1+a+2b}{2}$.",
+    "pitfall": "A base $1/4$ produz o denominador $-2$, não $-1$.",
+    "reference": "foto-2c"
+  },
+  {
+    "id": "treino-11",
+    "label": "Treino 11",
+    "title": "Quociente no argumento",
+    "topic": "Mudança de base",
+    "kind": "treino",
+    "prompt": "Sejam $\\log_32=a$ e $\\log_35=b$. Determine $\\log_{1/3}(20/9)$ em função de $a$ e $b$.",
+    "steps": [
+      "$20/9=2^2\\cdot5/3^2$, logo $\\log_3(20/9)=2a+b-2$.",
+      "$\\log_3(1/3)=-1$. Divida o numerador inteiro por $-1$.",
+      "$\\log_{1/3}(20/9)=-(2a+b-2)=2-2a-b$."
+    ],
+    "answer": "$2-2a-b$.",
+    "pitfall": "Troque também o sinal do termo $-2$ ao dividir a expressão por $-1$.",
+    "reference": "foto-2c"
+  },
+  {
+    "id": "treino-12",
+    "label": "Treino 12",
+    "title": "Uma cadeia de três expoentes",
+    "topic": "Produtos de logaritmos",
+    "kind": "treino",
+    "prompt": "Sejam $2^u=3$, $3^v=5$ e $5^w=16$. Calcule $uvw$.",
+    "steps": [
+      "$u=\\log_23$, $v=\\log_35$ e $w=\\log_516$.",
+      "$uvw=\\dfrac{\\log3}{\\log2}\\cdot\\dfrac{\\log5}{\\log3}\\cdot\\dfrac{\\log16}{\\log5}=\\dfrac{\\log16}{\\log2}$.",
+      "Como $16=2^4$, o produto vale $4$."
+    ],
+    "answer": "$4$.",
+    "pitfall": "Cancele fatores idênticos entre numeradores e denominadores, não argumentos isolados.",
+    "reference": "foto-3"
+  },
+  {
+    "id": "treino-13",
+    "label": "Treino 13",
+    "title": "Quatro elos na cadeia",
+    "topic": "Produtos de logaritmos",
+    "kind": "treino",
+    "prompt": "Sejam $3^u=4$, $4^v=5$, $5^w=6$ e $6^z=81$. Calcule $uvwz$.",
+    "steps": [
+      "Escreva o produto como $\\log_34\\cdot\\log_45\\cdot\\log_56\\cdot\\log_681$.",
+      "Na base 10, os fatores intermediários $\\log4$, $\\log5$ e $\\log6$ se cancelam. Sobra $\\log81/\\log3=\\log_381$.",
+      "Como $81=3^4$, temos $uvwz=4$."
+    ],
+    "answer": "$4$.",
+    "pitfall": "O produto final depende dos extremos da cadeia; não é necessário aproximar cada expoente.",
+    "reference": "foto-3"
+  },
+  {
+    "id": "treino-14",
+    "label": "Treino 14",
+    "title": "Duas cadeias intercaladas",
+    "topic": "Produtos de logaritmos",
+    "kind": "treino",
+    "prompt": "Sejam $2^{x_1}=4$, $3^{x_2}=5$, $4^{x_3}=8$ e $5^{x_4}=27$. Determine $x_1x_2x_3x_4$.",
+    "steps": [
+      "$P=\\dfrac{\\log4}{\\log2}\\cdot\\dfrac{\\log5}{\\log3}\\cdot\\dfrac{\\log8}{\\log4}\\cdot\\dfrac{\\log27}{\\log5}$.",
+      "Cancele $\\log4$ e $\\log5$. Então $P=\\dfrac{\\log8}{\\log2}\\cdot\\dfrac{\\log27}{\\log3}$.",
+      "$P=\\log_28\\cdot\\log_327=3\\cdot3=9$."
+    ],
+    "answer": "$9$.",
+    "pitfall": "As duas cadeias deixam dois quocientes. Não transforme tudo em um único logaritmo sem justificativa.",
+    "reference": "foto-3"
+  },
+  {
+    "id": "treino-15",
+    "label": "Treino 15",
+    "title": "Raiz quadrada no numerador",
+    "topic": "Aproximações e frações",
+    "kind": "treino",
+    "prompt": "Use $\\log2\\approx0{,}3$, $\\log3\\approx0{,}5$ e $\\log5\\approx0{,}7$. Escreva o resultado obtido com esses valores como fração irredutível. Calcule $E=\\dfrac{\\log(\\sqrt{18})\\cdot\\log8}{\\log45\\cdot\\log4}$.",
+    "steps": [
+      "$18=2\\cdot3^2$, então $\\log\\sqrt{18}=\\frac12(\\log2+2\\log3)\\approx\\frac{13}{20}$.",
+      "$\\log8\\approx\\frac9{10}$, $\\log45=2\\log3+\\log5\\approx\\frac{17}{10}$ e $\\log4\\approx\\frac35$.",
+      "$E\\approx\\dfrac{(13/20)(9/10)}{(17/10)(3/5)}=\\dfrac{117/200}{51/50}=\\dfrac{117}{204}=\\dfrac{39}{68}$."
+    ],
+    "answer": "$\\dfrac{39}{68}$, com as aproximações dadas.",
+    "pitfall": "A raiz quadrada introduz um fator $1/2$ no logaritmo de 18.",
+    "reference": "foto-4a"
+  },
+  {
+    "id": "treino-16",
+    "label": "Treino 16",
+    "title": "Um cancelamento depois das contas",
+    "topic": "Aproximações e frações",
+    "kind": "treino",
+    "prompt": "Use $\\log2\\approx0{,}3$, $\\log3\\approx0{,}5$ e $\\log5\\approx0{,}7$. Escreva o resultado obtido com esses valores como fração irredutível. Calcule $F=\\dfrac{\\log(\\sqrt[3]{500})\\cdot\\log9}{\\log50\\cdot\\log8}$.",
+    "steps": [
+      "$500=2^2\\cdot5^3$, então $\\log\\sqrt[3]{500}=\\frac13(2\\log2+3\\log5)\\approx\\frac13(0{,}6+2{,}1)=\\frac9{10}$.",
+      "$\\log9\\approx1$, $\\log50=\\log2+2\\log5\\approx\\frac{17}{10}$ e $\\log8\\approx\\frac9{10}$.",
+      "$F\\approx\\dfrac{(9/10)\\cdot1}{(17/10)(9/10)}=\\dfrac{10}{17}$."
+    ],
+    "answer": "$\\dfrac{10}{17}$, com as aproximações dadas.",
+    "pitfall": "O cancelamento de $9/10$ vale para os fatores numéricos calculados com as aproximações; os logaritmos originais não são iguais.",
+    "reference": "foto-4a"
+  },
+  {
+    "id": "treino-17",
+    "label": "Treino 17",
+    "title": "Fatorar antes de substituir",
+    "topic": "Aproximações e frações",
+    "kind": "treino",
+    "prompt": "Use $\\log2\\approx0{,}3$, $\\log3\\approx0{,}5$ e $\\log5\\approx0{,}7$. Escreva o resultado obtido com esses valores como fração irredutível. Calcule $G=\\dfrac{\\log(\\sqrt{80})\\cdot\\log25}{\\log200\\cdot\\log4}$.",
+    "steps": [
+      "$80=2^4\\cdot5$, logo $\\log\\sqrt{80}=\\frac12(4\\log2+\\log5)\\approx\\frac{19}{20}$.",
+      "$\\log25\\approx\\frac75$. Como $200=2^3\\cdot5^2$, temos $\\log200\\approx\\frac{23}{10}$. Por fim, $\\log4\\approx\\frac35$.",
+      "$G\\approx\\dfrac{(19/20)(7/5)}{(23/10)(3/5)}=\\dfrac{133/100}{69/50}=\\dfrac{133}{138}$.",
+      "$133=7\\cdot19$ e $138=2\\cdot3\\cdot23$, portanto a fração é irredutível."
+    ],
+    "answer": "$\\dfrac{133}{138}$, com as aproximações dadas.",
+    "pitfall": "$200=2^3\\cdot5^2$. Confira a fatoração antes de aplicar as propriedades.",
+    "reference": "foto-4a"
+  },
+  {
+    "id": "treino-18",
+    "label": "Treino 18",
+    "title": "Bases três, nove e vinte e sete",
+    "topic": "Equações",
+    "kind": "treino",
+    "prompt": "Resolva, para $x>0$, $\\log_3x+\\log_9x-\\log_{27}x=2$. Escreva a resposta como potência.",
+    "steps": [
+      "Faça $t=\\log_3x$. Como $9=3^2$ e $27=3^3$, a equação vira $t+\\frac12t-\\frac13t=2$.",
+      "$\\frac76t=2$, logo $t=\\frac{12}{7}$.",
+      "$x=3^{12/7}$. Conferindo: $\\frac{12}{7}+\\frac67-\\frac47=2$."
+    ],
+    "answer": "$x=3^{12/7}$.",
+    "pitfall": "O segundo membro é 2: multiplique $6/7$ por 2 ao isolar $t$.",
+    "reference": "foto-4b"
+  },
+  {
+    "id": "treino-19",
+    "label": "Treino 19",
+    "title": "Um coeficiente antes do logaritmo",
+    "topic": "Equações",
+    "kind": "treino",
+    "prompt": "Resolva $2\\log_2x-\\log_4x+\\log_8x=11$, com $x>0$. Dê a resposta na forma de potência.",
+    "steps": [
+      "Faça $t=\\log_2x$. A equação fica $2t-\\frac12t+\\frac13t=11$.",
+      "$\\left(\\frac{12}{6}-\\frac36+\\frac26\\right)t=\\frac{11}{6}t=11$, então $t=6$.",
+      "$x=2^6$. Verifique: $2\\cdot6-3+2=11$."
+    ],
+    "answer": "$x=2^6=64$.",
+    "pitfall": "Preserve o coeficiente 2 do primeiro termo e o sinal negativo do segundo.",
+    "reference": "foto-4b"
+  },
+  {
+    "id": "treino-20",
+    "label": "Treino 20",
+    "title": "Uma solução entre zero e um",
+    "topic": "Equações",
+    "kind": "treino",
+    "prompt": "Resolva $\\log_2x+\\log_4x-\\log_8x=-1$, com $x>0$. Escreva o resultado como potência.",
+    "steps": [
+      "Faça $t=\\log_2x$. Então $t+\\frac12t-\\frac13t=-1$.",
+      "$\\frac76t=-1$, logo $t=-\\frac67$.",
+      "$x=2^{-6/7}$. É um número positivo menor que 1.",
+      "Conferindo: $-\\frac67-\\frac37+\\frac27=-1$."
+    ],
+    "answer": "$x=2^{-6/7}$.",
+    "pitfall": "Logaritmo negativo não implica argumento negativo: o argumento $x$ continua positivo.",
+    "reference": "foto-4b"
+  }
+]

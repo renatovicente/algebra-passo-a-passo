@@ -161,3 +161,18 @@ Há impressão separada de prova, gabarito e critérios, com desenhos estáticos
 ## Simulado de 32 testes
 
 `testes-32.html`: oito questões objetivas por disciplina (Matemática, Química, Física e Aritmética), com seis atuais e duas de revisão em cada bloco. Cinco alternativas, correção por disciplina, gabarito comentado e impressão. Conteúdo em `tools/testes32/data.json`; reconstruir com `python3 tools/build-tests32.py`. Referências e distribuição constam na própria página.
+
+## Revisão de logaritmos: prova e 20 treinos
+
+[Abrir a nova aba](https://renatovicente.github.io/algebra-passo-a-passo/logaritmos-prova-treino.html)
+
+As quatro questões das fotos de 16/11/2026, com seus sete itens e resoluções recalculadas, mais **20 exercícios inéditos semelhantes**, todos com resposta, passos e alerta de erro comum. Conteúdo: pH, propriedades, raízes na base, mudança de base, produtos de logaritmos, frações com aproximações e equações nas bases 2, 4 e 8.
+
+A aba inclui filtros por origem e assunto, soluções recolhidas, links do treino para os exemplos originais, progresso local, gabarito rápido e impressão dos 27 itens com ou sem soluções. Os valores aproximados do enunciado são distinguidos de resultados exatos; fotos e dados pessoais não são publicados.
+
+Fontes em `tools/revisao-logaritmos/`. Para reconstruir e validar:
+
+```sh
+python3 tools/revisao-logaritmos/build.py
+node tools/revisao-logaritmos/validate.cjs
+```
